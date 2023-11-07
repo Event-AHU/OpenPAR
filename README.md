@@ -47,7 +47,7 @@ Existing pedestrian attribute recognition (PAR) algorithms adopt pre-trained CNN
 
 ## Experimental Results 
 
-<img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/featuremap_vis.jpg" width="800">
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/featuremap_vis.png" width="800">
 
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/attResults_vis.jpg" width="800">
 
