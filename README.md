@@ -6,8 +6,7 @@ An open source framework for Pedestrian Attribute Recognition.
 ## SequencePAR 
 
 
-## PromptPAR 
-[PromptPAR](https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/README.md)
+## PromptPAR (https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/README.md)
 
 
 
