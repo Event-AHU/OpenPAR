@@ -158,7 +158,7 @@ def trainer(epoch, model,ViT_model, train_loader, valid_loader, criterion, optim
                         'optimizer':optimizer.state_dict(),
                         'model_state_dict': model.state_dict(),
                         'ViT_model' : ViT_model.state_dict(),
-                        'result',valid_result
+                        'result': valid_result
                         }, os.path.join(path, f"epoch{i}.pth"))    
         if i%5==0:
             end=time.time()
