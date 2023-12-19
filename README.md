@@ -3,7 +3,7 @@ An open source framework for Pedestrian Attribute Recognition, based on **PyTorc
 
 
 
-### :dart: [PromptPAR](https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/README.md)
+## :dart: [PromptPAR](https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/README.md)
 
 **Pedestrian Attribute Recognition via CLIP based Prompt Vision-Language Fusion**, Xiao Wang, Jiandong Jin, Chenglong Li, Jin Tang, Cheng Zhang, Wei Wang 
 [[Paper](https://arxiv.org/abs/2312.10692)]
@@ -14,7 +14,7 @@ Existing pedestrian attribute recognition (PAR) algorithms adopt pre-trained CNN
 
 
 
-### :dart: [SequencePAR](https://github.com/Event-AHU/OpenPAR/blob/main/SequencePAR/README.md) 
+## :dart: [SequencePAR](https://github.com/Event-AHU/OpenPAR/blob/main/SequencePAR/README.md) 
 
 **SequencePAR: Understanding Pedestrian Attributes via A Sequence Generation Paradigm**, Jiandong Jin, Xiao Wang, Chenglong Li, Lili Huang, Jin Tang, [[Paper](https://arxiv.org/abs/2312.01640)]
 
