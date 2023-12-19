@@ -1,6 +1,8 @@
-# OpenPAR 
-An open source framework for Pedestrian Attribute Recognition, based on **PyTorch**.
-
+<div align="center">
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/OpenPAR_logo.png" width="600">
+**An open-source framework for Pedestrian Attribute Recognition, based on PyTorch**
+------
+</div>
 
 
 ## :dart: [PromptPAR](https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/README.md)
