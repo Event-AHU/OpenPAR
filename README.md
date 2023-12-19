@@ -51,7 +51,7 @@ If you find this work helps your research, please star this GitHub and cite the 
 }
 
 
-@article{wang2022pedestrian,
+@article{wang2022PARSurvey,
   title={Pedestrian attribute recognition: A survey},
   author={Wang, Xiao and Zheng, Shaofei and Yang, Rui and Zheng, Aihua and Chen, Zhe and Tang, Jin and Luo, Bin},
   journal={Pattern Recognition},
