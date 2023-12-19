@@ -21,7 +21,7 @@ from CLIP.clip import clip
 from CLIP.clip.model import *
 set_seed(605)
 device = "cuda"
-ViT_model, ViT_preprocess = clip.load("ViT-L/14", device=device,download_root='/data/jinjiandong') #选择image特征提取器
+clip_model, ViT_preprocess = clip.load("ViT-L/14", device=device,download_root='/data/jinjiandong') #选择image特征提取器
 
 def main(args):
     start_time=time_str()
@@ -64,7 +64,7 @@ def main(args):
     labels = train_set.label
     sample_weight = labels.mean(0)
     
-    model = TransformerClassifier(ViT_model,train_set.attr_num,train_set.attributes)
+    model = TransformerClassifier(clip_model,train_set.attr_num,train_set.attributes)
     if torch.cuda.is_available():
         model = model.cuda()
     mm_params=[]
@@ -79,7 +79,7 @@ def main(args):
         else:
             param.requires_grad = False
     clip_params=[]
-    for name, param in ViT_model.named_parameters():
+    for name, param in clip_model.named_parameters():
         if any(keyword in name for keyword in args.clip_update_parameters):
             print(name, param.requires_grad)
             clip_params+= [{
@@ -92,7 +92,7 @@ def main(args):
 
     criterion = CEL_Sigmoid(sample_weight, attr_idx=train_set.attr_num)
     epoch_num = args.epoch                                                                                                                                                                                            
-    count_parameters(model,ViT_model,args.mmformer_update_parameters,args.clip_update_parameters)
+    count_parameters(model,clip_model,args.mmformer_update_parameters,args.clip_update_parameters)
                 
     prompt_optimizer = optim.SGD(clip_params, args.clip_lr, momentum=0.9, weight_decay=args.clip_weight_decay)
     prompt_scheduler = make_scheduler(prompt_optimizer,num_epochs=epoch_num,lr=args.clip_lr,warmup_t=10)
@@ -102,7 +102,7 @@ def main(args):
 
     trainer(epoch=epoch_num,
             model=model,
-            ViT_model=ViT_model,
+            clip_model=clip_model,
             train_loader=train_loader,
             valid_loader=valid_loader,
             criterion=criterion,
@@ -113,7 +113,7 @@ def main(args):
             args=args,
             path=log_dir)
     
-def trainer(epoch, model,ViT_model, train_loader, valid_loader, criterion, optimizer, scheduler,prompt_scheduler,prompt_optimizer,args,path):
+def trainer(epoch, model,clip_model, train_loader, valid_loader, criterion, optimizer, scheduler,prompt_scheduler,prompt_optimizer,args,path):
     max_ma,max_acc,max_f1,=0,0,0
     start=time.time()
     for i in range(1, epoch+1):
@@ -122,7 +122,7 @@ def trainer(epoch, model,ViT_model, train_loader, valid_loader, criterion, optim
         train_loss, train_gt, train_probs = batch_trainer(
             epoch=i,
             model=model,
-            ViT_model=ViT_model,
+            clip_model=clip_model,
             train_loader=train_loader,
             criterion=criterion,
             optimizer=optimizer,
@@ -131,7 +131,7 @@ def trainer(epoch, model,ViT_model, train_loader, valid_loader, criterion, optim
         )
         valid_loss, valid_gt, valid_probs = valid_trainer(
             model=model,
-            ViT_model=ViT_model,
+            clip_model=clip_model,
             valid_loader=valid_loader,
             criterion=criterion,
             args=args
@@ -157,7 +157,7 @@ def trainer(epoch, model,ViT_model, train_loader, valid_loader, criterion, optim
                         'epoch': i,
                         'optimizer':optimizer.state_dict(),
                         'model_state_dict': model.state_dict(),
-                        'ViT_model' : ViT_model.state_dict(),
+                        'clip_model' : clip_model.state_dict(),
                         'result': valid_result
                         }, os.path.join(path, f"epoch{i}.pth"))    
         if i%5==0:

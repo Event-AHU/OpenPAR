@@ -1,4 +1,4 @@
-import math
+import mathargument_parser
 from functools import reduce
 from operator import mul
 import os
@@ -18,11 +18,11 @@ import matplotlib.pyplot as plt
 parser = argument_parser()
 args = parser.parse_args()
 class TransformerClassifier(nn.Module):
-    def __init__(self,ViT_model, attr_num, attributes, dim=768, pretrain_path='/data/jinjiandong/jx_vit_base_p16_224-80ecf9dd.pth'):
+    def __init__(self, clip_model, attr_num, attributes, dim=768, pretrain_path='/data/jinjiandong/jx_vit_base_p16_224-80ecf9dd.pth'):
         super().__init__()
         super().__init__()
         self.attr_num = attr_num
-        self.word_embed = nn.Linear(ViT_model.visual.output_dim, dim)
+        self.word_embed = nn.Linear(clip_model.visual.output_dim, dim)
         vit = vit_base()
         vit.load_param(pretrain_path)
         self.norm = vit.norm
@@ -37,17 +37,16 @@ class TransformerClassifier(nn.Module):
         else:
             self.blocks = vit.blocks[-args.mm_layers:]
             
-    def forward(self,imgs,imgnames,ViT_model):
+    def forward(self,imgs,imgnames,clip_model):
         b_s=imgs.shape[0]
-        ViT_image_features,all_class,attenmap=ViT_model.visual(imgs.type(ViT_model.dtype))
-        text_features = ViT_model.encode_text(self.text).to("cuda").float()
+        clip_image_features,all_class,attenmap=clip_model.visual(imgs.type(clip_model.dtype))
+        text_features = clip_model.encode_text(self.text).to("cuda").float()
         if args.use_div:
-            final_similarity,logits_per_image = ViT_model.forward_aggregate(all_class,text_features)
+            final_similarity,logits_per_image = clip_model.forward_aggregate(all_class,text_features)
         else : 
             final_similarity = None
-        #ViT_image_features=self.vis_embed(ViT_image_features.float())
         textual_features = self.word_embed(text_features).expand(b_s, self.attr_num, self.dim)
-        x = torch.cat([textual_features,ViT_image_features], dim=1)
+        x = torch.cat([textual_features,clip_image_features], dim=1)
         
         if args.use_mm_former:
             for blk in self.blocks:

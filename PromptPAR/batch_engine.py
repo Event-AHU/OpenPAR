@@ -17,7 +17,6 @@ def batch_trainer(epoch, model,ViT_model, train_loader, criterion, optimizer,pro
 
     prompt_lr = prompt_optimizer.param_groups[0]['lr']
     lr = optimizer.param_groups[0]['lr']
-    print(f'learning rate whith VTB:{lr},prompt learning rate:{prompt_lr}')
     metric_logger = log_untils.MetricLogger(delimiter="  ")
     header = 'Epoch: [{}]'.format(epoch)
     for step, (imgs, gt_label, imgname) in enumerate(metric_logger.log_every(train_loader, int(batch_num/2), header)):    
