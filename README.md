@@ -31,7 +31,8 @@ Current pedestrian attribute recognition (PAR) algorithms are developed based on
 
 
 
-
+## :chart_with_upwards_trend: License
+This project is under the MIT license. See [[license](https://github.com/Event-AHU/OpenPAR/blob/main/LICENSE)] for details. 
 
 
 ## :newspaper: Citation 
