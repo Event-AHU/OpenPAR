@@ -35,7 +35,13 @@ Existing pedestrian attribute recognition (PAR) algorithms adopt pre-trained CNN
 
 
 ## Dataset 
-
+PETA
+PA100k
+RAP1
+RAP2
+WIDER
+PETA-ZS
+RAP-ZS
 
 
 ## Experimental Results 
