@@ -13,10 +13,58 @@
 > **[Pedestrian Attribute Recognition via CLIP based Vision-Language Fusion with Prompt Tuning]()**, Xiao Wang, Jiandong Jin, Chenglong Li*, Jin Tang, Cheng Zhang, Wei Wang 
 
 
- 
+## Usage
+### Requirements
+we use single RTX A6000 48G GPU for training and evaluation. 
+```
+Python 3.9.16
+pytorch 1.12.1
+torchvision 0.13.1
+scipy 1.10.0
+Pillow
+easydict
+```
+### Dataset Preparation
+Download the PETA dataset from [here](), PA100k dataset from [here]() and RAP1 and RAP2 dataset form [here](), and We provide the processed WIDER dataset in [here]() 
 
-
-
+Organize them in `your dataset root dir` folder as follows:
+```
+|-- your dataset root dir/
+|   |-- <PETA>/
+|       |-- images
+|            |-- 00001.png
+|            |-- 00002.png
+|            |-- ...
+|       |-- PETA.mat
+|       |-- dataset_zs_run0.pkl
+|
+|   |-- <PA100k>/
+|       |-- data
+|            |-- 000001.jpg
+|            |-- 000002.jpg
+|            |-- ...
+|       |-- annotation.mat
+|
+|   |-- <RAP1>/
+|       |-- RAP_datasets
+|       |-- RAP_annotation
+|            |-- RAP_annotation.mat
+|   |-- <RAP2>/
+|       |-- RAP_datasets
+|       |-- RAP_annotation
+|            |-- RAP_annotation.mat
+|       |-- dataset_zs_run0.pkl
+|
+|   |-- <WIDER>/
+|       |-- split_image
+|       |-- Annotations
+|            |-- attr_name.txt
+|            |-- error_name.txt
+|            |-- test_gt_label.txt
+|            |-- test_name.txt
+|            |-- trainval_gt_label.txt
+|            |-- trainval_name.txt
+```
 ## News: 
 
 
