@@ -14,13 +14,16 @@ def argument_parser():
     parser.add_argument("--lr", type=float, default=8e-3)
     parser.add_argument("--weight_decay", type=float, default=1e-4)
 
-    parser.add_argument("--use_div", action='store_true')
-    parser.add_argument("--use_vismask", action='store_true')
-    parser.add_argument("--use_GL", action='store_true')
+
     parser.add_argument("--ag_threshold", type=float, default=0.5)
     parser.add_argument("--smooth_param", type=float, default=0.1)
+    
+    parser.add_argument("--use_div", action='store_true')
+    parser.add_argument("--use_vismask", action='store_true')
+    parser.add_argument("--use_GL", action='store_true')    
     parser.add_argument("--use_textprompt", action='store_true')
     parser.add_argument("--use_mm_former", action='store_true')
+    
     parser.add_argument("--mm_layers", type=int, default=1)
     
     parser.add_argument("--div_num", type=int, default=4)

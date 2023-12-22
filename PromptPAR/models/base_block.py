@@ -1,20 +1,8 @@
-import mathargument_parser
-from functools import reduce
-from operator import mul
-import os
-import sys
-from torchvision import transforms
-import torch.nn.functional as F
 import torch.nn as nn
 import torch
-import torch.nn as nn
-from CLIP.clip import clip
-import numpy
-import numpy as np
-from PIL import Image
+from clip import clip
 from models.vit import *
 from config import argument_parser
-import matplotlib.pyplot as plt
 parser = argument_parser()
 args = parser.parse_args()
 class TransformerClassifier(nn.Module):
@@ -36,8 +24,7 @@ class TransformerClassifier(nn.Module):
             self.linear_layer = nn.Linear(fusion_len, self.attr_num)
         else:
             self.blocks = vit.blocks[-args.mm_layers:]
-            
-    def forward(self,imgs,imgnames,clip_model):
+    def forward(self,imgs,clip_model):
         b_s=imgs.shape[0]
         clip_image_features,all_class,attenmap=clip_model.visual(imgs.type(clip_model.dtype))
         text_features = clip_model.encode_text(self.text).to("cuda").float()
@@ -51,10 +38,11 @@ class TransformerClassifier(nn.Module):
         if args.use_mm_former:
             for blk in self.blocks:
                 x = blk(x)
-        else :
+        else :# using linear layer fusion
             x = x.permute(0, 2, 1)
             x= self.linear_layer(x)
             x = x.permute(0, 2, 1)
+            
         x = self.norm(x)
         logits = torch.cat([self.weight_layer[i](x[:, i, :]) for i in range(self.attr_num)], dim=1)
         bn_logits = self.bn(logits)

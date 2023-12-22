@@ -17,8 +17,8 @@ from tools.utils import time_str, save_ckpt, ReDirectSTD, set_seed, select_gpus
 from solver import make_optimizer
 from solver.scheduler_factory import create_scheduler,make_scheduler
 import torch.optim as optim
-from CLIP.clip import clip
-from CLIP.clip.model import *
+from clip import clip
+from clip.model import *
 set_seed(605)
 device = "cuda"
 clip_model, ViT_preprocess = clip.load("ViT-L/14", device=device,download_root='/data/jinjiandong') #选择image特征提取器
@@ -113,7 +113,7 @@ def main(args):
             args=args,
             path=log_dir)
     
-def trainer(epoch, model,clip_model, train_loader, valid_loader, criterion, optimizer, scheduler,prompt_scheduler,prompt_optimizer,args,path):
+def trainer(epoch, model, clip_model, train_loader, valid_loader, criterion, optimizer, scheduler,prompt_scheduler,prompt_optimizer,args,path):
     max_ma,max_acc,max_f1,=0,0,0
     start=time.time()
     for i in range(1, epoch+1):

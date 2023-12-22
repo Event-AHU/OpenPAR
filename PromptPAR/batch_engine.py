@@ -6,15 +6,14 @@ from torch.nn.utils import clip_grad_norm_
 from tqdm import tqdm
 import log_untils
 from tools.utils import AverageMeter, to_scalar, time_str
-def batch_trainer(epoch, model,ViT_model, train_loader, criterion, optimizer,prompt_optimizer,args):
+def batch_trainer(epoch, model,clip_model, train_loader, criterion, optimizer,prompt_optimizer,args):
     model.train()
-    ViT_model.train()
+    clip_model.train()
     epoch_time = time.time()
     loss_meter = AverageMeter()
     batch_num = len(train_loader)
     gt_list = []
     preds_probs = []
-
     prompt_lr = prompt_optimizer.param_groups[0]['lr']
     lr = optimizer.param_groups[0]['lr']
     metric_logger = log_untils.MetricLogger(delimiter="  ")
@@ -22,7 +21,7 @@ def batch_trainer(epoch, model,ViT_model, train_loader, criterion, optimizer,pro
     for step, (imgs, gt_label, imgname) in enumerate(metric_logger.log_every(train_loader, int(batch_num/2), header)):    
         batch_time = time.time()
         imgs, gt_label = imgs.cuda(), gt_label.cuda()
-        train_logits,final_similarity = model(imgs,imgname,ViT_model=ViT_model)
+        train_logits,final_similarity = model(imgs,clip_model=clip_model)
         if args.use_GL :
             classifier_loss = criterion(train_logits, gt_label)
             clip_loss = criterion(final_similarity, gt_label)
@@ -34,7 +33,7 @@ def batch_trainer(epoch, model,ViT_model, train_loader, criterion, optimizer,pro
 
         train_loss.backward()#反向传播
         torch.nn.utils.clip_grad_norm_(model.parameters(), 10.0)
-        torch.nn.utils.clip_grad_norm_(ViT_model.parameters(), 10.0)
+        torch.nn.utils.clip_grad_norm_(clip_model.parameters(), 10.0)
         optimizer.step()
         prompt_optimizer.step()
         loss_meter.update(to_scalar(train_loss))
@@ -62,7 +61,7 @@ def batch_trainer(epoch, model,ViT_model, train_loader, criterion, optimizer,pro
     return train_loss, gt_label, preds_probs
 
 
-def valid_trainer(model,ViT_model, valid_loader, criterion,args):
+def valid_trainer(model,clip_model, valid_loader, criterion,args):
     model.eval()
     loss_meter = AverageMeter()
     preds_probs = []
@@ -73,7 +72,7 @@ def valid_trainer(model,ViT_model, valid_loader, criterion,args):
             gt_label = gt_label.cuda()
             gt_list.append(gt_label.cpu().numpy())
             gt_label[gt_label == -1] = 0
-            valid_logits,final_similarity = model(imgs,imgname,ViT_model=ViT_model)
+            valid_logits,final_similarity = model(imgs,clip_model=clip_model)
             if args.use_div:
                 classifier_loss = criterion(valid_logits, gt_label)
                 clip_loss = criterion(final_similarity, gt_label)

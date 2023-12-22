@@ -195,7 +195,6 @@ class ResidualAttentionBlock(nn.Module):
         self.attn_mask = self.attn_mask.to(dtype=x.dtype, device=x.device) if self.attn_mask is not None else None
         if visual_mask is not None:
             self.attn_mask = visual_mask.to(dtype=x.dtype, device=x.device) 
-
         return self.attn(x, x, x, need_weights=True, attn_mask=self.attn_mask)
     
     def forward(self, x: torch.Tensor, visual_mask: torch.Tensor = None):
@@ -208,23 +207,24 @@ class ResidualAttentionBlock(nn.Module):
 
 
 class Transformer(nn.Module):
-    def __init__(self, width: int, layers: int, heads: int, attn_mask: torch.Tensor = None,VorT:bool=False,Prompt_num:int=25,part_num:list=None,row_patch_num:int=0,):
+    def __init__(self, width: int, layers: int, heads: int, attn_mask: torch.Tensor = None,
+                 VorT:bool=False, prompt_num:int=25, part_num:list=None, row_patch_num:int=0):
         super().__init__()
         self.VorT=VorT
         self.width = width
         self.layers = layers
-        self.prompt_num = Prompt_num
+        self.prompt_num = prompt_num
         self.part_num = part_num
-        self.div_prompt_num = int(Prompt_num/(args.div_num+1))
-        self.vis_len= Prompt_num + 5 + row_patch_num**2
-        self.prefix_len = Prompt_num + 5 
+        self.div_prompt_num = int(prompt_num/(args.div_num+1))
+        self.vis_len= prompt_num + 5 + row_patch_num**2
+        self.prefix_len = prompt_num + 5 
         if self.VorT:
             val = math.sqrt(6. / float(3 * reduce(mul, (14,14), 1) + width))
-            self.prompt_deep=nn.Parameter(torch.zeros(args.vis_depth,Prompt_num,1,width))
+            self.prompt_deep=nn.Parameter(torch.zeros(args.vis_depth,prompt_num,1,width))
             nn.init.uniform_(self.prompt_deep.data, -val,val)
         else:
             val = math.sqrt(6. / float(3 * reduce(mul, (14,14), 1) + width))
-            self.prompt_text_deep=nn.Parameter(torch.zeros(layers,Prompt_num,attr_num,width))
+            self.prompt_text_deep=nn.Parameter(torch.zeros(layers,prompt_num,attr_num,width))
             nn.init.uniform_(self.prompt_text_deep.data, -val,val)
 
         self.resblocks = nn.Sequential(*[ResidualAttentionBlock(width, heads, attn_mask) for _ in range(layers)])
@@ -289,7 +289,7 @@ class Transformer(nn.Module):
         return visual_mask
 
 class VisionTransformer(nn.Module):#ViTB-32 32,768,12,12,512
-    def __init__(self, input_resolution: int, patch_size: int, width: int, layers: int, heads: int, output_dim: int,Prompt_num:int):
+    def __init__(self, input_resolution: int, patch_size: int, width: int, layers: int, heads: int, output_dim: int, prompt_num:int):
         super().__init__()
         self.input_resolution = input_resolution
         self.output_dim = output_dim
@@ -305,7 +305,7 @@ class VisionTransformer(nn.Module):#ViTB-32 32,768,12,12,512
         self.part_num = [part_row * row_patch_num for part_row in self.part_row_num] # 80个token
         if args.use_div :
             self.part_class_embedding = nn.Parameter(scale * torch.randn((args.div_num,width)))
-        self.transformer = Transformer(width, layers, heads,VorT=True,Prompt_num=Prompt_num,part_num=self.part_num,row_patch_num=row_patch_num)#24层
+        self.transformer = Transformer(width, layers, heads,VorT=True,prompt_num=prompt_num,part_num=self.part_num,row_patch_num=row_patch_num)#24层
         self.ln_post = LayerNorm(width)
         self.proj = nn.Parameter(scale * torch.randn(width, output_dim))
 
@@ -386,15 +386,16 @@ class CLIP(nn.Module):
                 layers=vision_layers,
                 heads=vision_heads,
                 output_dim=embed_dim,
-                Prompt_num=self.vis_prompt_len
+                prompt_num=self.vis_prompt_len
             )
-        self.Prompt_text_num=self.text_prompt_len 
+        
+        self.text_prompt_len=self.text_prompt_len if args.use_textprompt else 0
         self.transformer = Transformer(
             width=transformer_width,
             layers=transformer_layers,
             heads=transformer_heads,
             attn_mask=self.build_attention_mask(),
-            Prompt_num=self.Prompt_text_num
+            prompt_num=self.text_prompt_len
         )
 
         self.vocab_size = vocab_size
@@ -439,7 +440,7 @@ class CLIP(nn.Module):
     def build_attention_mask(self):
         # lazily create causal attention mask, with full attention between the vision tokens
         # pytorch uses additive attention mask; fill with -inf
-        mask = torch.empty(self.context_length+self.Prompt_text_num, self.context_length+self.Prompt_text_num)
+        mask = torch.empty(self.context_length+self.text_prompt_len, self.context_length+self.text_prompt_len)
         mask.fill_(float("-inf"))
         mask.triu_(1)  # zero out the lower diagonal
         return mask
