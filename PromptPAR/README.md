@@ -77,7 +77,20 @@ We provide processing code for the currently available publicly available pedest
 ```python
 python train.py PETA --use_text_prompt --use_div --use_vismask --use_GL --use_mm_former
 ```
-
+## Config
+|Parameters |Implication|
+|:---------------------|:---------:|
+| ag_threshold    | Thresholding in global localized image text aggregation |
+| use_div    |  Whether or not to use regional splits  |
+| use_vismask    |  Whether to use a visual mask  |
+| use_GL    |  Whether or not to use global localized image text aggregation  |
+| use_textprompt    |  Whether or not to use text prompt   |
+| use_mm_former    |  Fusion of features using multimodal Transformer or linear layers  |
+| div_num    |  Number of split regions  |
+| overlap_row    |  Number of overlapping rows in the split regions   |
+| text_prompt    |  Number of text prompts  |
+| vis_prompt    |  Number of visual prompts |
+| vis_depth    |  Depth of visual prompts (1-24)  |
 ## News: 
 
 
