@@ -80,7 +80,7 @@ python train.py PETA --use_text_prompt --use_div --use_vismask --use_GL --use_mm
 ## Config
 |Parameters |Implication|
 |:---------------------|:---------:|
-| ag_threshold    | Thresholding in global localized image text aggregation |
+| ag_threshold    | Thresholding in global localized image text aggregation (0,1) |
 | use_div    |  Whether or not to use regional splits  |
 | use_vismask    |  Whether to use a visual mask  |
 | use_GL    |  Whether or not to use global localized image text aggregation  |
@@ -90,7 +90,7 @@ python train.py PETA --use_text_prompt --use_div --use_vismask --use_GL --use_mm
 | overlap_row    |  Number of overlapping rows in the split regions   |
 | text_prompt    |  Number of text prompts  |
 | vis_prompt    |  Number of visual prompts |
-| vis_depth    |  Depth of visual prompts (1-24)  |
+| vis_depth    |  Depth of visual prompts [1,24]  |
 ## News: 
 
 
