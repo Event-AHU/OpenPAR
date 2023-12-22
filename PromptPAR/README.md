@@ -72,6 +72,7 @@ Organize them in `your dataset root dir` folder as follows:
 python dataset/preprocess/peta_pad.py
 ```
 We fill the images in the original dataset as a square with a simple black border fill and store it in Pad_datasets, you can read the original dataset directly and use the fill code we provided in AttrDataset.py.
+We provide processing code for the currently available publicly available pedestrian attribute identification dataset
 ## Training
 ```python
 python train.py PETA --use_text_prompt --use_div --use_vismask --use_GL --use_mm_former
