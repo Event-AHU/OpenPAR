@@ -1,4 +1,4 @@
-#PromptPAR
+##PromptPAR
 
 <div align="center">
  
@@ -65,6 +65,15 @@ Organize them in `your dataset root dir` folder as follows:
 |            |-- trainval_gt_label.txt
 |            |-- trainval_name.txt
 ```
+
+## Data Preparation
+ Run dataset/preprocess/peta_pad.py to get the dataset pkl file
+ 
+## Training
+```python
+python train.py PETA --use_text_prompt --use_div --use_vismask --use_GL --use_mm_former
+```
+
 ## News: 
 
 
@@ -83,13 +92,6 @@ Existing pedestrian attribute recognition (PAR) algorithms adopt pre-trained CNN
 
 
 ## Dataset 
-PETA
-PA100k
-RAP1
-RAP2
-WIDER
-PETA-ZS
-RAP-ZS
 
 
 ## Experimental Results 
@@ -97,3 +99,13 @@ RAP-ZS
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/featuremap_vis.png" width="800">
 
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/attResults_vis.jpg" width="800">
+
+### Acknowledgments
+
+Our code is extended from the following repositories. We sincerely appreciate for their contributions.
+
+* [CLIP](https://github.com/openai/CLIP)
+* [VTB](https://github.com/cxh0519/VTB)
+* [Rethink of PAR](https://github.com/valencebond/Rethinking_of_PAR)
+
+
