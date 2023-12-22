@@ -25,7 +25,7 @@ Pillow
 easydict
 ```
 ### Dataset Preparation
-Download the PETA dataset from [here](), PA100k dataset from [here]() and RAP1 and RAP2 dataset form [here](), and We provide the processed WIDER dataset in [here]() 
+Download the PETA dataset from [here](http://mmlab.ie.cuhk.edu.hk/projects/PETA.html), PA100k dataset from [here](https://github.com/xh-liu/HydraPlus-Net#pa-100k-dataset) and RAP1 and RAP2 dataset form [here](https://www.rapdataset.com/), and We provide the processed WIDER dataset in [here]() 
 
 Organize them in `your dataset root dir` folder as follows:
 ```
