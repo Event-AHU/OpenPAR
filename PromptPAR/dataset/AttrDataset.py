@@ -53,6 +53,30 @@ class MultiModalAttrDataset(data.Dataset):
         imgname, gt_label, imgidx = self.img_id[index], self.label[index], self.img_idx[index]
         imgpath = os.path.join(self.root_path, imgname)
         img_pil = Image.open(imgpath)
+        
+        # img=cv2.imread(imgpath)#112*410,#1108
+        # heigth,width = img.shape[0],img.shape[1]   #获取图片的长和宽#255,104
+        # n = heigth/224
+        # #等比例缩小图片
+        # new_heigth = heigth/n 
+        # new_width = width/n
+        # a,b,c=0,0,0
+        # if (new_heigth <=224) and (new_width <=224):
+        #     img = cv2.resize(img, (int(new_width), int(new_heigth)))
+        #     a = int((224 - new_heigth) / 2)
+        #     b = int((224 - new_width) / 2)
+        #     change_width=a*2+img.shape[0]
+        #     if(change_width<224): 
+        #         c=a+224-change_width
+        #     elif (change_width==224): 
+        #         c=a
+        #     else : 
+        #         c=a-224+change_width
+        #     #cv2.imwrite("saved_image_file\\"+str(1)+".jpg", cv2.copyMakeBorder(img, c,a, b, b, cv2.BORDER_CONSTANT, value=[255, 255, 255]))
+        #     #打印保存成功
+        #     #print("save {}.jpg successful !".format(1))
+        # img_pil=Image.fromarray(cv2.cvtColor(cv2.copyMakeBorder(img, c,a, b, b, cv2.BORDER_CONSTANT, value=[0, 0, 0]), cv2.COLOR_BGR2RGB))
+        
         if self.transform is not None:
             img_pil = self.transform(img_pil)
 
