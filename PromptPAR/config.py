@@ -29,7 +29,7 @@ def argument_parser():
     parser.add_argument("--div_num", type=int, default=4)
     parser.add_argument("--overlap_row", type=int, default=2)
     parser.add_argument("--text_prompt", type=int, default=3)
-    parser.add_argument("--vis_prompt", type=int, default=25)
+    parser.add_argument("--vis_prompt", type=int, default=50)
     parser.add_argument("--vis_depth", type=int, default=24)
     parser.add_argument("--clip_lr", type=float, default=4e-3)
     parser.add_argument("--clip_weight_decay", type=float, default=1e-4)

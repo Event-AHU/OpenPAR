@@ -1,4 +1,4 @@
-#PromptPAR
+##PromptPAR
 
 <div align="center">
  
@@ -13,10 +13,84 @@
 > **[Pedestrian Attribute Recognition via CLIP based Vision-Language Fusion with Prompt Tuning]()**, Xiao Wang, Jiandong Jin, Chenglong Li*, Jin Tang, Cheng Zhang, Wei Wang 
 
 
- 
+## Usage
+### Requirements
+we use single RTX A6000 48G GPU for training and evaluation. 
+```
+Python 3.9.16
+pytorch 1.12.1
+torchvision 0.13.1
+scipy 1.10.0
+Pillow
+easydict
+```
+### Dataset Preparation
+Download the PETA dataset from [here](http://mmlab.ie.cuhk.edu.hk/projects/PETA.html), PA100k dataset from [here](https://github.com/xh-liu/HydraPlus-Net#pa-100k-dataset) and RAP1 and RAP2 dataset form [here](https://www.rapdataset.com/), and We provide the processed WIDER dataset in [here]() 
 
+Organize them in `your dataset root dir` folder as follows:
+```
+|-- your dataset root dir/
+|   |-- <PETA>/
+|       |-- images
+|            |-- 00001.png
+|            |-- 00002.png
+|            |-- ...
+|       |-- PETA.mat
+|       |-- dataset_zs_run0.pkl
+|
+|   |-- <PA100k>/
+|       |-- data
+|            |-- 000001.jpg
+|            |-- 000002.jpg
+|            |-- ...
+|       |-- annotation.mat
+|
+|   |-- <RAP1>/
+|       |-- RAP_datasets
+|       |-- RAP_annotation
+|            |-- RAP_annotation.mat
+|   |-- <RAP2>/
+|       |-- RAP_datasets
+|       |-- RAP_annotation
+|            |-- RAP_annotation.mat
+|       |-- dataset_zs_run0.pkl
+|
+|   |-- <WIDER>/
+|       |-- split_image
+|       |-- Annotations
+|            |-- attr_name.txt
+|            |-- error_name.txt
+|            |-- test_gt_label.txt
+|            |-- test_name.txt
+|            |-- trainval_gt_label.txt
+|            |-- trainval_name.txt
+```
 
-
+## Data Preparation
+ Run dataset/preprocess/peta_pad.py to get the dataset pkl file
+ ```python
+python dataset/preprocess/peta_pad.py
+```
+We fill the images in the original dataset as a square with a simple black border fill and store it in Pad_datasets, you can read the original dataset directly and use the fill code we provided in AttrDataset.py.
+We provide processing code for the currently available publicly available pedestrian attribute identification dataset
+## Training
+```python
+python train.py PETA --use_text_prompt --use_div --use_vismask --use_GL --use_mm_former
+```
+## Config
+|Parameters |Implication|
+|:---------------------|:---------:|
+| ag_threshold    | Thresholding in global localized image text aggregation (0,1) |
+| use_div    |  Whether or not to use regional splits  |
+| use_vismask    |  Whether to use a visual mask  |
+| use_GL    |  Whether or not to use global localized image text aggregation  |
+| use_textprompt    |  Whether or not to use text prompt   |
+| use_mm_former    |  Fusion of features using multimodal Transformer or linear layers  |
+| div_num    |  Number of split regions  |
+| overlap_row    |  Number of overlapping rows in the split regions   |
+| text_prompt    |  Number of text prompts  |
+| vis_prompt    |  Number of visual prompts |
+| vis_depth    |  Depth of visual prompts [1,24]  |
 ## News: 
 
 
@@ -37,9 +111,18 @@ Existing pedestrian attribute recognition (PAR) algorithms adopt pre-trained CNN
 ## Dataset 
 
 
-
 ## Experimental Results 
 
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/featuremap_vis.png" width="800">
 
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/attResults_vis.jpg" width="800">
+
+### Acknowledgments
+
+Our code is extended from the following repositories. We sincerely appreciate for their contributions.
+
+* [CLIP](https://github.com/openai/CLIP)
+* [VTB](https://github.com/cxh0519/VTB)
+* [Rethink of PAR](https://github.com/valencebond/Rethinking_of_PAR)
+
+
