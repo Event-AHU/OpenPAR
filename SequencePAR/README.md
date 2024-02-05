@@ -22,7 +22,7 @@
 
 ## Usage
 ### Requirements
-we use single RTX A6000 48G GPU for training and evaluation. 
+we use single RTX A100 40G GPU for training and evaluation. 
 ```
 Python 3.9.16
 pytorch 1.12.1
