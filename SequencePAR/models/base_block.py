@@ -13,11 +13,9 @@ import numpy as np
 from PIL import Image
 from models.vit import *
 from decoder.decoders import Decoder
-from decoder.beam_search import *
 import utils
 from decoder.containers import Module
 import numpy as np
-import matplotlib.pyplot as plt
 
 class TransformerClassifier(Module):
     def __init__(self, attr_num, attributes,vocab_attr,args, dim=768, device='cuda'):
