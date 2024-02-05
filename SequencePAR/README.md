@@ -61,16 +61,6 @@ Organize them in `your dataset root dir` folder as follows:
 |       |-- RAP_annotation
 |            |-- RAP_annotation.mat
 |       |-- dataset_zs_run0.pkl
-|
-|   |-- <WIDER>/
-|       |-- split_image
-|       |-- Annotations
-|            |-- attr_name.txt
-|            |-- error_name.txt
-|            |-- test_gt_label.txt
-|            |-- test_name.txt
-|            |-- trainval_gt_label.txt
-|            |-- trainval_name.txt
 ```
 
 ## Data Preparation
