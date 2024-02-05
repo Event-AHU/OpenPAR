@@ -31,6 +31,5 @@ def argument_parser():
     parser.add_argument("--pkl_path", type=str, default='/wangxiao/jjd/model/peta.pkl')
     parser.add_argument("--datasets_path", type=str, default='/wangxiao/jjd/PETAPad/Pad_datasets')
     parser.add_argument("--model_path", type=str, default='/wangxiao/jjd/model')
-    parser.add_argument("--use_coop", action='store_true', help='use dual-coop instead of prompt')
     parser.add_argument("--use_class_weight", action='store_true', help='use dual-coop instead of prompt')
     return parser
