@@ -81,6 +81,7 @@ python train.py PETA --use_text_prompt --use_div --use_vismask --use_GL --use_mm
 ```python
 python test_example.py PETA --checkpoint --dir your_dir/epochxx.pth --use_div --use_vismask --vis_prompt 50 --use_GL --use_textprompt --use_mm_former 
 ```
+
 ## Config
 |Parameters |Implication|
 |:---------------------|:---------:|
@@ -96,7 +97,14 @@ python test_example.py PETA --checkpoint --dir your_dir/epochxx.pth --use_div --
 | vis_prompt    |  Number of visual prompts |
 | vis_depth    |  Depth of visual prompts [1,24]  |
 
-
+## Checkpoint Download
+Dataset  | Vit-Large | Extracted code
+ ---- | -----  | -----
+ 
+ RAP1  | [download]() |
+ RAP2 | [download]() |
+ PETA  | [download]() |
+ PA100k  | [download]() |
 ## News: 
 
 
