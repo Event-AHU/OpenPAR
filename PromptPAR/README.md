@@ -79,7 +79,7 @@ python train.py PETA --use_text_prompt --use_div --use_vismask --use_GL --use_mm
 ```
 ## Test
 ```python
-python test_example.py PETA --checkpoint --dir your_dir/epochxx.pth --use_div --use_vismask --vis_prompt 50 --use_GL --use_textprompt --use_mm_former 
+python test_example.py PETA --checkpoint --dir your_dir --use_div --use_vismask --vis_prompt 50 --use_GL --use_textprompt --use_mm_former 
 ```
 
 ## Config
