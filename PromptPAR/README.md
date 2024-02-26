@@ -98,7 +98,7 @@ python test_example.py PETA --checkpoint --dir your_dir/epochxx.pth --use_div --
 | vis_depth    |  Depth of visual prompts [1,24]  |
 
 ## Checkpoint Download
-Dataset  | Vit-Large | Extracted code
+Dataset  | Vit-Large | Extracted code|
  ---- | -----  | -----
  
  RAP1  | [download]() |
