@@ -77,6 +77,10 @@ We provide processing code for the currently available publicly available pedest
 ```python
 python train.py PETA --use_text_prompt --use_div --use_vismask --use_GL --use_mm_former
 ```
+## Test
+```python
+python test_example.py PETA --checkpoint --dir your_dir/epochxx.pth --use_div --use_vismask --vis_prompt 50 --use_GL --use_textprompt --use_mm_former 
+```
 ## Config
 |Parameters |Implication|
 |:---------------------|:---------:|
@@ -91,6 +95,8 @@ python train.py PETA --use_text_prompt --use_div --use_vismask --use_GL --use_mm
 | text_prompt    |  Number of text prompts  |
 | vis_prompt    |  Number of visual prompts |
 | vis_depth    |  Depth of visual prompts [1,24]  |
+
+
 ## News: 
 
 
@@ -101,14 +107,12 @@ Existing pedestrian attribute recognition (PAR) algorithms adopt pre-trained CNN
 
 
 
-## Environment 
 
 
 ## Our Proposed Approach 
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/pipeline.jpg" width="800">
 
 
-## Dataset 
 
 
 ## Experimental Results 
