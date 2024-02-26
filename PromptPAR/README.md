@@ -101,10 +101,10 @@ python test_example.py PETA --checkpoint --dir your_dir/epochxx.pth --use_div --
 Dataset  | Vit-Large | Extracted code|
 |:-------------|:---------:|:---------:|
  
- RAP1  | [download]() |
- RAP2 | [download]() |
- PETA  | [download]() |
- PA100k  | [download]() |
+| RAP1  | [download]() |
+| RAP2 | [download]() |
+| PETA  | [download]() |
+| PA100k  | [download]() |
 ## News: 
 
 
