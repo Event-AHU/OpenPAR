@@ -1,5 +1,3 @@
-#SequencePAR
-
 <div align="center">
  
 
@@ -73,6 +71,11 @@ We provide processing code for the currently available publicly available pedest
 ## Training
 ```python
 python train.py PETA
+```
+
+## Evalution
+```python
+python eval.py PETA --check_point --dir your_dir
 ```
 
 ## Abstract 
