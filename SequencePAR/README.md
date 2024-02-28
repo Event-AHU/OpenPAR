@@ -74,7 +74,7 @@ We provide processing code for the currently available publicly available pedest
 python train.py PETA
 ```
 
-## Evalution
+## Evaluation
 ```python
 python eval.py PETA --check_point --dir your_dir
 ```
