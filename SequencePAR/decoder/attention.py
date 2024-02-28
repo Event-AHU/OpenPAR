@@ -1,7 +1,6 @@
 import numpy as np
 import torch
 from torch import nn
-from decoder.containers import Module
 
 
 class ScaledDotProductAttention(nn.Module):
@@ -138,7 +137,7 @@ class ScaledDotProductAttentionMemory(nn.Module):
         return out
 
 
-class MultiHeadAttention(Module):
+class MultiHeadAttention(nn.Module):
     '''
     Multi-head attention layer with Dropout and Layer Normalization.
     '''
@@ -157,18 +156,9 @@ class MultiHeadAttention(Module):
         self.dropout = nn.Dropout(p=dropout)
         self.layer_norm = nn.LayerNorm(d_model)
 
-        self.can_be_stateful = can_be_stateful
-        if self.can_be_stateful:
-            self.register_state('running_keys', torch.zeros((0, d_model)))
-            self.register_state('running_values', torch.zeros((0, d_model)))
 
     def forward(self, queries, keys, values, attention_mask=None, attention_weights=None):
-        if self.can_be_stateful and self._is_stateful:
-            self.running_keys = torch.cat([self.running_keys, keys], 1)
-            keys = self.running_keys
 
-            self.running_values = torch.cat([self.running_values, values], 1)
-            values = self.running_values
 
         if self.identity_map_reordering:
             q_norm = self.layer_norm(queries)

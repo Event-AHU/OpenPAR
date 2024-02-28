@@ -3,6 +3,7 @@ from torch.nn import NLLLoss
 import numpy as np
 import torch
 from tqdm import tqdm
+from tools.utils import AverageMeter, to_scalar, time_str
 def valid_trainer(model, valid_loader,vocab_attr,base_index2attr,attributes,args):
     model.eval()
     loss_meter = AverageMeter()
@@ -24,8 +25,6 @@ def valid_trainer(model, valid_loader,vocab_attr,base_index2attr,attributes,args
             gt_list.append(gt_label.cpu().numpy())
 
             out_pred=model.beam_search_generate(imgs,max_length=len(attributes)+2,num_beams=args.beam_size,do_sample=args.do_sample,top_k=args.top_k,top_p=args.top_p,length_penalty=args.length_penalty)
-            #valid_loss=-torch.mean(scores)
-            #valid_loss=valid_loss/(out_pred.shape[-1]-1)
             pred_attr=[]
             for elem in out_pred[0][1:]:
                 if int(elem) > 2 :
@@ -39,9 +38,6 @@ def valid_trainer(model, valid_loader,vocab_attr,base_index2attr,attributes,args
             probs=logit2prob(out_pred[:,1:],gt_label,vocab_attr,base_index2attr,'test',max_len=len(attributes)) 
             preds_probs.append(probs)
 
-            #loss_meter.update(to_scalar(valid_loss))
-    #print(probs[0])
-    #valid_loss = loss_meter.avg
 
     gt_label = np.concatenate(gt_list, axis=0)
     preds_probs = np.concatenate(preds_probs, axis=0)
