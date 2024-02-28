@@ -1,23 +1,11 @@
-import math
-from functools import reduce
-from operator import mul
-import os
-import sys
-from torchvision import transforms
-import torch.nn.functional as F
 import torch
 import torch.nn as nn
 from CLIP import clip
-import numpy
-import numpy as np
-from PIL import Image
 from models.vit import *
 from decoder.decoders import Decoder
-import utils
-from decoder.containers import Module
 import numpy as np
 
-class TransformerClassifier(Module):
+class TransformerClassifier(nn.Module):
     def __init__(self, attr_num, attributes,vocab_attr,args, dim=768, device='cuda'):
         super().__init__()
         super().__init__()

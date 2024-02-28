@@ -2,11 +2,7 @@ import time
 from torch.nn import NLLLoss
 import numpy as np
 import torch
-from torch.nn.utils import clip_grad_norm_
 from tqdm import tqdm
-from tools.function import get_pedestrian_metrics
-from tools.utils import AverageMeter, to_scalar, time_str
-import pdb
 def valid_trainer(model, valid_loader,vocab_attr,base_index2attr,attributes,args):
     model.eval()
     loss_meter = AverageMeter()

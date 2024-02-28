@@ -1,26 +1,19 @@
-import os
 import pprint
-from collections import OrderedDict, defaultdict
-import sys
+from collections import OrderedDict
 import numpy as np
 import torch
 from torch.utils.data import DataLoader
 import time
-from torch import nn,optim
 from eval_batch import valid_trainer
 from config import argument_parser
 from dataset.AttrDataset import MultiModalAttrDataset, get_transform
 from loss.CE_loss import *
 from models.base_block import *
 from tools.function import get_pedestrian_metrics,get_signle_metrics
-from tools.utils import time_str, save_ckpt, ReDirectSTD, set_seed, select_gpus
-from solver import make_optimizer
-from solver.scheduler_factory import create_scheduler,make_scheduler
+from tools.utils import time_str, set_seed
 from collections import Counter
 from torchtext.vocab import vocab
-from CLIP.clip import clip
-from CLIP.clip.model import *
-from decoder.decoders import DecoderLayer,Decoder
+from CLIP.model import *
 set_seed(605)
 device = "cuda"
 def main(args):
@@ -48,7 +41,7 @@ def main(args):
     if args.use_TextPrompt :
         print('Use Continuous Prompt!')
     else :
-        prnt('Use Handcrafted Prompt!')
+        print('Use Handcrafted Prompt!')
     counter_attr = Counter()
     counter_attr.update(train_set.attributes)
     vocab_attr = vocab(counter_attr, min_freq=1, specials=( '<bos>', '<eos>', '<pad>'))
@@ -56,12 +49,8 @@ def main(args):
     labels = train_set.label
     sample_weight = labels.mean(0)
     model = TransformerClassifier(train_set.attr_num,train_set.attributes,vocab_attr,args)
-    #decoder=Decoder(51+3,16+1,6,padding_idx=vocab_attr['<pad>'])
-    #model = CaptionTransformer(vocab_attr['<bos>'],train_set.attr_num,train_set.attributes,vocab_attr,decoder)
     if torch.cuda.is_available():
         model = model.cuda()
-    #/amax/DATA/jinjiandong/CaptionCLIP-Trainstrategy/logs/RAPV1/2023-05-15_20_10_54/2023-05-17_06_12_28_epoch26_ma8132.pth
-    #/amax/DATA/jinjiandong/CaptionCLIP-Trainstrategy/logs/RAPV1/2023-05-15_20_10_54/2023-05-17_08_31_05_epoch28_ma8075.pth
     if args.check_point :
         print("start loading decoder model")
         checkpoint = torch.load(args.dir)

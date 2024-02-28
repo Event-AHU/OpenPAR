@@ -1,14 +1,10 @@
 import torch
 from torch import nn
 from torch.nn import functional as F
-import numpy as np
-import pdb
 from decoder.attention import MultiHeadAttention
 from decoder.utils import sinusoid_encoding_table, PositionWiseFeedForward
-from decoder.containers import Module, ModuleList
-from decoder.beam_search.beam_search import *
 
-class DecoderLayer(Module):
+class DecoderLayer(nn.Module):
     def __init__(self, d_model=768, d_k=64, d_v=64, h=8, d_ff=2048, dropout=.1, self_att_module=None,
                  enc_att_module=None, self_att_module_kwargs=None, enc_att_module_kwargs=None):
         super(DecoderLayer, self).__init__()
@@ -42,7 +38,7 @@ class DecoderLayer(Module):
         return ff
 
 
-class Decoder(Module):
+class Decoder(nn.Module):
     # vocab_size=len(text_field.vocab), max_len 54, N_dec 3, padding_idx text_field.vocab.stoi['<pad>']
     def __init__(self, vocab_size, max_len, N_dec, padding_idx=-1, d_model=768, d_k=64, d_v=64, h=8, d_ff=2048, dropout=.1,
                  self_att_module=None, enc_att_module=None, self_att_module_kwargs=None, enc_att_module_kwargs=None):
@@ -50,7 +46,7 @@ class Decoder(Module):
         self.d_model = d_model
         #self.word_emb = nn.Embedding(vocab_size, d_model, padding_idx=padding_idx)
         self.pos_emb = nn.Embedding.from_pretrained(sinusoid_encoding_table(max_len + 1, d_model, 0), freeze=True)
-        self.layers = ModuleList(
+        self.layers = nn.ModuleList(
             [DecoderLayer(d_model, d_k, d_v, h, d_ff, dropout, self_att_module=self_att_module,
                                 enc_att_module=enc_att_module, self_att_module_kwargs=self_att_module_kwargs,
                                 enc_att_module_kwargs=enc_att_module_kwargs) for _ in range(N_dec)])
