@@ -1,5 +1,3 @@
-#SequencePAR
-
 <div align="center">
  
 
