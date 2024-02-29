@@ -9,7 +9,7 @@ np.random.seed(0)
 random.seed(0)
 
 # note: ref by annotation.md
-attr_words = [
+attributes = [
     'A pedestrian wearing a hat', 'A pedestrian wearing a muffler', 'A pedestrian with no headwear', 'A pedestrian wearing sunglasses', 'A pedestrian with long hair',
     'A pedestrian in casual upper wear', 'A pedestrian in formal upper wear', 'A pedestrian in a jacket', 'A pedestrian in upper wear with a logo', 'A pedestrian in plaid upper wear',
     'A pedestrian in a short-sleeved top', 'A pedestrian in upper wear with thin stripes', 'A pedestrian in a t-shirt', 'A pedestrian in other upper wear', 'A pedestrian in upper wear with a V-neck',
@@ -18,22 +18,7 @@ attr_words = [
     'A pedestrian with a backpack', 'A pedestrian with other types of attachments', 'A pedestrian with a messenger bag', 'A pedestrian with no attachments', 'A pedestrian with plastic bags',
     'A pedestrian under the age of 30', 'A pedestrian between the ages of 30 and 45', 'A pedestrian between the ages of 45 and 60', 'A pedestrian over the age of 60',
     'A male pedestrian'
-] # 54 
-masked=[[1 for _ in range(35)],
-        [1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1],
-        [0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0]]
-neg_attr_words = [
-   'head without hat','head without muffler','head is not nothing','head without sunglasses','head is not long hair',
-   'upper is not casual', 'upper is not formal', 'upper is not jacket', 'upper is not logo', 'upper is not plaid', 
-   'upper is not short sleeve', 'upper is not thin stripes', 'upper is not t-shirt','upper is not other','upper is not v-neck',
-   'lower is not Casual', 'lower is not Formal', 'lower is not Jeans', 'lowe is notr Shorts', 'lower is not Short Skirt','lower is not Trousers',
-   'shoes is not Leather', 'shoes is not Sandals', 'shoes is not other', 'shoes is not sneaker',
-   'attach is not Backpack', 'attach is not Other', 'attach is not messenger bag', 'attach is not nothing', 'attach is not plastic bags',
-   'age over 30','age is not between in 30 to 45','age is not between in 45 to 60','age less 60',
-   'female'
-] # 54 
+] # 35 
 
 group_order = [10, 18, 19, 30, 15, 7, 9, 11, 14, 21, 26, 29, 32, 33, 34, 6, 8, 12, 25, 27, 31, 13, 23, 24, 28, 4, 5,
                17, 20, 22, 0, 1, 2, 3, 16]
