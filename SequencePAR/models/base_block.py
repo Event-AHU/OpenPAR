@@ -33,7 +33,7 @@ class TransformerClassifier(nn.Module):
 
     def forward(self,imgs,input):
         b_s=imgs.shape[0]
-        ViT_image_features,all_class,attenmap=self.clip_model.visual(imgs.type(self.clip_model.dtype))
+        ViT_image_features=self.clip_model.visual(imgs.type(self.clip_model.dtype))
         word2vector=self.forward_text()
         out,logits=self.decoder(input.to(self.device),ViT_image_features.to(self.device),word2vector,self.vocab_attr)
 
@@ -57,7 +57,7 @@ class TransformerClassifier(nn.Module):
         pad_token_id=self.vocab_attr['<pad>']
         eos_token_id=self.vocab_attr['<eos>']
         batch_size=imgs.shape[0]
-        ViT_image_features,all_class,attenmap=self.clip_model.visual(imgs.type(self.clip_model.dtype))
+        ViT_image_features=self.clip_model.visual(imgs.type(self.clip_model.dtype))
         word2vector=self.forward_text()
         generated_hyps = [
             BeamHypotheses(num_beams, max_length, length_penalty=length_penalty)
