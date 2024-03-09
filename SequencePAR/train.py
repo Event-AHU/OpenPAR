@@ -73,7 +73,7 @@ def main(args):
           f'attr_num : {train_set.attr_num}')
     counter_attr = Counter()
     counter_attr.update(train_set.attributes)
-    vocab_attr = vocab(counter_attr, min_freq=1, specials=( '<bos>', '<eos>', '<pad>','<mask>'))
+    vocab_attr = vocab(counter_attr, min_freq=1, specials=( '<bos>', '<eos>', '<pad>'))
     base_index2attr=dict(zip([i for i in range(len(train_set.attributes))],train_set.attributes))
     labels = train_set.label
     sample_weight = labels.mean(0)
