@@ -59,6 +59,14 @@ This project is under the MIT license. See [[license](https://github.com/Event-A
 ## :newspaper: Citation 
 If you find this work helps your research, please star this GitHub and cite the following papers: 
 ```bibtex
+@article{wang2024spatio,
+  title={Spatio-Temporal Side Tuning Pre-trained Foundation Models for Video-based Pedestrian Attribute Recognition},
+  author={Wang, Xiao and Zhu, Qian and Jin, Jiandong and Zhu, Jun and Wang, Futian and Jiang, Bo and Wang, Yaowei and Tian, Yonghong},
+  journal={arXiv preprint arXiv:2404.17929},
+  year={2024}
+}
+
+
 @misc{jin2023sequencePAR,
       title={SequencePAR: Understanding Pedestrian Attributes via A Sequence Generation Paradigm}, 
       author={Jiandong Jin and Xiao Wang and Chenglong Li and Lili Huang and Jin Tang},
