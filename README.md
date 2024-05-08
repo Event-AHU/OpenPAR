@@ -20,9 +20,10 @@ PETA, PA100K, RAPv1, RAPv2, WIDER, PETA-ZS, RAP-ZS
 Xiao Wang, Qian Zhu, Jiandong Jin, Jun Zhu, Futian Wang, Bo Jiang, Yaowei Wang, Yonghong Tian 
 [[Paper](https://arxiv.org/abs/2404.17929)] 
 [[Code](https://github.com/Event-AHU/OpenPAR/tree/main/VTFPAR%2B%2B)] 
-      
-TO BE UPDATE ...
 
+Existing pedestrian attribute recognition (PAR) algorithms are mainly developed based on a static image, however, the performance is unreliable in challenging scenarios, such as heavy occlusion, motion blur, etc. In this work, we propose to understand human attributes using video frames that can fully use temporal information by fine-tuning a pre-trained multi-modal foundation model efficiently. Specifically, we formulate the video-based PAR as a vision-language fusion problem and adopt a pre-trained foundation model CLIP to extract the visual features. More importantly, we propose a novel spatiotemporal side-tuning strategy to achieve parameter-efficient optimization of the pre-trained vision foundation model. To better utilize the semantic information, we take the full attribute list that needs to be recognized as another input and transform the attribute words/phrases into the corresponding sentence via split, expand, and prompt operations. Then, the text encoder of CLIP is utilized for embedding processed attribute descriptions. The averaged visual tokens and text tokens are concatenated and fed into a fusion Transformer for multi-modal interactive learning. The enhanced tokens will be fed into a classification head for pedestrian attribute prediction. Extensive experiments on two large-scale video-based PAR datasets fully validated the effectiveness of our proposed framework.
+
+![PromptPARfigure](https://github.com/Event-AHU/OpenPAR/blob/main/VTFPAR%2B%2B/figures/VTFPAR%2B%2Bframework.jpg)
 
 
 
