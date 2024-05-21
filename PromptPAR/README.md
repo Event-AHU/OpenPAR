@@ -28,55 +28,7 @@ opencv-python
 ftfy
 regex
 ```
-### Dataset Preparation
-Download the PETA dataset from [here](http://mmlab.ie.cuhk.edu.hk/projects/PETA.html), PA100k dataset from [here](https://github.com/xh-liu/HydraPlus-Net#pa-100k-dataset) and RAP1 and RAP2 dataset form [here](https://www.rapdataset.com/), and We provide the processed WIDER dataset in [here]() 
 
-Organize them in `your dataset root dir` folder as follows:
-```
-|-- your dataset root dir/
-|   |-- <PETA>/
-|       |-- images
-|            |-- 00001.png
-|            |-- 00002.png
-|            |-- ...
-|       |-- PETA.mat
-|       |-- dataset_zs_run0.pkl
-|
-|   |-- <PA100k>/
-|       |-- data
-|            |-- 000001.jpg
-|            |-- 000002.jpg
-|            |-- ...
-|       |-- annotation.mat
-|
-|   |-- <RAP1>/
-|       |-- RAP_datasets
-|       |-- RAP_annotation
-|            |-- RAP_annotation.mat
-|   |-- <RAP2>/
-|       |-- RAP_datasets
-|       |-- RAP_annotation
-|            |-- RAP_annotation.mat
-|       |-- dataset_zs_run0.pkl
-|
-|   |-- <WIDER>/
-|       |-- split_image
-|       |-- Annotations
-|            |-- attr_name.txt
-|            |-- error_name.txt
-|            |-- test_gt_label.txt
-|            |-- test_name.txt
-|            |-- trainval_gt_label.txt
-|            |-- trainval_name.txt
-```
-
-## Data Preparation
- Run dataset/preprocess/peta_pad.py to get the dataset pkl file
- ```python
-python dataset/preprocess/peta_pad.py
-```
-We fill the images in the original dataset as a square with a simple black border fill and store it in Pad_datasets, you can read the original dataset directly and use the fill code we provided in AttrDataset.py.
-We provide processing code for the currently available publicly available pedestrian attribute identification dataset
 ## Training
 ```python
 python train.py PETA --use_text_prompt --use_div --use_vismask --use_GL --use_mm_former
