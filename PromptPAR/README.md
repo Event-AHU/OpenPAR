@@ -23,6 +23,10 @@ torchvision 0.13.1
 scipy 1.10.0
 Pillow
 easydict
+tqdm
+opencv-python
+ftfy
+regex
 ```
 ### Dataset Preparation
 Download the PETA dataset from [here](http://mmlab.ie.cuhk.edu.hk/projects/PETA.html), PA100k dataset from [here](https://github.com/xh-liu/HydraPlus-Net#pa-100k-dataset) and RAP1 and RAP2 dataset form [here](https://www.rapdataset.com/), and We provide the processed WIDER dataset in [here]() 
