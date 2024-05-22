@@ -67,13 +67,17 @@ Organize them in `your dataset root dir` folder as follows:
 |            |-- trainval_name.txt
 ```
 
+
+
 * **Process the Dataset**
+
  Run dataset/preprocess/peta_pad.py to get the dataset pkl file
  ```python
 python dataset/preprocess/peta_pad.py
 ```
 We fill the images in the original dataset as a square with a simple black border fill and store it in Pad_datasets, you can read the original dataset directly and use the fill code we provided in AttrDataset.py.
 We provide processing code for the currently available publicly available pedestrian attribute identification dataset
+
 
 
 ## :dart: [VTFPAR++](https://github.com/Event-AHU/OpenPAR/blob/main/VTFPAR%2B%2B/README.md) 
