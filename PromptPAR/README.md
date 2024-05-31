@@ -56,10 +56,9 @@ python test_example.py PETA --checkpoint --dir your_dir --use_div --use_vismask 
 ## Checkpoint Download
 Dataset  | Vit-Large | Extracted code|
 |:-------------|:---------:|:---------:|
-| RAP1  | [download](https://pan.baidu.com/s/1IgXM3EYjuWPxKylVlQG7iA) | 1oen
-| RAP2 | [download]() |
-| PETA  | [download]() |
-| PA100k  | [download]() |
+| RAP  | [download](https://pan.baidu.com/s/1IgXM3EYjuWPxKylVlQG7iA) | 1oen
+| PETA  | [download](https://pan.baidu.com/s/196CDyMFX5rrMQEcC4kQ00w) | MMIC
+| PA100k  | [download](https://pan.baidu.com/s/196CDyMFX5rrMQEcC4kQ00w) | MMIC
 ## News: 
 
 
