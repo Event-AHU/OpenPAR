@@ -8,9 +8,8 @@
 
 </div>
 
-## :dart: NEWS
-**The checkpoints of PromptPAR have been updated**
-
+## :dart: Update Log：
+#### :fire: [Mar-31-2024] We have updated the checkpoints for PromptPAR！
 
 ## :dart: Supported Datasets
 
