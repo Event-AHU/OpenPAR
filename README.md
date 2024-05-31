@@ -8,6 +8,9 @@
 
 </div>
 
+## :dart: NEWS
+The checkpoints of PromptPAR have been updating
+
 
 ## :dart: Supported Datasets
 
