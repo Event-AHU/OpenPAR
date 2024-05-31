@@ -26,7 +26,7 @@ MARS-Attribute dataset, DukeMTMC-VID-Attribute dataset
 
 * **Download Dataset**
 
-Download the PETA dataset from [here](http://mmlab.ie.cuhk.edu.hk/projects/PETA.html), PA100k dataset from [here](https://github.com/xh-liu/HydraPlus-Net#pa-100k-dataset) and RAP1 and RAP2 dataset form [here](https://www.rapdataset.com/), and We provide the processed WIDER dataset in [here](https://pan.baidu.com/s/1sqC7tr1bsyLl3FGCnYoYrw)[MMIC] 
+Download the PETA dataset from [here](http://mmlab.ie.cuhk.edu.hk/projects/PETA.html), PA100k dataset from [here](https://github.com/xh-liu/HydraPlus-Net#pa-100k-dataset) and RAP1 and RAP2 dataset form [here](https://www.rapdataset.com/), and We provide the processed WIDER dataset in [here](https://pan.baidu.com/s/1sqC7tr1bsyLl3FGCnYoYrw)(password:)[MMIC] 
 
 Organize them in `your dataset root dir` folder as follows:
 ```
