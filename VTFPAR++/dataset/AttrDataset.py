@@ -82,8 +82,21 @@ class MultiModalAttrDataset(data.Dataset):
     def __len__(self):
         return len(self.track_id)
 
+#间隔抽帧排序
+import math
+def select_images(track_img_path, N):
+    # 对图片路径列表进行排序
+    sorted_img_paths = sorted(track_img_path)
+    # 计算每个间隔的步长
+    if len(sorted_img_paths) <= N:
+        step = math.ceil(len(sorted_img_paths) / N)
+    else:
+        step = 1
+    # 如果路径列表长度小于N，使用最后一帧进行填充
+    while len(sorted_img_paths) < N:
+        sorted_img_paths.append(sorted_img_paths[-1])
+    # 从排序后的列表中均匀选取N个图片
     selected_images = [sorted_img_paths[i] for i in range(0, len(sorted_img_paths), step)][:N]
-
     return selected_images
 
 def get_transform(args):
