@@ -103,9 +103,7 @@ Current strong pedestrian attribute recognition models are developed based on Tr
 ## Experimental Results 
 
 <img src="https://github.com/Event-AHU/OpenPAR/tree/main/MambaPAR_Empirical_Study/figures/efficiencyAnalysis.jpg" width="800">
-
-
-
+![image]("https://github.com/Event-AHU/OpenPAR/tree/main/MambaPAR_Empirical_Study/figures/efficiencyAnalysis.jpg")
 <img src="https://github.com/Event-AHU/OpenPAR/tree/main/MambaPAR_Empirical_Study/figures/PARresults_VIS.jpg" width="800">
 
 ### Acknowledgments
