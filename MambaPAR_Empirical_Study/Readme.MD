@@ -3,9 +3,7 @@
 <div align="center">
 <img src="https://github.com/Event-AHU/OpenPAR/tree/main/MambaPAR_Empirical_Study/figures/logo.png" width="600">
 
-
  **AnEmpirical Study of Mamba-based Pedestrian Attribute Recognition**
-
 
 ------
 
