@@ -93,9 +93,9 @@ We provide processing code for the currently available publicly available pedest
 
 
 ## :dart: [MSP60K Benchmark Dataset, LLM-PAR]() 
-**[arXiv:******] Pedestrian Attribute Recognition: A New Benchmark Dataset and A Large Language Model Augmented Framework**, arXiv 2024, 
+**[arXiv:2408.09720] Pedestrian Attribute Recognition: A New Benchmark Dataset and A Large Language Model Augmented Framework**, arXiv 2024, 
 Jiandong Jin, Xiao Wang*, Qian Zhu, Haiyang Wang, Chenglong Li*  
-[[Paper]()] 
+[[Paper](https://arxiv.org/abs/2408.09720)] 
 
 Pedestrian Attribute Recognition (PAR) is one of the indispensable tasks in human-centered research. However, existing datasets neglect different domains (e.g., environments, times, populations, and data sources), only conducting simple random splits, and the performance of these datasets has already approached saturation. In the past five years, no large-scale dataset has been opened to the public. To address this issue, this paper proposes a new large-scale, cross-domain pedestrian attribute recognition dataset to fill the data gap, termed MSP60K. It consists of 60,122 images and 57 attribute annotations across eight scenarios. Synthetic degradation is also conducted to further narrow the gap between the dataset and real-world challenging scenarios. To establish a more rigorous benchmark, we evaluate 17 representative PAR models under both random and cross-domain split protocols on our dataset. Additionally, we propose an innovative Large Language Model (LLM) augmented PAR framework, named LLM-PAR. This framework processes pedestrian images through a Vision Transformer (ViT) backbone to extract features and introduces a multi-embedding query Transformer to learn partial-aware features for attribute classification. Significantly, we enhance this framework with LLM for ensemble learning and visual feature augmentation. Comprehensive experiments across multiple PAR benchmark datasets have thoroughly validated the efficacy of our proposed framework. 
 
