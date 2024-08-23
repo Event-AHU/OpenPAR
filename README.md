@@ -12,8 +12,9 @@
 
 ## :dart: Update Log：
 
-#### :fire: [Aug-19-2024] A new large-scale benchmark dataset MSP60K and baseline LLM-PAR is released. 
-#### :fire: [Mar-31-2024] We have updated the checkpoints for PromptPAR！
+* :fire: [Aug-23-2024] PromptPAR is accepted by IEEE TCSVT 2024.  
+* :fire: [Aug-19-2024] A new large-scale benchmark dataset MSP60K and baseline LLM-PAR is released. 
+* :fire: [Mar-31-2024] We have updated the checkpoints for PromptPAR！
 
 
 
