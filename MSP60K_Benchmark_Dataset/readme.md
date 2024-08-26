@@ -14,7 +14,7 @@ The original images of our MSP60k dataset were released on [BaiduYun](https://pa
 
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/figures/dataset_detail3.jpg" width="800">
 
-<img src="https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/figures/t-sne.jpg" width="800">
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/figures/dataset_tsne.jpg" width="800">
 
 #### Benchmark Results 
 
