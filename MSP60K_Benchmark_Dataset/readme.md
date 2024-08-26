@@ -7,7 +7,7 @@ Pedestrian Attribute Recognition (PAR) is one of the indispensable tasks in huma
 #### MSP60K Dataset 
 Our MSP60K dataset consists of 60,122 images and 57 attribute annotations across eight scenarios.
 
-<img src="https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/figures/static.jpg" width="1200">
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/figures/statics.jpg" width="1200">
 
 The original images of our MSP60k dataset were released on [BaiduYun](https://pan.baidu.com/s/1LW-iBwr26cCikR9u82e7UA?pwd=msp6) [GoogleDriver](https://drive.google.com/file/d/13DwCtMTVFv8H-8rsOXpbKyGEGL-eTzSz/view?usp=sharing), the degraded images and code have found at [degrade_images] and [degrade].
 
