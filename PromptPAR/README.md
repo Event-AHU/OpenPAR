@@ -53,12 +53,12 @@ python test_example.py PETA --checkpoint --dir your_dir --use_div --use_vismask 
 | vis_prompt    |  Number of visual prompts |
 | vis_depth    |  Depth of visual prompts [1,24]  |
 
-## Checkpoint Download
-Dataset  | Vit-Large | Extracted code|
+## Vit-Large Checkpoint Download
+Dataset  | BaiduYun | Extracted code| GoogleDrive |
 |:-------------|:---------:|:---------:|
-| RAP  | [download](https://pan.baidu.com/s/1IgXM3EYjuWPxKylVlQG7iA) | 1oen
-| PETA  | [download](https://pan.baidu.com/s/196CDyMFX5rrMQEcC4kQ00w) | MMIC
-| PA100k  | [download](https://pan.baidu.com/s/196CDyMFX5rrMQEcC4kQ00w) | MMIC
+| RAP  | [BaiduYun](https://pan.baidu.com/s/1IgXM3EYjuWPxKylVlQG7iA) | 1oen | [GoogleDrive](https://drive.google.com/drive/folders/1GkpaMjJjRDDRnLABK08uoNsOsKXN-nD5?usp=sharing) 
+| PETA  | [BaiduYun](https://pan.baidu.com/s/196CDyMFX5rrMQEcC4kQ00w) | MMIC | [GoogleDrive](https://drive.google.com/drive/folders/1GkpaMjJjRDDRnLABK08uoNsOsKXN-nD5?usp=sharing)
+| PA100k  | [BaiduYun](https://pan.baidu.com/s/196CDyMFX5rrMQEcC4kQ00w) | MMIC | [GoogleDrive](https://drive.google.com/drive/folders/1GkpaMjJjRDDRnLABK08uoNsOsKXN-nD5?usp=sharing)
 ## News: 
 
 
