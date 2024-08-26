@@ -37,7 +37,7 @@ def main(args):
     sample_weight = labels.mean(0)    
     valid_loader = DataLoader(
         dataset=valid_set,
-        batch_size=1,
+        batch_size=16,
         shuffle=False,
         num_workers=8,
         pin_memory=True,
@@ -64,7 +64,7 @@ def main(args):
         print(formatted_num,end=',') 
         
     start=time.time()
-    valid_loss, valid_gt, valid_probs,image_names = valid_trainer(
+    valid_loss, valid_gt, valid_probs = valid_trainer(
         model=model,
         clip_model=clip_model,
         valid_loader=valid_loader,
