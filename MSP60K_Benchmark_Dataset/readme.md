@@ -23,7 +23,7 @@ The original images of our MSP60k dataset were released on [BaiduYun](https://pa
 
 #### Newly Proposed LLM-PAR Framework 
 
-<img src="https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/figures/LLMPAR_frameworkv2.png" width="800">
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/figures/LLMPAR_frameworkv2.jpg" width="800">
 
 #### Environment Configure 
 
