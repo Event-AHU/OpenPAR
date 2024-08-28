@@ -21,8 +21,15 @@
 
 :fire: [Mar-31-2024] We have updated the checkpoints for PromptPAR！
 
-
-
+## :Papers:
+* **Bemchmark ** 
+* [MSP60K&LLM-PAR](https://arxiv.org/pdf/2408.09720)
+* **Image-based PAR ** 
+* [PromptPAR](https://arxiv.org/pdf/2312.10692)
+* [SequencePAR](https://arxiv.org/pdf/2312.01640)
+* [MambaPAR](https://arxiv.org/pdf/2407.10374)
+* **Video-based PAR** 
+* [VTFPAR++](https://arxiv.org/pdf/2404.17929)
 ## :dart: Supported Datasets
 
 * **Image-based PAR dataset** 
