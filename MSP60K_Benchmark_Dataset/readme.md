@@ -33,7 +33,7 @@ conda activate llmpar
 bash install.sh
 ```
 Dataset Preparation Refer To [README](https://github.com/Event-AHU/OpenPAR/blob/main/README.md).
-Change The Dataset `PKL` and The `Data` Path [local.py](https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/local.py)
+Change The Dataset `PKL` and The `Data` Path [local.py](https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/LLM-PAR/local.py)
 #### Training and Testing 
 Training
 ```
