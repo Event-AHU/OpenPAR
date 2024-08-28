@@ -34,9 +34,12 @@ conda activate llmpar
 bash install.sh
 ```
 Dataset Preparation Refer To [README](https://github.com/Event-AHU/OpenPAR/blob/main/README.md).
-and the `Pre-trained Model` dir
+
+
 Change the dataset `PKL` and the `Dataset Image` in [local.py](https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/LLM-PAR/local.py)
-We use the [EVA-CLIP-Gint](https://github.com/baaivision/EVA/blob/master/EVA-CLIP) as our visual encoder, the [Vicuna-7b](https://github.com/lm-sys/FastChat) as LLM, and using [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) pre-trained weights.
+
+
+We use the [EVA-CLIP-Gint](https://github.com/baaivision/EVA/blob/master/EVA-CLIP) as our visual encoder, the [Vicuna-7b](https://github.com/lm-sys/FastChat) as LLM, and using [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) pre-trained weights, these weight path can be changed in [local.py](https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/LLM-PAR/local.py).
 #### Training and Testing 
 Training
 ```
