@@ -22,9 +22,9 @@
 :fire: [Mar-31-2024] We have updated the checkpoints for PromptPAR！
 
 ## :dart: Papers:
-* **Bemchmark ** 
+* **Bemchmark** 
       [MSP60K&LLM-PAR](https://arxiv.org/pdf/2408.09720)
-* **Image-based PAR ** 
+* **Image-based PAR** 
       [PromptPAR](https://arxiv.org/pdf/2312.10692)
       [SequencePAR](https://arxiv.org/pdf/2312.01640)
       [MambaPAR](https://arxiv.org/pdf/2407.10374)
