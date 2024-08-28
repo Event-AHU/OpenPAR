@@ -26,9 +26,18 @@ The original images of our MSP60k dataset were released on [BaiduYun](https://pa
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/figures/LLMPAR_frameworkv2.jpg" width="800">
 
 #### Environment Configure 
-
+Create Environment
+```
+conda create -n llmpar python=3.8
+conda activate llmpar
+bash install.sh
+```
+Dataset Preparation Refer To [README](https://github.com/Event-AHU/OpenPAR/blob/main/README.md).
 #### Training and Testing 
-
+Training
+```
+python train.py --dataset PETA --exp expname
+```
 
 #### Anknowledgement 
 
