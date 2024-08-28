@@ -56,7 +56,8 @@ Our code is extended from the following repositories. We sincerely appreciate fo
 * [Vicuna-7b](https://github.com/lm-sys/FastChat)
 * [EVA-CLIP-Gint](https://github.com/baaivision/EVA/blob/master/EVA-CLIP)
 * [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4)
-* [BLIP2]([https://github.com/Vision-CAIR/MiniGPT-4](https://github.com/salesforce/LAVIS))
+* [BLIP2](https://github.com/salesforce/LAVIS)
+
 #### Citation 
 If you find this work helps your research, please star this GitHub and cite the following papers: 
 ```bibtex
