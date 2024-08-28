@@ -52,6 +52,18 @@ python train.py --dataset PETA --exp expname --ckpt_path ./logs/PETA/expname/Epo
 ```
 
 #### Anknowledgement 
-
+Our code is extended from the following repositories. We sincerely appreciate for their contributions.
+* [Vicuna-7b](https://github.com/lm-sys/FastChat)
+* [EVA-CLIP-Gint](https://github.com/baaivision/EVA/blob/master/EVA-CLIP)
+* [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4)
+* [BLIP2]([https://github.com/Vision-CAIR/MiniGPT-4](https://github.com/salesforce/LAVIS))
 #### Citation 
-
+If you find this work helps your research, please star this GitHub and cite the following papers: 
+```bibtex
+@article{jin2024pedestrian,
+  title={Pedestrian Attribute Recognition: A New Benchmark Dataset and A Large Language Model Augmented Framework},
+  author={Jin, Jiandong and Wang, Xiao and Zhu, Qian and Wang, Haiyang and Li, Chenglong},
+  journal={arXiv preprint arXiv:2408.09720},
+  year={2024}
+}
+```
