@@ -26,6 +26,7 @@ The original images of our MSP60k dataset were released on [BaiduYun](https://pa
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/figures/LLMPAR_frameworkv2.jpg" width="800">
 
 #### Environment Configure 
+We use a single RTX A800 80G GPU for training and evaluation.
 Create Environment
 ```
 conda create -n llmpar python=3.8
@@ -33,7 +34,9 @@ conda activate llmpar
 bash install.sh
 ```
 Dataset Preparation Refer To [README](https://github.com/Event-AHU/OpenPAR/blob/main/README.md).
-Change the dataset `PKL`, the `Data` and the `Pre-trained Model` dir in [local.py](https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/LLM-PAR/local.py)
+and the `Pre-trained Model` dir
+Change the dataset `PKL` and the `Dataset Image` in [local.py](https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/LLM-PAR/local.py)
+We use the [EVA-CLIP-Gint](https://github.com/baaivision/EVA/blob/master/EVA-CLIP) as our visual encoder, the [Vicuna-7b](https://github.com/lm-sys/FastChat) as LLM, and using [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) pre-trained weights.
 #### Training and Testing 
 Training
 ```
