@@ -2,7 +2,9 @@
 
 <div align="center">
  
-<img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/promptpar_logo.png" width="600">
+ <img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/promptpar_logo.png" width="600">
+ 
+<pdf src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/Supplementary_Materials_for_PromptPAR.pdf" width="600">
 
  **Official PyTorch implementation of "Pedestrian Attribute Recognition via CLIP based Vision-Language Fusion with Prompt Tuning"**
 
