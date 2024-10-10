@@ -1,7 +1,7 @@
-<h2 align="center"> A Simple Visual-Textual Baseline for Pedestrian Attribute Recognition </h2>
+<h2 align="center"> SNN-PAR: Energy Efficient Pedestrian Attribute Recognition via Spiking Neural Networks </h2>
 
 <p align="center">
-  <img src="assets/teaser.png" width="75%">
+  <img src="figures/SNNPAR_framework.png" width="75%">
 </p>
 
 ## 🔧Requirements
