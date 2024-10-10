@@ -13,7 +13,7 @@ class MultiModalAttrDataset(data.Dataset):
 
     def __init__(self, split, args, transform=None, target_transform=None):
 
-        assert args.dataset in ['PA100k', 'RAP'], \
+        assert args.dataset in ['PA100k', 'RAP','PETA'], \
             f'dataset name {args.dataset} is not exist'
 
         data_path = get_pkl_rootpath(args.dataset)
