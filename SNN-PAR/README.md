@@ -27,7 +27,7 @@ Artificial neural network based Pedestrian Attribute Recognition (PAR) has been 
 
 ## Experimental Results 
 <img src="https://github.com/Event-AHU/OpenPAR/edit/main/SNN-PAR/figures/RightPred.jpg" width="500">
-<img src="https://github.com/Event-AHU/OpenPAR/edit/main/SNN-PAR/figures/heatmap.jpg" width="500">
+
 
 ## 👍Acknowledgements
 This code is based on [VTB](https://github.com/cxh0519/VTB/tree/main) and [Spikingformer](https://github.com/zhouchenlin2096/Spikingformer). Thanks for their efforts.
