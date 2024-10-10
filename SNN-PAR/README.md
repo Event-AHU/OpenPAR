@@ -17,8 +17,12 @@ python pa100k.py
 ###  Checkpoint Download
 
 Dataset  | BaiduYun | Extracted code
+```
 |:-------------|:---------:|:---------:|
 | PA100k  | [BaiduYun](https://pan.baidu.com/s/1ITe5kgk_smaLWMVQZ9WAzA)  | BICS 
+```
+
+
 need to be download for training.If you want to use the weights from the RAP and PETA datasets, you can get them by running:
 ```
 python train.py PETA
