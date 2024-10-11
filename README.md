@@ -28,6 +28,7 @@
       [PromptPAR](https://arxiv.org/pdf/2312.10692)
       [SequencePAR](https://arxiv.org/pdf/2312.01640)
       [MambaPAR](https://arxiv.org/pdf/2407.10374)
+      [SNN-PAR](http://arxiv.org/abs/2410.07857)
 
 * **Video-based PAR** 
       [VTFPAR++](https://arxiv.org/pdf/2404.17929)
@@ -161,7 +162,8 @@ Existing pedestrian attribute recognition (PAR) algorithms adopt pre-trained CNN
 
 ## :dart: [SNN-PAR](https://github.com/Event-AHU/OpenPAR/blob/main/SNN-PAR/README.md)
 
-**SNN-PAR: Energy Efficient Pedestrian Attribute Recognition via Spiking Neural Networks**, Haiyang Wang, Qian Zhu, Mowen She, Yabo Li, Haoyu Song,Minghe Xu, and Xiao Wang*
+**[arXiv:2410.07857]SNN-PAR: Energy Efficient Pedestrian Attribute Recognition via Spiking Neural Networks**, Haiyang Wang, Qian Zhu, Mowen She, Yabo Li, Haoyu Song,Minghe Xu, and Xiao Wang*
+[[Paper](http://arxiv.org/abs/2410.07857)] 
 [[Code](https://github.com/Event-AHU/OpenPAR/tree/main/SNN-PAR)] 
 
 Artificial neural network based Pedestrian Attribute Recognition (PAR) has been widely studied in recent years, despite many progresses, however, the energy consumption is still high. To address this issue, in this paper, we propose a Spiking Neural Network (SNN) based framework for energy-efficient attribute recognition. Specifically, we first adopt a spiking tokenizer module to transform the given pedestrian image into spiking feature representations. Then, the output will be fed into the spiking Transformer backbone networks for energy-efficient feature extraction. We feed the enhanced spiking features into a set of feedforward networks for pedestrian attribute recognition. In addition to the widely used binary cross-entropy loss function, we also exploit knowledge distillation from the artificial neural network to the spiking Transformer network for more accurate attribute recognition. Extensive experiments on three widely used PAR benchmark datasets fully validated the effectiveness of our proposed SNN-PAR framework.
