@@ -11,7 +11,7 @@
 
 
 ## :dart: Update Log：
-:fire: [Oct-10-2024] SNN-PAR has been submitted to BICS 2024.  
+
 :fire: [Aug-27-2024] Slides for the talk [[Pedestrian Attribute Recognition in the Big Model Era](https://github.com/wangxiao5791509/Pedestrian-Attribute-Recognition-Paper-List/blob/master/PAR-CSIG-2024.08.27.pdf)] 
 <img src="https://github.com/wangxiao5791509/Pedestrian-Attribute-Recognition-Paper-List/blob/master/PARtalk.png" width="400">
 
@@ -20,6 +20,8 @@
 :fire: [Aug-19-2024] A new large-scale benchmark dataset MSP60K and baseline LLM-PAR is released. 
 
 :fire: [Mar-31-2024] We have updated the checkpoints for PromptPAR！
+
+
 
 ## :dart: Papers:
 * **Bemchmark** 
