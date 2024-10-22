@@ -31,7 +31,9 @@ You can get the weights of the teacher model by training the [VTB](https://githu
 python train.py PA100k --only_feats_kl  --only_logits_kl 
 ```
 
-## Acknowledgment 
+
+## 👍Acknowledgements
+This code is based on [VTB](https://github.com/cxh0519/VTB/tree/main) and [Spikingformer](https://github.com/zhouchenlin2096/Spikingformer). Thanks for their efforts.
 
 
 ## Citation 
@@ -49,5 +51,3 @@ If you think this work helps your research, please cite the following papers:
 
 
 
-## 👍Acknowledgements
-This code is based on [VTB](https://github.com/cxh0519/VTB/tree/main) and [Spikingformer](https://github.com/zhouchenlin2096/Spikingformer). Thanks for their efforts.
