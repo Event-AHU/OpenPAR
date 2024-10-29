@@ -19,15 +19,23 @@ torchvision 0.13.1
 ```
 pip install -r requirements.txt
 ```
-## Datasets and Pre-trained Models 
 
-**Download from BaiduYun:**
+
+
+
+## Datasets and Checkpoint 
 
 * **MARS Dataset**:
 ```
 链接：https://pan.baidu.com/s/16Krv3AAlBhB9JPa1EKDbLw 提取码：zi08
-Pre-trained Models:链接：https://pan.baidu.com/s/11ixJO0zPm1bXbBVudRYwAA 提取码：zzzz
 ```
+
+* **Checkpoint**
+```
+链接：https://pan.baidu.com/s/11ixJO0zPm1bXbBVudRYwAA 提取码：zzzz
+```
+
+
 
 
 ## Training and Testing 
