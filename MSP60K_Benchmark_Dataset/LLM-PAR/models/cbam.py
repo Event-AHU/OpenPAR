@@ -50,19 +50,9 @@ class CBAM(nn.Module):
         self.spatial_attention = SpatialAttention(kernel_size=kernel_size)
         self.relu = nn.ReLU()
 
-        # 初始化线性层参数
-        hidden_dims=[in_channels//4]
         self.channel_attention = ChannelAttention(in_channels, reduction=reduction)
         self.spatial_attention = SpatialAttention(kernel_size=kernel_size)
-        self.relu=nn.ReLU()
-        layers=[]
-        prev_dim= in_channels
-        for hidden_dim in hidden_dims:
-            layers.append(nn.Linear(prev_dim, hidden_dim))
-            layers.append(nn.ReLU())  # 使用ReLU激活函数
-            prev_dim = hidden_dim
-        layers.append(nn.Linear(prev_dim, output_dim))
-        self.fc = nn.Sequential(*layers)
+        self.fc = nn.Linear(in_channels, output_dim)
 
         # 初始化线性层参数
         for m in self.fc.modules():
