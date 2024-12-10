@@ -12,6 +12,8 @@
 
 ## :dart: Update Log：
 
+:fire: [Dec-10-2024] LLM-PAR is accepted by AAAI-2025!
+
 :fire: [Aug-27-2024] Slides for the talk [[Pedestrian Attribute Recognition in the Big Model Era](https://github.com/wangxiao5791509/Pedestrian-Attribute-Recognition-Paper-List/blob/master/PAR-CSIG-2024.08.27.pdf)] 
 <img src="https://github.com/wangxiao5791509/Pedestrian-Attribute-Recognition-Paper-List/blob/master/PARtalk.png" width="400">
 
