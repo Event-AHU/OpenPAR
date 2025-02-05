@@ -51,6 +51,12 @@ Inference
 python train.py --dataset PETA --exp expname --ckpt_path ./logs/PETA/expname/Epoch60.pth
 ```
 
+## Checkpoint Download
+Dataset  | BaiduYun | Extracted code| GoogleDrive
+|:-------------|:---------:|:---------:|
+| RAP  | [BaiduYun]() | MMIC 
+| PETA  | [BaiduYun]() | MMIC 
+
 #### Anknowledgement 
 Our code is extended from the following repositories. We sincerely appreciate for their contributions.
 * [Vicuna-7b](https://github.com/lm-sys/FastChat)
