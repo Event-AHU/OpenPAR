@@ -55,7 +55,7 @@ python train.py --dataset PETA --exp expname --ckpt_path ./logs/PETA/expname/Epo
 Dataset  | BaiduYun | Extracted code|
 |:-------------|:---------:|:---------:|
 | RAP  | [BaiduYun](xxx) | MMIC |
-| PETA  | [BaiduYun]([xxx](https://pan.baidu.com/s/1ury7JR82QNt1MYrl9ly2fQ?pwd=4mfp)) | 4mfp |
+| PETA  | [BaiduYun](https://pan.baidu.com/s/1ury7JR82QNt1MYrl9ly2fQ?pwd=4mfp) | 4mfp |
 
 #### Anknowledgement 
 Our code is extended from the following repositories. We sincerely appreciate for their contributions.
