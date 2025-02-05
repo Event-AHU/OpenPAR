@@ -52,7 +52,7 @@ python train.py --dataset PETA --exp expname --ckpt_path ./logs/PETA/expname/Epo
 ```
 
 #### Checkpoint Download
-Dataset  | BaiduYun | Extracted code| GoogleDrive
+Dataset  | BaiduYun | Extracted code|
 |:-------------|:---------:|:---------:|
 | RAP  | [BaiduYun](xxx) | MMIC |
 | PETA  | [BaiduYun](xxx) | MMIC |
