@@ -54,8 +54,8 @@ python train.py --dataset PETA --exp expname --ckpt_path ./logs/PETA/expname/Epo
 #### Checkpoint Download
 Dataset  | BaiduYun | Extracted code| DropBox | 
 |:-------------|:---------:|:---------:|:---------:|
-| RAP  | [BaiduYun](https://pan.baidu.com/s/1DNMtdvpTr-dUyESxyecETg?pwd=3n97) | 3n97 |  [RAP.pth](https://www.dropbox.com/scl/fi/arhvbo4zv9g50jlqmngzj/RAPv1.pth?rlkey=0ltsaqbzpz7a0kfxursu1kje2&st=t0yl4e0l&dl=0) | 
-| PETA  | [BaiduYun](https://pan.baidu.com/s/1ury7JR82QNt1MYrl9ly2fQ?pwd=4mfp) | 4mfp | [PETA.pth](https://www.dropbox.com/scl/fi/ci51myt04uktrf724urth/PETA.pth?rlkey=un0j6ybwxyfxqtonfb4imj94u&st=v6xvk0em&dl=0) |
+| RAP  | [BaiduYun](https://pan.baidu.com/s/1DNMtdvpTr-dUyESxyecETg?pwd=3n97) | 3n97 |  [RAPv1.pth (3.71 GB)](https://www.dropbox.com/scl/fi/arhvbo4zv9g50jlqmngzj/RAPv1.pth?rlkey=0ltsaqbzpz7a0kfxursu1kje2&st=t0yl4e0l&dl=0) | 
+| PETA  | [BaiduYun](https://pan.baidu.com/s/1ury7JR82QNt1MYrl9ly2fQ?pwd=4mfp) | 4mfp | [PETA.pth (5.17 GB)](https://www.dropbox.com/scl/fi/ci51myt04uktrf724urth/PETA.pth?rlkey=un0j6ybwxyfxqtonfb4imj94u&st=v6xvk0em&dl=0) |
 
 
 
