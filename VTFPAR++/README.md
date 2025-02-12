@@ -36,6 +36,11 @@ pip install -r requirements.txt
 ```
 
 
+**[Note]:**  If you can't access the Baidu drive, please check the **DropBox** 
+```
+https://www.dropbox.com/scl/fo/twpt7gu3gw7ssxfhqy4cl/AN_Jv68Iq3XsnLZk9Gdxf28?rlkey=bizjoyww3jdidf3geergd2l9b&st=p2h4b963&dl=0
+```
+
 
 
 ## Training and Testing 
