@@ -66,7 +66,7 @@ Organize them in `your dataset root dir` folder as follows:
 |            |-- xxxx.png
 |            |-- xxxx.png
 |            |-- ...
-|       |-- datset_ms_split1.mat
+|       |-- datset_ms_split1.pkl
 |       |-- dataset_random.pkl
 |       |-- msp_withMS.py
 |       |-- msp_split.py
