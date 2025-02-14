@@ -61,6 +61,15 @@ Download the PETA dataset from [here](http://mmlab.ie.cuhk.edu.hk/projects/PETA.
 Organize them in `your dataset root dir` folder as follows:
 ```
 |-- your dataset root dir/
+|   |-- <MSP60K>/
+|       |-- degrade_image
+|            |-- xxxx.png
+|            |-- xxxx.png
+|            |-- ...
+|       |-- datset_ms_split1.mat
+|       |-- dataset_random.pkl
+|       |-- msp_withMS.py
+|       |-- msp_split.py
 |   |-- <PETA>/
 |       |-- images
 |            |-- 00001.png
