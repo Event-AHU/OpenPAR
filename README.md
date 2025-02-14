@@ -70,6 +70,7 @@ Organize them in `your dataset root dir` folder as follows:
 |       |-- dataset_random.pkl
 |       |-- msp_withMS.py
 |       |-- msp_split.py
+|
 |   |-- <PETA>/
 |       |-- images
 |            |-- 00001.png
