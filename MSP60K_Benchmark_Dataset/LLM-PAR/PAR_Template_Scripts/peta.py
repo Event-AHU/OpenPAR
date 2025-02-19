@@ -98,7 +98,6 @@ def generate_data_description(save_dir):
                 print(attr_words[lidx], end=', ')
         print('')
         print(simple_complete_sentences[i])
-    breakpoint()
     sentences = {dataset.image_name[i]:simple_complete_sentences[i]  for i in range(len(simple_complete_sentences))}
     dataset.sentences = sentences
     max_len = 0 
