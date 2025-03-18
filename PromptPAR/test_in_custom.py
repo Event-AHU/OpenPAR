@@ -46,7 +46,7 @@ class CustomDataset(Dataset):
             image = self.transform(image)
         return image, img_path  # 这里不返回标签，适用于无标签测试
 
-def main(args):
+def main(args, image_root):
     print(time_str())
     pprint.pprint(OrderedDict(vars(args)))
     print('-' * 60)
@@ -60,7 +60,7 @@ def main(args):
         transforms.ToTensor(),
     ])
     
-    dataset = CustomDataset(args.image_root, transform=transform)
+    dataset = CustomDataset(image_root, transform=transform)
     data_loader = DataLoader(dataset, batch_size=16, shuffle=False, num_workers=8, pin_memory=True)
 
     print(f'Test set size: {len(dataset)}, attr_num: {attr_num}')
@@ -105,5 +105,6 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argument_parser()
+    image_root = ''
     args = parser.parse_args()
     main(args)
