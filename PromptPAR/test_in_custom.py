@@ -15,7 +15,7 @@ from clip import clip
 from clip.model import build_model
 from torchvision import transforms
 from PIL import Image
-
+from config import argument_parser
 set_seed(605)
 device = "cuda" if torch.cuda.is_available() else "cpu"
 # attr_words的设置取决于你加载哪个数据集训练的checkpoint 例如PETA
@@ -104,10 +104,6 @@ def main(args):
     print(f'Total test time: {end - start:.2f} seconds')
 
 if __name__ == '__main__':
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--image_root", type=str, required=True, help="Path to the image dataset")
-    parser.add_argument("--dir", type=str, default="model.pth", help="Path to the model checkpoint")
-    
+    parser = argument_parser()
     args = parser.parse_args()
     main(args)
