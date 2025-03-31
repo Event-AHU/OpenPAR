@@ -11,6 +11,7 @@ from loss.CE_loss import CEL_Sigmoid
 from models.base_block import TransformerClassifier
 from tools.function import get_pedestrian_metrics
 from tools.utils import time_str, set_seed
+from utils.train_utils import AverageMeter
 from clip import clip
 from clip.model import build_model
 from torchvision import transforms
@@ -86,7 +87,7 @@ def main(args, image_root):
     preds_probs = []
     gt_list = []
     with torch.no_grad():
-        for step, (imgs, imgname) in enumerate(valid_loader):
+        for step, (imgs, imgname) in enumerate(data_loader):
             imgs = imgs.cuda()
             valid_logits,_ = model(imgs, clip_model=clip_model)
 
