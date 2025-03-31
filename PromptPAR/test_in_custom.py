@@ -108,4 +108,5 @@ if __name__ == '__main__':
     parser = argument_parser()
     image_root = ''
     args = parser.parse_args()
-    main(args)
+    main(args, image_root)
+
