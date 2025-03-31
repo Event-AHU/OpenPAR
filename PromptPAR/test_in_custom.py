@@ -22,42 +22,13 @@ set_seed(605)
 device = "cuda" if torch.cuda.is_available() else "cpu"
 # attr_words的设置取决于你加载哪个数据集训练的checkpoint 例如PETA
 attr_words = [
-   'head hat',
-   'head muffler',
-   'head nothing',
-   'head sunglasses',
-   'head long hair',
-   'upper casual', 
-   'upper formal', 
-   'upper jacket', 
-   'upper logo', 
-   'upper plaid', 
-   'upper short sleeve', 
-   'upper thin stripes', 
-   'upper t-shirt',
-   'upper other',
-   'upper v-neck',
-   'lower Casual', 
-   'lower Formal', 
-   'lower Jeans', 
-   'lower Shorts', 
-   'lower Short Skirt',
-   'lower Trousers',
-   'shoes Leather', 
-   'shoes Sandals', 
-   'shoes other', 
-   'shoes sneaker',
-   'attach Backpack', 
-   'attach Other', 
-   'attach messenger bag', 
-   'attach nothing', 
-   'attach plastic bags',
-   'age less 30',
-   'age 30 45',
-   'age 45 60',
-   'age over 60',
-   'male'
-] # 54 
+   'head hat','head muffler','head nothing','head sunglasses','head long hair',
+   'upper casual', 'upper formal', 'upper jacket', 'upper logo', 'upper plaid', 
+   'upper short sleeve', 'upper thin stripes', 'upper t-shirt','upper other','upper v-neck',
+   'lower Casual', 'lower Formal', 'lower Jeans', 'lower Shorts', 'lower Short Skirt','lower Trousers',
+   'shoes Leather', 'shoes Sandals', 'shoes other', 'shoes sneaker',
+   'attach Backpack', 'attach Other', 'attach messenger bag', 'attach nothing', 'attach plastic bags',
+   'age less 30','age 30 45','age 45 60','age over 60',] # 34 
 
 class CustomDataset(Dataset):
     def __init__(self, image_root, transform=None):
