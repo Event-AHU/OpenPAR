@@ -11,6 +11,7 @@
 
 
 ## :dart: Update Log：
+:fire: [Apr-15-2025] A new large-scale bimodal benchmark dataset, EventPAR, and an asymmetric RWKV fusion framework have been released. 
 
 :fire: [Dec-10-2024] LLM-PAR is accepted by AAAI-2025!
 
@@ -28,7 +29,7 @@
 ## :dart: Papers:
 * **Benchmark** 
       [MSP60K&LLM-PAR](https://arxiv.org/pdf/2408.09720)
-  
+      [EventPAR](http://arxiv.org/abs/2504.10018)
 * **Image-based PAR** 
       [PromptPAR](https://arxiv.org/pdf/2312.10692), 
       [SequencePAR](https://arxiv.org/pdf/2312.01640), 
@@ -37,6 +38,7 @@
 
 * **Video-based PAR** 
       [VTFPAR++](https://arxiv.org/pdf/2404.17929)
+      
 
 
 ## :dart: Supported Datasets
@@ -48,7 +50,7 @@ PETA, PA100K, RAPv1, RAPv2, WIDER, PETA-ZS, RAP-ZS, MSP60K
 
 * **Video-based PAR dataset** 
 ```
-MARS-Attribute dataset, DukeMTMC-VID-Attribute dataset
+MARS-Attribute dataset, DukeMTMC-VID-Attribute dataset, EventPAR dataset
 ```
 
 
@@ -61,6 +63,27 @@ Download the PETA dataset from [here](http://mmlab.ie.cuhk.edu.hk/projects/PETA.
 Organize them in `your dataset root dir` folder as follows:
 ```
 |-- your dataset root dir/
+|   |-- <EventPAR>/
+|       |-- Video_1
+|            |-- rgb
+|                |-- xxx.bmp
+|                |-- xxx.bmp
+|                |-- ...
+|            |-- rgbv3
+|                |-- xxx.bmp
+|                |-- xxx.bmp
+|                |-- ...
+|            |-- event
+|                |-- xxx.bmp
+|                |-- xxx.bmp
+|                |-- ...
+|            |-- stream
+|                |-- xxx.npz
+|                |-- xxx.npz
+|                |-- ...
+|       |-- ...
+|       |-- datset.pkl
+| 
 |   |-- <MSP60K>/
 |       |-- degrade_image
 |            |-- xxxx.png
@@ -119,10 +142,15 @@ We fill the images in the original dataset as a square with a simple black borde
 We provide processing code for the currently available publicly available pedestrian attribute identification dataset
 
 
+## :dart: [EventPAR Benchmark Dataset]() 
+**[arXiv:2504.10018] RGB-Event based Pedestrian Attribute Recognition: A Benchmark Dataset and An Asymmetric RWKV Fusion Framework**, arXiv 2025, 
+Xiao Wang, Haiyang Wang, Shiao Wang, Qiang Chen, Jiandong Jin, Haoyu Song, Bo Jiang, Chenglong Li  
+[[Paper](http://arxiv.org/abs/2504.10018)]
 
-
-
-
+Existing pedestrian attribute recognition methods are generally developed based on RGB frame cameras. However, these approaches are constrained by the limitations of RGB cameras, such as sensitivity to lighting conditions and motion blur, which hinder their performance. Furthermore, current attribute recognition primarily focuses on analyzing pedestrians’ external appearance and clothing, lacking an exploration of emotional dimensions. In this paper, we revisit these issues and propose a novel multi-modal RGB-Event attribute recognition task by drawing inspiration from the advantages of event cameras in low-light, high-speed, and low-power consumption. Specifically, we introduce the first large-scale multimodal pedestrian attribute recognition dataset, termed EventPAR, comprising 100K paired RGB-Event samples that cover 50 attributes related to both appearance and six human emotions, diverse scenes, and various seasons. By retraining and evaluating mainstream PAR models on this dataset, we establish a comprehensive benchmark and provide a solid foundation for future research in terms of data and algorithmic baselines. In addition, we propose a novel RWKV-based multi-modal pedestrian attribute recognition framework, featuring an RWKV visual encoder and an asymmetric RWKV fusion module. Extensive experiments are conducted on our proposed dataset as well as two simulated datasets (MARS-Attribute and DukeMTMC-VID-Attribute), achieving state-of-the-art results. 
+![EventPAR](https://github.com/Event-AHU/OpenPAR/blob/main/EventPAR_Benchmark/figures/dataset_sample.jpg)
+![EventPAR](https://github.com/Event-AHU/OpenPAR/blob/main/EventPAR_Benchmark/figures/framework.jpg)
+![EventPAR](https://github.com/Event-AHU/OpenPAR/blob/main/EventPAR_Benchmark/figures/OTNmodule.jpg)
 
 ## :dart: [MSP60K Benchmark Dataset, LLM-PAR]() 
 **[arXiv:2408.09720] Pedestrian Attribute Recognition: A New Benchmark Dataset and A Large Language Model Augmented Framework**, arXiv 2024, 
