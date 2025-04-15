@@ -28,7 +28,7 @@
 
 ## :dart: Papers:
 * **Benchmark** 
-      [MSP60K&LLM-PAR](https://arxiv.org/pdf/2408.09720)
+      [MSP60K&LLM-PAR](https://arxiv.org/pdf/2408.09720),
       [EventPAR](http://arxiv.org/abs/2504.10018)
 * **Image-based PAR** 
       [PromptPAR](https://arxiv.org/pdf/2312.10692), 
