@@ -1,0 +1,1 @@
+python train.py EventPAR --multi --fusion_mode otn_rwkv  
