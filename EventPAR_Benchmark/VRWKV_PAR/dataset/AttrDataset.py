@@ -35,7 +35,7 @@ class MultiModalAttrDataset(data.Dataset):
         
         if args.dataset=='EventPAR':
             self.attributes=dataset_info.attr_name
-            self.root_path = "/media/amax/c08a625b-023d-436f-b33e-9652dc1bc7c01/DATA/dataset/EventPAR/"
+            self.root_path = "/path/to/your/folder"
         self.attr_num = len(self.attributes)
         
         
