@@ -24,7 +24,7 @@ def argument_parser():
     parser.add_argument("--redirector", action='store_false')
     parser.add_argument("--epoch_save_ckpt", type=int, default=50)
     parser.add_argument('--rwkv_config', default='models/vrwkv_configs/vrwkv6/vrwkv6_base_16xb64_in1k.py', help='config file path')
-    parser.add_argument('--rwkv_checkpoint', default='/media/amax/c08a625b-023d-436f-b33e-9652dc1bc7c01/DATA/wanghaiyang/baseline/VRWKV_PAR_fusion/checkpoints/vrwkv6_b_in1k_224.pth', help='checkpoint file')
+    parser.add_argument('--rwkv_checkpoint', default='/path/to/your/folder/checkpoints/vrwkv6_b_in1k_224.pth', help='checkpoint file')
     
     parser.add_argument("--multi", action='store_true')
     parser.add_argument("--fusion_mode", type=str, default="otn_rwkv", choices=['concat', 'add', 'conv','otn_rwkv'])
