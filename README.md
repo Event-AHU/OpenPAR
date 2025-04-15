@@ -11,7 +11,7 @@
 
 
 ## :dart: Update Log：
-:fire: [Apr-15-2025] A new large-scale bimodal benchmark dataset, EventPAR, and an asymmetric RWKV fusion framework have been released. 
+:fire: [Apr-15-2025] A new large-scale bimodal benchmark dataset, EventPAR, and an asymmetric RWKV fusion framework is released. 
 
 :fire: [Dec-10-2024] LLM-PAR is accepted by AAAI-2025!
 
