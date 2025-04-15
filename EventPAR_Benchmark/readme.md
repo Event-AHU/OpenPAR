@@ -23,6 +23,12 @@ Our EventPAR dataset consists of 100K paired RGB-Event samples and 50 attribute 
 </p>
 
 #### Benchmark Results 
+<p align="center">
+  <img src="figures/EventPAR.png" width="80%">
+</p>
+<p align="center">
+  <img src="figures/Mars_duke.png" width="80%">
+</p>
 
 
 #### Newly Proposed LLM-PAR Framework 
@@ -34,9 +40,33 @@ Our EventPAR dataset consists of 100K paired RGB-Event samples and 50 attribute 
 </p>
 
 #### Environment Configure 
+We use a single NVIDIA RTX 3090 GPU for training and evaluation. Create Environment
+```
+conda create -n EventPAR python=3.9
+conda activate EventPAR
+pip install requirements.txt
+```
+Dataset Preparation Refer To [README](https://github.com/Event-AHU/OpenPAR/blob/main/README.md).
+
+Change the dataset `PKL` and the `Dataset Image` in [local.py](https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/LLM-PAR/local.py)
 
 #### Training  
-
+```
+bash train.sh
+```
 #### Anknowledgement 
-
+Our code is extended from the following repositories. We sincerely appreciate for their contributions.
+* [Vicuna-7b](https://github.com/lm-sys/FastChat)
+* [EVA-CLIP-Gint](https://github.com/baaivision/EVA/blob/master/EVA-CLIP)
+* [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4)
+* [BLIP2](https://github.com/salesforce/LAVIS)
 #### Citation 
+If you find this work helps your research, please star this GitHub and cite the following papers: 
+```bibtex
+@article{jin2024pedestrian,
+  title={Pedestrian Attribute Recognition: A New Benchmark Dataset and A Large Language Model Augmented Framework},
+  author={Jin, Jiandong and Wang, Xiao and Zhu, Qian and Wang, Haiyang and Li, Chenglong},
+  journal={arXiv preprint arXiv:2408.09720},
+  year={2024}
+}
+```
