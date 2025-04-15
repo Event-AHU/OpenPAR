@@ -11,7 +11,7 @@ from config import argument_parser
 parser = argument_parser()
 args = parser.parse_args()
 class TransformerClassifier(nn.Module):
-    def __init__(self, attr_num, dim=768, pretrain_path='/media/amax/c08a625b-023d-436f-b33e-9652dc1bc7c01/DATA/wanghaiyang/baseline/VRWKV_PAR_fusion/checkpoints/jx_vit_base_p16_224-80ecf9dd.pth'):
+    def __init__(self, attr_num, dim=768, pretrain_path='/path/to/your/folder/checkpoints/jx_vit_base_p16_224-80ecf9dd.pth'):
         super().__init__()
         self.attr_num = attr_num
         self.dim = dim
