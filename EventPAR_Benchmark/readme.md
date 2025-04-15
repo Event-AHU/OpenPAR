@@ -31,7 +31,7 @@ Our EventPAR dataset consists of 100K paired RGB-Event samples and 50 attribute 
 </p>
 
 
-#### Newly Proposed LLM-PAR Framework 
+#### Newly Proposed EPAR Framework 
 <p align="center">
   <img src="figures/framework.jpg" width="80%">
 </p>
@@ -44,29 +44,33 @@ We use a single NVIDIA RTX 3090 GPU for training and evaluation. Create Environm
 ```
 conda create -n EventPAR python=3.9
 conda activate EventPAR
-pip install requirements.txt
+pip install -r requirements.txt
 ```
-Dataset Preparation Refer To [README](https://github.com/Event-AHU/OpenPAR/blob/main/README.md).
-
-Change the dataset `PKL` and the `Dataset Image` in [local.py](https://github.com/Event-AHU/OpenPAR/blob/main/MSP60K_Benchmark_Dataset/LLM-PAR/local.py)
-
+Dataset Preparation Refer To [README](https://github.com/Event-AHU/OpenPAR/blob/main/README.md), and get the pkl file
+```
+python EventPAR.py
+```
+Modify the dataset's PKL file and sample data in [AttrDataset.py](https://github.com/Event-AHU/OpenPAR/EventPAR_Benchmark/VRWKV_PAR/AttrDataset.py)
+We use the [RWKV](https://github.com/OpenGVLab/Vision-RWKV) as our visual encoder, these weight path can be changed in [config.py](https://github.com/Event-AHU/OpenPAR/EventPAR_Benchmark/VRWKV_PAR/config.py).
 #### Training  
 ```
 bash train.sh
 ```
 #### Anknowledgement 
 Our code is extended from the following repositories. We sincerely appreciate for their contributions.
-* [Vicuna-7b](https://github.com/lm-sys/FastChat)
-* [EVA-CLIP-Gint](https://github.com/baaivision/EVA/blob/master/EVA-CLIP)
-* [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4)
-* [BLIP2](https://github.com/salesforce/LAVIS)
+* [VTB](https://github.com/cxh0519/VTB/tree/main)
+* [Vision-RWKV](https://github.com/OpenGVLab/Vision-RWKV)
+  
 #### Citation 
 If you find this work helps your research, please star this GitHub and cite the following papers: 
 ```bibtex
-@article{jin2024pedestrian,
-  title={Pedestrian Attribute Recognition: A New Benchmark Dataset and A Large Language Model Augmented Framework},
-  author={Jin, Jiandong and Wang, Xiao and Zhu, Qian and Wang, Haiyang and Li, Chenglong},
-  journal={arXiv preprint arXiv:2408.09720},
-  year={2024}
+@misc{wang2025rgbeventbasedpedestrianattribute,
+      title={RGB-Event based Pedestrian Attribute Recognition: A Benchmark Dataset and An Asymmetric RWKV Fusion Framework}, 
+      author={Xiao Wang and Haiyang Wang and Shiao Wang and Qiang Chen and Jiandong Jin and Haoyu Song and Bo Jiang and Chenglong Li},
+      year={2025},
+      eprint={2504.10018},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.10018}, 
 }
 ```
