@@ -65,19 +65,19 @@ Organize them in `your dataset root dir` folder as follows:
 |-- your dataset root dir/
 |   |-- <EventPAR>/
 |       |-- Video_1
-|            |-- rgb
+|            |-- rgb_raw
 |                |-- xxx.bmp
 |                |-- xxx.bmp
 |                |-- ...
-|            |-- rgbv3
+|            |-- rgb_degraded
 |                |-- xxx.bmp
 |                |-- xxx.bmp
 |                |-- ...
-|            |-- event
+|            |-- event_frames
 |                |-- xxx.bmp
 |                |-- xxx.bmp
 |                |-- ...
-|            |-- stream
+|            |-- event_streams
 |                |-- xxx.npz
 |                |-- xxx.npz
 |                |-- ...
