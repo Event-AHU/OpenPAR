@@ -8,7 +8,7 @@ Existing pedestrian attribute recognition methods are generally developed based 
 </p>
 
 #### EventPAR Dataset 
-Our EventPAR dataset consists of 100K paired RGB-Event samples and 50 attribute annotations across two seasons. The original and degraded versions of our EventPAR dataset have been released. Each video sample contains four components: `rgb_raw`, `rgb_degraded`, `event_frames`, and `event_streams`.
+Our EventPAR dataset consists of 100K paired RGB-Event samples and 50 attribute annotations across two seasons. The original and degraded versions of our EventPAR dataset were released on  [BaiDuYun](https://pan.baidu.com/s/1qhRgMnky0Mqj3AewOIOgUQ?pwd=5sxr) . Each video sample contains four components: `rgb_raw`, `rgb_degraded`, `event_frames`, and `event_streams`. The original images of our MSP60k dataset were released on
 <p align="center">
   <img src="figures/dataset_sample.jpg" width="80%">
 </p>
