@@ -51,7 +51,7 @@ Dataset Preparation Refer To [README](https://github.com/Event-AHU/OpenPAR/blob/
 python EventPAR.py
 ```
 Modify the dataset's PKL file and sample data in [AttrDataset.py](https://github.com/Event-AHU/OpenPAR/blob/main/EventPAR_Benchmark/VRWKV_PAR/dataset/AttrDataset.py)
-We use the [RWKV](https://github.com/OpenGVLab/Vision-RWKV) as our visual encoder, these weight path can be changed in [config.py](https://github.com/Event-AHU/OpenPAR/blob/main/EventPAR_Benchmark/VRWKV_PAR/config.py). Required weights: [RWKV6-B](https://pan.baidu.com/s/1a4613WWmU6xPUgoyKGbSVA?pwd=1ff5),  [ViT-B/16](https://pan.baidu.com/s/1gRghu3Kg3pJspWkDk4feQA?pwd=7h3h)
+We use the [RWKV](https://github.com/OpenGVLab/Vision-RWKV) as our visual encoder, these weight path can be changed in [config.py](https://github.com/Event-AHU/OpenPAR/blob/main/EventPAR_Benchmark/VRWKV_PAR/config.py). Required weights: [RWKV6-B](https://pan.baidu.com/s/1JwNMZI-q1TI4jVaALAzLyw?pwd=g3ix),  [ViT-B/16](https://pan.baidu.com/s/1yd5ZpwbtPzlaZShDxq8v9w?pwd=issp)
 #### Training  
 ```
 bash train.sh
