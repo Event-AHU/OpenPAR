@@ -47,7 +47,7 @@ def generate_data_description(save_dir):
     # (19000, 35)
     dataset.attr_name = [raw_attr_name[i] for i in group_order]
     dataset.attributes=attr_words   
-    dataset.neg_attr_words=neg_attr_words
+    dataset.neg_attr_words=None
     dataset.expand_pos_attr_words=None
     dataset.expand_neg_attr_words=None
     breakpoint()
