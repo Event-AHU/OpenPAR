@@ -30,6 +30,9 @@ ftfy
 regex
 ```
 
+## Dataset Processing 
+The "**PETA.mat**" can be found from: [https://github.com/ZJ96/deeplearning_project/tree/master/pedestrian_attribute_recognition](https://github.com/ZJ96/deeplearning_project/tree/master/pedestrian_attribute_recognition) 
+
 ## Training
 ```python
 python train.py PETA --use_text_prompt --use_div --use_vismask --use_GL --use_mm_former
