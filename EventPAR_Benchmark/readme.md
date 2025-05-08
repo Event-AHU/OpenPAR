@@ -22,6 +22,12 @@ Our EventPAR dataset consists of 100K paired RGB-Event samples and 50 attribute 
   <img src="figures/token_select_visual.jpg" width="80%">
 </p>
 
+
+* You can also download the EventPAR dataset from [[**DropBox (EventPAR)**](https://www.dropbox.com/scl/fo/rl0w4xvr5cpovxznsyh6z/AL243O1R5CjyBUD-uLtkTac?rlkey=mc3lf6epp8f3spyhz2mm7lkmx&st=wrbdfbo5&dl=0)], if you can't obtain it from baidu drive. 
+
+
+
+
 #### Benchmark Results 
 <p align="center">
   <img src="figures/EventPAR.png" width="80%">
