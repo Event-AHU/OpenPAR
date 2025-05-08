@@ -7,8 +7,17 @@ Existing pedestrian attribute recognition methods are generally developed based 
   <img src="figures/firstIMG.png" width="80%">
 </p>
 
+
+
 #### EventPAR Dataset 
-Our EventPAR dataset consists of 100K paired RGB-Event samples and 50 attribute annotations across two seasons. The original and degraded versions of our EventPAR dataset were released on  [BaiDuYun](https://pan.baidu.com/s/1qhRgMnky0Mqj3AewOIOgUQ?pwd=5sxr) . Each video sample contains four components: `rgb_raw`, `rgb_degraded`, `event_frames`, and `event_streams`. The original images of our MSP60k dataset were released on
+
+* EventPAR dataset consists of 100K paired RGB-Event samples and 50 attribute annotations across two seasons. The original and degraded versions of our EventPAR dataset were released on
+  [**BaiDuYun**](https://pan.baidu.com/s/1qhRgMnky0Mqj3AewOIOgUQ?pwd=5sxr).
+  Each video sample contains four components: `rgb_raw`, `rgb_degraded`, `event_frames`, and `event_streams`.
+
+* You can also download the EventPAR dataset from [[**DropBox (EventPAR)**](https://www.dropbox.com/scl/fo/rl0w4xvr5cpovxznsyh6z/AL243O1R5CjyBUD-uLtkTac?rlkey=mc3lf6epp8f3spyhz2mm7lkmx&st=wrbdfbo5&dl=0)], if you can't obtain it from Baidu drive. 
+
+
 <p align="center">
   <img src="figures/dataset_sample.jpg" width="80%">
 </p>
@@ -23,7 +32,6 @@ Our EventPAR dataset consists of 100K paired RGB-Event samples and 50 attribute 
 </p>
 
 
-* You can also download the EventPAR dataset from [[**DropBox (EventPAR)**](https://www.dropbox.com/scl/fo/rl0w4xvr5cpovxznsyh6z/AL243O1R5CjyBUD-uLtkTac?rlkey=mc3lf6epp8f3spyhz2mm7lkmx&st=wrbdfbo5&dl=0)], if you can't obtain it from baidu drive. 
 
 
 
