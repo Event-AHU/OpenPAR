@@ -15,7 +15,9 @@ Existing pedestrian attribute recognition methods are generally developed based 
   [**BaiDuYun**](https://pan.baidu.com/s/1qhRgMnky0Mqj3AewOIOgUQ?pwd=5sxr).
   Each video sample contains four components: `rgb_raw`, `rgb_degraded`, `event_frames`, and `event_streams`.
 
-* You can also download the EventPAR dataset from [[**DropBox (EventPAR)**](https://www.dropbox.com/scl/fo/rl0w4xvr5cpovxznsyh6z/AL243O1R5CjyBUD-uLtkTac?rlkey=mc3lf6epp8f3spyhz2mm7lkmx&st=wrbdfbo5&dl=0)], if you can't obtain it from Baidu drive. 
+* You can also download the EventPAR dataset from [[**DropBox (EventPAR)**](https://www.dropbox.com/scl/fo/rl0w4xvr5cpovxznsyh6z/AL243O1R5CjyBUD-uLtkTac?rlkey=mc3lf6epp8f3spyhz2mm7lkmx&st=wrbdfbo5&dl=0)], if you can't obtain it from Baidu Drive.
+
+* A tiny version [FE_PAR_CROP (272MB)](https://www.dropbox.com/scl/fi/pz5l3cut55wobxpe7hquu/FE_PAR_CROP.zip?rlkey=a2myvy2zhpqojq5vvk1nct7ch&st=xqs7yqst&dl=0) is released to help understand the format of this dataset. 
 
 
 <p align="center">
