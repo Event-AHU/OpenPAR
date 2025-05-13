@@ -49,8 +49,6 @@ pip install -r .\requirements.txt
 链接: https://pan.baidu.com/s/1Gv_VUSSb0QCDgD2evLrw7w?pwd=upfs 提取码: upfs
 ``` 
 
-* The "**PETA.mat**" can be found from: [https://github.com/ZJ96/deeplearning_project/tree/master/pedestrian_attribute_recognition](https://github.com/ZJ96/deeplearning_project/tree/master/pedestrian_attribute_recognition)
-
 * Process the PETA dataset using the following script:
 ```python
   cd .\dataset\preprocess\ && python .\peta_pad.py
