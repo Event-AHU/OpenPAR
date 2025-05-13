@@ -57,8 +57,8 @@ pip install -r .\requirements.txt
 ```
 It will generate a new file ``pad.pkl". 
 
-* pre-trained weights needed: [[**jx_vit_base_p16_224-80ecf9dd.pth**](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth
-)]
+* The pre-trained weight file is needed:
+  [[**jx_vit_base_p16_224-80ecf9dd.pth**](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth)] Download it and place it under ``OpenPAR-main/PromptPAR/" 
 
 
 ## Training Script 
