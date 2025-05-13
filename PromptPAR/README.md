@@ -27,6 +27,14 @@ ftfy
 regex
 ```
 
+
+### Configuration for Windows System 
+* Download and install **CUDA** from [https://developer.nvidia.com/cuda-toolkit-archive](https://developer.nvidia.com/cuda-toolkit-archive)
+* 
+ 
+
+
+
 ## Dataset Processing 
 * The "**PETA.mat**" can be found from: [https://github.com/ZJ96/deeplearning_project/tree/master/pedestrian_attribute_recognition](https://github.com/ZJ96/deeplearning_project/tree/master/pedestrian_attribute_recognition) 
 
