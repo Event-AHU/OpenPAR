@@ -37,13 +37,25 @@ pip install -r .\requirements.txt
 ```
 
 * Download and install **CUDA** from [https://developer.nvidia.com/cuda-toolkit-archive](https://developer.nvidia.com/cuda-toolkit-archive)
-* 
+
  
 
 
 
-## Dataset Processing 
-* The "**PETA.mat**" can be found from: [https://github.com/ZJ96/deeplearning_project/tree/master/pedestrian_attribute_recognition](https://github.com/ZJ96/deeplearning_project/tree/master/pedestrian_attribute_recognition) 
+## Dataset Processing (Here, let's take the PETA for an example) 
+
+* Download the PETA dataset directly from the Baidu Drive and place it under ``OpenPAR-main\PromptPAR\dataset"
+```python
+链接: https://pan.baidu.com/s/1Gv_VUSSb0QCDgD2evLrw7w?pwd=upfs 提取码: upfs
+``` 
+
+* The "**PETA.mat**" can be found from: [https://github.com/ZJ96/deeplearning_project/tree/master/pedestrian_attribute_recognition](https://github.com/ZJ96/deeplearning_project/tree/master/pedestrian_attribute_recognition)
+
+* Process the PETA dataset using the following script:
+```python
+  cd .\dataset\preprocess\ && python .\peta_pad.py
+```
+It will generate a new file ``pad.pkl". 
 
 * pre-trained weights needed: [[**jx_vit_base_p16_224-80ecf9dd.pth**](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth
 )]
