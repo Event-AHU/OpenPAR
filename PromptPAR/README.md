@@ -69,7 +69,7 @@ python train.py PETA --use_textprompt --use_div --use_vismask --use_GL --use_mm_
 
 If you meet the following issues
 
-<img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/screenshot_001.png" width="600">
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/screenshot_001.png" width="800">
 
 please modify the **num_workers** to a smaller one (default num_workers=8), such as: 
 ```python
@@ -93,7 +93,7 @@ please modify the **num_workers** to a smaller one (default num_workers=8), such
 
 
 If you handle all the issues, you can train the PromptPAR successfully!
-<img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/screenshot_002.png" width="600">
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/screenshot_002.png" width="800">
 
 
 ## Test Script 
