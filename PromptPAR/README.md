@@ -29,6 +29,13 @@ regex
 
 
 ### Configuration for Windows System 
+```python
+conda create -n OpenPAR
+conda activate OpenPAR
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip install -r .\requirements.txt
+```
+
 * Download and install **CUDA** from [https://developer.nvidia.com/cuda-toolkit-archive](https://developer.nvidia.com/cuda-toolkit-archive)
 * 
  
