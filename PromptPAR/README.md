@@ -71,7 +71,7 @@ If you meet the following issues
 
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/screenshot_001.png" width="800">
 
-please modify the **num_workers** to a smaller one (default num_workers=8), such as: 
+please modify the **num_workers** in the **train.py** to a smaller one (default num_workers=8), such as: 
 ```python
     train_set = MultiModalAttrDataset(args=args, split=args.train_split, transform=train_tsfm) 
     train_loader = DataLoader(
