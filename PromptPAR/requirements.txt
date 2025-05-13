@@ -1,0 +1,7 @@
+scipy
+pillow
+easydict
+tqdm
+opencv-python
+ftfy
+regex
