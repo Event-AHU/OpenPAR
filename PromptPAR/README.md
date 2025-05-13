@@ -66,6 +66,36 @@ It will generate a new file ``pad.pkl".
 python train.py PETA --use_textprompt --use_div --use_vismask --use_GL --use_mm_former
 ```
 
+
+If you meet the following issues
+
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/screenshot_001.png" width="600">
+
+please modify the **num_workers** to a smaller one (default num_workers=8), such as: 
+```python
+    train_set = MultiModalAttrDataset(args=args, split=args.train_split, transform=train_tsfm) 
+    train_loader = DataLoader(
+        dataset=train_set,
+        batch_size=args.batchsize, 
+        shuffle=True,
+        num_workers=2, 
+        pin_memory=True,  
+    )
+    valid_set = MultiModalAttrDataset(args=args, split=args.valid_split, transform=valid_tsfm) 
+    valid_loader = DataLoader(
+        dataset=valid_set,
+        batch_size=args.batchsize,
+        shuffle=False,
+        num_workers=2,
+        pin_memory=True,
+    )
+```
+
+
+If you handle all the issues, you can train the PromptPAR successfully!
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/PromptPAR/figures/screenshot_002.png" width="600">
+
+
 ## Test Script 
 ```python
 python test_example.py PETA --checkpoint --dir your_dir --use_div --use_vismask --vis_prompt 50 --use_GL --use_textprompt --use_mm_former 
