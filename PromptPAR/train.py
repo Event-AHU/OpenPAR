@@ -28,10 +28,10 @@ def main(args):
     print(f'start_time is {start_time}')
     log_dir = os.path.join('logs', args.dataset)
     if not os.path.exists(log_dir):
-        os.mkdir(log_dir)
+        os.makedirs(log_dir)
     log_dir = os.path.join(log_dir, start_time)
     if not os.path.exists(log_dir):
-        os.mkdir(log_dir)
+        os.makedirs(log_dir)
     stdout_file = os.path.join(log_dir, f'stdout_{time_str()}.txt')
 
     if args.redirector:
