@@ -9,7 +9,7 @@ np.random.seed(0)
 random.seed(0)
 
 # note: ref by annotation.md
-attributes = [
+attr_words = [
     'A pedestrian wearing a hat', 'A pedestrian wearing a muffler', 'A pedestrian with no headwear', 'A pedestrian wearing sunglasses', 'A pedestrian with long hair',
     'A pedestrian in casual upper wear', 'A pedestrian in formal upper wear', 'A pedestrian in a jacket', 'A pedestrian in upper wear with a logo', 'A pedestrian in plaid upper wear',
     'A pedestrian in a short-sleeved top', 'A pedestrian in upper wear with thin stripes', 'A pedestrian in a t-shirt', 'A pedestrian in other upper wear', 'A pedestrian in upper wear with a V-neck',
@@ -47,10 +47,10 @@ def generate_data_description(save_dir):
     # (19000, 35)
     dataset.attr_name = [raw_attr_name[i] for i in group_order]
     dataset.attributes=attr_words   
-    dataset.neg_attr_words=None
+    # dataset.neg_attr_words=neg_attr_words
     dataset.expand_pos_attr_words=None
-    dataset.expand_neg_attr_words=None
-    breakpoint()
+    # dataset.expand_neg_attr_words=None
+    # breakpoint()
     dataset.label_idx = EasyDict()
     dataset.label_idx.eval = group_order
 
@@ -88,5 +88,5 @@ def generate_data_description(save_dir):
 
 
 if __name__ == "__main__":
-    save_dir = '/data/jinjiandong/datasets/PETA/'
+    save_dir = 'C:/Users/wangx/Downloads/OpenPAR-main/PromptPAR/dataset/PETA/'
     generate_data_description(save_dir)
