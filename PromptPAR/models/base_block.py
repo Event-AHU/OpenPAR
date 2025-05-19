@@ -11,6 +11,7 @@ class TransformerClassifier(nn.Module):
         super().__init__()
         self.attr_num = attr_num
         self.word_embed = nn.Linear(clip_model.visual.output_dim, dim)
+        self.visual_embed = nn.Linear(clip_model.visual.output_dim, dim)
         vit = vit_base()
         vit.load_param(pretrain_path)
         self.norm = vit.norm
@@ -33,7 +34,7 @@ class TransformerClassifier(nn.Module):
         else : 
             final_similarity = None
         textual_features = self.word_embed(text_features).expand(b_s, self.attr_num, self.dim)
-        x = torch.cat([textual_features,clip_image_features], dim=1)
+        x = torch.cat([textual_features, self.visual_embed(clip_image_features.float())], dim=1)
         
         if args.use_mm_former:
             for blk in self.blocks:
