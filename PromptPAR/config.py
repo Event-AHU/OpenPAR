@@ -34,7 +34,7 @@ def argument_parser():
     parser.add_argument("--clip_lr", type=float, default=4e-3)
     parser.add_argument("--clip_weight_decay", type=float, default=1e-4)
     
-    parser.add_argument("--mmformer_update_parameters", type=list, default=["word_embed", "weight_layer", "bn", "norm"])
+    parser.add_argument("--mmformer_update_parameters", type=list, default=["word_embed", "visual_embed", "weight_layer", "bn", "norm"])
     parser.add_argument("--clip_update_parameters", type=list, default=["prompt_deep", "prompt_text_deep", "part_class_embedding", "agg_bn", "softmax_model"])
     
     parser.add_argument("--train_split", type=str, default="trainval", choices=['train', 'trainval'])
