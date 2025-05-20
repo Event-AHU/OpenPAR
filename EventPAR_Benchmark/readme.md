@@ -60,9 +60,8 @@ We use a single NVIDIA RTX 3090 GPU for training and evaluation. Create Environm
 ```
 conda create -n EventPAR python=3.9
 conda activate EventPAR
-pip install -r requirements.txt
 ```
-Dataset Preparation Refer To [README](https://github.com/Event-AHU/OpenPAR/blob/main/README.md), and get the pkl file
+The information about the required packages for the virtual environment can be found in [package_list.txt](https://github.com/Event-AHU/OpenPAR/blob/main/EventPAR_Benchmark/package_list.txt), Dataset Preparation Refer To [README](https://github.com/Event-AHU/OpenPAR/blob/main/README.md), and get the pkl file
 ```
 python EventPAR.py
 ```
