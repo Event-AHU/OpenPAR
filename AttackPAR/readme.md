@@ -18,7 +18,7 @@ Pedestrian Attribute Recognition (PAR) is an indispensable task in human-centere
 ### Training and Testing 
 
 
-### Experimental Results 
+### :chart_with_upwards_trend: Experimental Results 
 
 
 ### Visualization 
