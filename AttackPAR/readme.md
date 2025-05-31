@@ -29,7 +29,15 @@ Pedestrian Attribute Recognition (PAR) is an indispensable task in human-centere
 
 ### :cupid: Citation 
 ```
-
+@misc{kong2025adversarialsemanticlabelperturbation,
+      title={Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition}, 
+      author={Weizhe Kong and Xiao Wang and Ruichong Gao and Chenglong Li and Yu Zhang and Xing Yang and Yaowei Wang and Jin Tang},
+      year={2025},
+      eprint={2505.23313},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.23313}, 
+}
 ```
 
 
