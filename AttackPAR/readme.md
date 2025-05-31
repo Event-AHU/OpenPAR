@@ -17,7 +17,13 @@ Pedestrian Attribute Recognition (PAR) is an indispensable task in human-centere
 ![image](https://github.com/user-attachments/assets/912c6073-0d8b-46c0-aebc-3330e54a42f1)
 
 ### :wrench: Environment Requirements 
-
+```
+python=3.10.13
+torch=2.1.1+cu118
+torchaudio=2.1.1+cu118
+torchvision=0.16.1+cu118
+transformers=4.35.2
+```
 
 ### :hammer:  Training and Testing 
 
