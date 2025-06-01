@@ -13,8 +13,15 @@ Pedestrian Attribute Recognition (PAR) is an indispensable task in human-centere
 #### Attack method:
 ![image](https://github.com/user-attachments/assets/13682aa3-ce93-468c-a1a7-c387bae09b7f)
 
+
+
+
 #### Defense method:
-![image](https://github.com/user-attachments/assets/912c6073-0d8b-46c0-aebc-3330e54a42f1)
+<p align="center">
+    <img src="[figures/OTNmodule.jpg](https://github.com/user-attachments/assets/912c6073-0d8b-46c0-aebc-3330e54a42f1)" width="80%">
+</p>
+
+
 
 ### :wrench: Environment Requirements 
 ```
