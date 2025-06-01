@@ -1,5 +1,10 @@
 ## Adversarial Attack Meets PAR 
 
+<p align="center">
+    <img src="[figures/firstIMG](https://github.com/Event-AHU/OpenPAR/blob/main/AttackPAR/firstIMG.jpg)" width="80%">
+</p>
+
+
 > **[Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition]()**, Weizhe Kong, Xiao Wang*, Ruichong Gao, Chenglong Li*, Yu Zhang, Xing Yang, Yaowei Wang, Jin Tang 
 
 
@@ -18,8 +23,9 @@ Pedestrian Attribute Recognition (PAR) is an indispensable task in human-centere
 
 #### Defense method:
 <p align="center">
-    <img src="[figures/OTNmodule.jpg](https://github.com/user-attachments/assets/912c6073-0d8b-46c0-aebc-3330e54a42f1)" width="80%">
+    <img src="[figures/DefenseFrameworkV2.jpg](https://github.com/Event-AHU/OpenPAR/blob/main/AttackPAR/DefenseFrameworkV2.jpg)" width="80%">
 </p>
+
 
 
 
