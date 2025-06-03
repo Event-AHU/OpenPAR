@@ -84,7 +84,7 @@ CUDA_VISIBLE_DEVICES=1 python test_ourattack.py \
 Our code is extended from the following repositories. We sincerely appreciate for their contributions.
 * [CLIP](https://github.com/openai/CLIP)
 * [PromptPAR](https://github.com/Event-AHU/OpenPAR/tree/main/PromptPAR)
-* 
+
 ### :cupid: Citation 
 ```
 @misc{kong2025adversarialsemanticlabelperturbation,
