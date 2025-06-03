@@ -35,10 +35,10 @@ torchvision=0.16.1+cu118
 transformers=4.35.2
 ```
 
-### :hammer:  Training
+### :hammer:  Training and Testing
 #### Training:
 ```
-CUDA_VISIBLE_DEVICES=2 python train_attack.py \
+CUDA_VISIBLE_DEVICES=1 python train_attack.py \
     --dataset PA100k \
     --use_textprompt \
     --use_div \
@@ -48,6 +48,19 @@ CUDA_VISIBLE_DEVICES=2 python train_attack.py \
     --lr 3e-3  \
     --batchsize 48 \
     --epoch 40
+```
+
+
+#### Testing:
+```
+CUDA_VISIBLE_DEVICES=1 python test_ourattack.py \
+    --dataset PETA \
+    --use_textprompt \
+    --use_div \
+    --use_vismask \
+    --use_GL \
+    --use_mm_former \
+    --batchsize 64
 ```
 
 
@@ -68,7 +81,11 @@ CUDA_VISIBLE_DEVICES=2 python train_attack.py \
 
 ### :gift_heart: Acknowledgement 
 
+Our code is extended from the following repositories. We sincerely appreciate for their contributions.
+* [CLIP](https://github.com/openai/CLIP)
+* [PromptPAR]([https://github.com/valencebond/Rethinking_of_PAR](https://github.com/Event-AHU/OpenPAR/tree/main/PromptPAR))
 
+* 
 ### :cupid: Citation 
 ```
 @misc{kong2025adversarialsemanticlabelperturbation,
