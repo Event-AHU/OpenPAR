@@ -87,7 +87,7 @@ Our code is extended from the following repositories. We sincerely appreciate fo
 
 ### :cupid: Citation 
 ```
-@misc{kong2025adversarialsemanticlabelperturbation,
+@misc{kong2025ASLPAR,
       title={Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition}, 
       author={Weizhe Kong and Xiao Wang and Ruichong Gao and Chenglong Li and Yu Zhang and Xing Yang and Yaowei Wang and Jin Tang},
       year={2025},
