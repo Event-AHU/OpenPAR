@@ -37,7 +37,7 @@ torchvision=0.16.1+cu118
 transformers=4.35.2
 ```
 
-The detailed information for each used package can be found at: [[package_list.txt](https://github.com/Event-AHU/OpenPAR/blob/main/AttackPAR/Figure/package%20list.txt)]
+The detailed information for each used package can be found at: [[package_list.txt](https://github.com/Event-AHU/OpenPAR/blob/main/AttackPAR/Figure/package_list.txt)]
 
 
 
