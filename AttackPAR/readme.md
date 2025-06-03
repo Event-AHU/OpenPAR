@@ -8,6 +8,8 @@
 
 
 
+
+
 ### :rocket: News 
 
 ### :bookmark_tabs: Abastract 
@@ -22,7 +24,7 @@ Pedestrian Attribute Recognition (PAR) is an indispensable task in human-centere
 
 #### Defense method:
 <p align="center">
-  <img width="65%" src="https://github.com/Event-AHU/OpenPAR/blob/main/AttackPAR/DefenseFrameworkV2.jpg" alt="Framework"/>
+  <img width="65%" src="https://github.com/Event-AHU/OpenPAR/blob/main/AttackPAR/Figure/DefenseFrameworkV2.jpg" alt="Framework"/>
 </p>
 
 
