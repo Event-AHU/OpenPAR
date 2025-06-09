@@ -11,7 +11,11 @@
 
 
 ## :dart: Update Log：
-:fire: [Apr-15-2025] A new large-scale bimodal benchmark dataset, EventPAR, and an asymmetric RWKV fusion framework is released. 
+
+:fire: [May-30-2025] Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition is released on 
+      [[arXiv](https://arxiv.org/abs/2505.23313)] 
+
+:fire: [Apr-15-2025] A new large-scale bimodal benchmark dataset, EventPAR, and an asymmetric RWKV fusion framework are released. 
 
 :fire: [Dec-10-2024] LLM-PAR is accepted by AAAI-2025!
 
@@ -30,6 +34,7 @@
 * **Benchmark** 
       [MSP60K&LLM-PAR](https://arxiv.org/pdf/2408.09720),
       [EventPAR](http://arxiv.org/abs/2504.10018)
+  
 * **Image-based PAR** 
       [PromptPAR](https://arxiv.org/pdf/2312.10692), 
       [SequencePAR](https://arxiv.org/pdf/2312.01640), 
@@ -142,7 +147,17 @@ We fill the images in the original dataset as a square with a simple black borde
 We provide processing code for the currently available publicly available pedestrian attribute identification dataset
 
 
-## :dart: [EventPAR Benchmark Dataset]() 
+## :dart: [Adversarial Attack and Defense for PAR]()  
+**[arXiv:2505.23313] Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition**, arXiv 2025, 
+Weizhe Kong, Xiao Wang*, Ruichong Gao, Chenglong Li*, Yu Zhang, Xing Yang, Yaowei Wang, Jin Tang
+[[Paper](https://arxiv.org/abs/2505.23313)]
+
+Pedestrian Attribute Recognition (PAR) is an indispensable task in human-centered research and has made great progress in recent years with the development of deep neural networks. However, the potential vulnerability and anti-interference ability have still not been fully explored. To bridge this gap, this paper proposes the first adversarial attack and defense framework for pedestrian attribute recognition. Specifically, we exploit both global- and patch-level attacks on the pedestrian images, based on the pre-trained CLIP-based PAR framework. It first divides the input pedestrian image into non-overlapping patches and embeds them into feature embeddings using a projection layer. Meanwhile, the attribute set is expanded into sentences using prompts and embedded into attribute features using a pre-trained CLIP text encoder. A multi-modal Transformer is adopted to fuse the obtained vision and text tokens, and a feed-forward network is utilized for attribute recognition. Based on the aforementioned PAR framework, we adopt the adversarial semantic and label-perturbation to generate the adversarial noise, termed ASL-PAR. We also design a semantic offset defense strategy to suppress the influence of adversarial attacks. Extensive experiments conducted on both digital domains (i.e., PETA, PA100K, MSP60K, RAPv2) and physical domains fully validated the effectiveness of our proposed adversarial attack and defense strategies for the pedestrian attribute recognition. The source code of this paper will be released on this https URL.
+![AdvPAR](https://github.com/Event-AHU/OpenPAR/blob/main/AttackPAR/framework2.jpg)
+
+
+
+## :dart: [PAR using an Event Camera]() 
 **[arXiv:2504.10018] RGB-Event based Pedestrian Attribute Recognition: A Benchmark Dataset and An Asymmetric RWKV Fusion Framework**, arXiv 2025, 
 Xiao Wang, Haiyang Wang, Shiao Wang, Qiang Chen, Jiandong Jin, Haoyu Song, Bo Jiang, Chenglong Li  
 [[Paper](http://arxiv.org/abs/2504.10018)]
@@ -150,6 +165,7 @@ Xiao Wang, Haiyang Wang, Shiao Wang, Qiang Chen, Jiandong Jin, Haoyu Song, Bo Ji
 Existing pedestrian attribute recognition methods are generally developed based on RGB frame cameras. However, these approaches are constrained by the limitations of RGB cameras, such as sensitivity to lighting conditions and motion blur, which hinder their performance. Furthermore, current attribute recognition primarily focuses on analyzing pedestrians’ external appearance and clothing, lacking an exploration of emotional dimensions. In this paper, we revisit these issues and propose a novel multi-modal RGB-Event attribute recognition task by drawing inspiration from the advantages of event cameras in low-light, high-speed, and low-power consumption. Specifically, we introduce the first large-scale multimodal pedestrian attribute recognition dataset, termed EventPAR, comprising 100K paired RGB-Event samples that cover 50 attributes related to both appearance and six human emotions, diverse scenes, and various seasons. By retraining and evaluating mainstream PAR models on this dataset, we establish a comprehensive benchmark and provide a solid foundation for future research in terms of data and algorithmic baselines. In addition, we propose a novel RWKV-based multi-modal pedestrian attribute recognition framework, featuring an RWKV visual encoder and an asymmetric RWKV fusion module. Extensive experiments are conducted on our proposed dataset as well as two simulated datasets (MARS-Attribute and DukeMTMC-VID-Attribute), achieving state-of-the-art results. 
 ![EventPAR](https://github.com/Event-AHU/OpenPAR/blob/main/EventPAR_Benchmark/figures/dataset_sample.jpg)
 ![EventPAR](https://github.com/Event-AHU/OpenPAR/blob/main/EventPAR_Benchmark/figures/framework.jpg)
+
 
 ## :dart: [MSP60K Benchmark Dataset, LLM-PAR]() 
 **[arXiv:2408.09720] Pedestrian Attribute Recognition: A New Benchmark Dataset and A Large Language Model Augmented Framework**, arXiv 2024, 
@@ -230,6 +246,48 @@ This project is under the MIT license. See [[license](https://github.com/Event-A
 ## :newspaper: Citation 
 If you find this work helps your research, please star this GitHub and cite the following papers: 
 ```bibtex
+
+@misc{kong2025AdvPAR,
+      title={Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition}, 
+      author={Weizhe Kong and Xiao Wang and Ruichong Gao and Chenglong Li and Yu Zhang and Xing Yang and Yaowei Wang and Jin Tang},
+      year={2025},
+      eprint={2505.23313},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.23313}, 
+}
+
+@misc{wang2025EventPARbenchmark,
+      title={RGB-Event based Pedestrian Attribute Recognition: A Benchmark Dataset and An Asymmetric RWKV Fusion Framework}, 
+      author={Xiao Wang and Haiyang Wang and Shiao Wang and Qiang Chen and Jiandong Jin and Haoyu Song and Bo Jiang and Chenglong Li},
+      year={2025},
+      eprint={2504.10018},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.10018}, 
+}
+
+@misc{jin2024MSP60Kbenchmark,
+      title={Pedestrian Attribute Recognition: A New Benchmark Dataset and A Large Language Model Augmented Framework}, 
+      author={Jiandong Jin and Xiao Wang and Qian Zhu and Haiyang Wang and Chenglong Li},
+      year={2024},
+      eprint={2408.09720},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2408.09720}, 
+}
+
+@misc{wang2024SNNPAR,
+      title={SNN-PAR: Energy Efficient Pedestrian Attribute Recognition via Spiking Neural Networks}, 
+      author={Haiyang Wang and Qian Zhu and Mowen She and Yabo Li and Haoyu Song and Minghe Xu and Xiao Wang},
+      year={2024},
+      eprint={2410.07857},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.07857}, 
+}
+
+
 @article{wang2024VTFPARpp,
   title={Spatio-Temporal Side Tuning Pre-trained Foundation Models for Video-based Pedestrian Attribute Recognition},
   author={Wang, Xiao and Zhu, Qian and Jin, Jiandong and Zhu, Jun and Wang, Futian and Jiang, Bo and Wang, Yaowei and Tian, Yonghong},
