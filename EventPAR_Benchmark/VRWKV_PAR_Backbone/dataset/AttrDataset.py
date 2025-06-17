@@ -69,8 +69,8 @@ class MultiModalAttrDataset(data.Dataset):
 
     def __getitem__(self, index):
         imgname, gt_label, imgidx = self.img_id[index], self.label[index], self.img_idx[index]
-        event_imgpath=os.path.join(self.root_path,imgname,'event')
-        rgb_imgpath=os.path.join(self.root_path, imgname,'rgbv3')
+        event_imgpath=os.path.join(self.root_path,imgname,'event_frames')
+        rgb_imgpath=os.path.join(self.root_path, imgname,'rgb_degraded')
         event_imgs = os.listdir(event_imgpath)
         rgb_imgs = sorted(os.listdir(rgb_imgpath))
 
