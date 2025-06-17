@@ -24,9 +24,9 @@ python pa100k.py
 ```
 
 ###  Teacher Checkpoint 
-You can get the weights of the teacher model by training the [VTB](https://github.com/cxh0519/VTB/tree/main) separately. 
+You can get the weights of the teacher model by training the [VTB](https://github.com/cxh0519/VTB/tree/main). 
 
-:grinning: **Surprise!** We also provide a pre-trained checkpoint file based on the PETA dataset 
+:arrow_right: **Surprise!** :grinning: We also provide a pre-trained checkpoint file based on the PETA dataset 
 [Baidu (PETA)](https://pan.baidu.com/s/1C76-pPb9OynViPHZZRMZfg?pwd=8stv)
 
 
