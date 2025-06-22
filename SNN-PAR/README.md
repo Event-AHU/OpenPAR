@@ -27,7 +27,7 @@ python pa100k.py
 You can get the weights of the teacher model by training the [VTB](https://github.com/cxh0519/VTB/tree/main). 
 
 :arrow_right: **Surprise!** :grinning: We also provide pre-trained checkpoint files based on the PETA and PA100k datasets, making it convenient for users to use directly or further fine-tune.
-[Baidu (PETA)](https://pan.baidu.com/s/1R4KPLm8xG4TTjzXMfWrLSA?pwd=wn6p) [Baidu (PA100K)](https://pan.baidu.com/s/1avHlZh8lN9EsUfDOOMTpRQ?pwd=7mc9)
+[Baidu (PETA)](https://pan.baidu.com/s/1WdBpVMvvgytfTYGsqWsBSQ?pwd=jcxi) [Baidu (PA100K)](https://pan.baidu.com/s/1Q3Rx9rWOdgz_9cmm70vBzw?pwd=xpbf)
 
 
 ## 🚀Training
