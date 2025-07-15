@@ -12,6 +12,10 @@
 
 ## :dart: Update Log：
 
+
+
+:fire: [July-15-2025] SNN-PAR is accepted by the 13th International Conference on Image and Graphics (ICIG 2025)
+
 :fire: [May-30-2025] Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition is released on 
       [[arXiv](https://arxiv.org/abs/2505.23313)] 
 
