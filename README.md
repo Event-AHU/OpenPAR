@@ -19,9 +19,11 @@
 :fire: [May-30-2025] Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition is released on 
       [[arXiv](https://arxiv.org/abs/2505.23313)] 
 
-:fire: [Apr-15-2025] A new large-scale bimodal benchmark dataset, EventPAR, and an asymmetric RWKV fusion framework are released. 
+:fire: [Apr-15-2025] A new large-scale bimodal benchmark dataset, **EventPAR**, and an asymmetric RWKV fusion based RGBE PAR framework are released. 
 
-:fire: [Dec-10-2024] LLM-PAR is accepted by AAAI-2025!
+:fire: [Dec-10-2024] LLM-PAR is accepted by AAAI-2025! 
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/valse25_MSP_poster_reward.jpg" width="400">
+
 
 :fire: [Aug-27-2024] Slides for the talk [[Pedestrian Attribute Recognition in the Big Model Era](https://github.com/wangxiao5791509/Pedestrian-Attribute-Recognition-Paper-List/blob/master/PAR-CSIG-2024.08.27.pdf)] 
 <img src="https://github.com/wangxiao5791509/Pedestrian-Attribute-Recognition-Paper-List/blob/master/PARtalk.png" width="400">
