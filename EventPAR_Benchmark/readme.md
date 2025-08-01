@@ -27,7 +27,7 @@ Existing pedestrian attribute recognition methods are generally developed based 
   <img src="figures/attr_distribution.jpg" width="80%">
 </p>
 <p align="center">
-  <img src="figures/attr_predict.jpg" width="80%">
+  <img src="figures/vis.png" width="80%">
 </p>
 <p align="center">
   <img src="figures/token_select_visual.jpg" width="80%">
@@ -40,10 +40,10 @@ Existing pedestrian attribute recognition methods are generally developed based 
 
 #### Benchmark Results 
 <p align="center">
-  <img src="figures/EventPAR.png" width="80%">
+  <img src="figures/table_1.png" width="80%">
 </p>
 <p align="center">
-  <img src="figures/Mars_duke.png" width="80%">
+  <img src="figures/table_2.png" width="80%">
 </p>
 
 
