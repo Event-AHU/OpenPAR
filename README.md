@@ -65,7 +65,8 @@ MARS-Attribute dataset, DukeMTMC-VID-Attribute dataset, EventPAR dataset
 
 ## One Step to Download the Six Benchmark Datasets 
 * **PAR_public_benchmark_datasets (10.3 GB)** [[**BaiduDrive (Code: ahue)**](https://pan.baidu.com/s/1LnPQ_gUyrC3MHF6Shd9LtQ?pwd=ahue)] 
-* **Dropbox**: TO DO 
+* **Dropbox**: TO DO
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/benchmark_datasets.png" width="600">
 
 ## :dart: Dataset Preparation
 
