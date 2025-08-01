@@ -22,6 +22,7 @@
 :fire: [Apr-15-2025] A new large-scale bimodal benchmark dataset, **EventPAR**, and an asymmetric RWKV fusion based RGBE PAR framework are released. 
 
 :fire: [Dec-10-2024] LLM-PAR is accepted by AAAI-2025! 
+
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/valse25_MSP_poster_reward.jpg" width="400">
 
 
