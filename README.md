@@ -12,7 +12,7 @@
 
 ## :dart: Update Log：
 
-
+:fire: [Aug-25-2025] SequencePAR is accepted by the journal Pattern Recognition
 
 :fire: [July-15-2025] SNN-PAR is accepted by the 13th International Conference on Image and Graphics (ICIG 2025)
 
