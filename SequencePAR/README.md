@@ -97,7 +97,7 @@ Current pedestrian attribute recognition (PAR) algorithms are developed based on
 
 
 ## Dataset 
-
+Our method is evaluated on **PETA, PA100k, RAPv1, RAPv2, RAPzs, and PETAzs**.
 
 
 ## Experimental Results 
