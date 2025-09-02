@@ -89,7 +89,9 @@ Current pedestrian attribute recognition (PAR) algorithms are developed based on
 
 
 ## Environment 
-
+```
+conda env create -f environment.yml
+```
 
 ## Our Proposed Approach 
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/SequencePAR/SequencePAR_frameworkV2.jpg" width="800">
