@@ -18,6 +18,7 @@ Jiandong Jin, Xiao Wang, Yin Lin, Chenglong Li, Lili Huang, Aihua Zheng, Jin Tan
 
 ## News: 
 
+SequencePAR is accepted by the journal **Pattern Recognition 2025**
 
 ## Usage
 ### Requirements
