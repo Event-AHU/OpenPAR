@@ -93,7 +93,7 @@ Current pedestrian attribute recognition (PAR) algorithms are developed based on
 
 ## Our Proposed Approach 
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/SequencePAR/SequencePAR_frameworkV2.jpg" width="800">
-
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/SequencePAR/Pipeline.jpg" width="800">
 
 
 ## Dataset 
@@ -101,4 +101,6 @@ Current pedestrian attribute recognition (PAR) algorithms are developed based on
 
 
 ## Experimental Results 
-
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/SequencePAR/result1.png" width="800">
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/SequencePAR/result2.png" width="800">
+<img src="https://github.com/Event-AHU/OpenPAR/blob/main/SequencePAR/result3.png" width="800">
