@@ -8,7 +8,8 @@
  
 </div>
 
-> **[SequencePAR: Understanding Pedestrian Attributes via A Sequence Generation Paradigm]()**, Jiandong Jin, Xiao Wang *, Chenglong Li, Lili Huang, and Jin Tang  
+> **[SequencePAR: Understanding Pedestrian Attributes via A Sequence Generation Paradigm]()**,
+Jiandong Jin, Xiao Wang, Yin Lin, Chenglong Li, Lili Huang, Aihua Zheng, Jin Tang 
 
 
  
@@ -20,7 +21,7 @@
 
 ## Usage
 ### Requirements
-we use single RTX A100 40G GPU for training and evaluation. 
+we use a single RTX A100 40G GPU for training and evaluation. 
 ```
 Python 3.9.16
 pytorch 1.12.1
