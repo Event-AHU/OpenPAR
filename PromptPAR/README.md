@@ -151,5 +151,5 @@ Our code is extended from the following repositories. We sincerely appreciate fo
 * [CLIP](https://github.com/openai/CLIP)
 * [VTB](https://github.com/cxh0519/VTB)
 * [Rethink of PAR](https://github.com/valencebond/Rethinking_of_PAR)
-
+* [Meshed-Memory Transformer](https://github.com/aimagelab/meshed-memory-transformer)
 
