@@ -104,3 +104,13 @@ Our method is evaluated on **PETA, PA100k, RAPv1, RAPv2, RAPzs, and PETAzs**.
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/SequencePAR/result1.png" width="800">
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/SequencePAR/result2.png" width="800">
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/SequencePAR/result3.png" width="800">
+
+
+### Acknowledgments
+
+Our code is extended from the following repositories. We sincerely appreciate for their contributions.
+
+* [CLIP](https://github.com/openai/CLIP)
+* [VTB](https://github.com/cxh0519/VTB)
+* [Rethink of PAR](https://github.com/valencebond/Rethinking_of_PAR)
+* [Meshed-Memory Transformer](https://github.com/aimagelab/meshed-memory-transformer)
