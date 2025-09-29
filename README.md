@@ -166,7 +166,7 @@ We provide processing code for the currently available publicly available pedest
 
 
 ## :dart: [Knowledge Graph for PAR]()
-* [arXiv:2509.22331] **Pedestrian Attribute Recognition via Hierarchical Cross-Modality HyperGraph Learning**, arXiv 2025, 
+[arXiv:2509.22331] **Pedestrian Attribute Recognition via Hierarchical Cross-Modality HyperGraph Learning**, arXiv 2025, 
   Xiao Wang, Shujuan Wu, Xiaoxia Cheng, Changwei Bi, Jin Tang, Bin Luo 
   [[Paper](https://arxiv.org/abs/2509.22331)]
 
