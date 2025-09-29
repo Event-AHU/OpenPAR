@@ -165,6 +165,16 @@ We fill the images in the original dataset as a square with a simple black borde
 We provide processing code for the currently available publicly available pedestrian attribute identification dataset
 
 
+## :dart: [Knowledge Graph for PAR]()
+* [arXiv:2509.22331] **Pedestrian Attribute Recognition via Hierarchical Cross-Modality HyperGraph Learning**, arXiv 2025, 
+  Xiao Wang, Shujuan Wu, Xiaoxia Cheng, Changwei Bi, Jin Tang, Bin Luo 
+  [[Paper](https://arxiv.org/abs/2509.22331)]
+
+Current Pedestrian Attribute Recognition (PAR) algorithms typically focus on mapping visual features to semantic labels or attempt to enhance learning by fusing visual and attribute information. However, these methods fail to fully exploit attribute knowledge and contextual information for more accurate recognition. Although recent works have started to consider using attribute text as additional input to enhance the association between visual and semantic information, these methods are still in their infancy. To address the above challenges, this paper proposes the construction of a multi-modal knowledge graph, which is utilized to mine the relationships between local visual features and text, as well as the relationships between attributes and extensive visual context samples. Specifically, we propose an effective multi-modal knowledge graph construction method that fully considers the relationships among attributes and the relationships between attributes and vision tokens. To effectively model these relationships, this paper introduces a knowledge graph-guided cross-modal hypergraph learning framework to enhance the standard pedestrian attribute recognition framework. Comprehensive experiments on multiple PAR benchmark datasets have thoroughly demonstrated the effectiveness of our proposed knowledge graph for the PAR task, establishing a strong foundation for knowledge-guided pedestrian attribute recognition. 
+![KGPAR](https://github.com/Event-AHU/OpenPAR/blob/main/KGPAR/framework.jpg)
+
+
+
 ## :dart: [Adversarial Attack and Defense for PAR]()  
 **[arXiv:2505.23313] Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition**, arXiv 2025, 
 Weizhe Kong, Xiao Wang*, Ruichong Gao, Chenglong Li*, Yu Zhang, Xing Yang, Yaowei Wang, Jin Tang
@@ -264,6 +274,16 @@ This project is under the MIT license. See [[license](https://github.com/Event-A
 ## :newspaper: Citation 
 If you find this work helps your research, please star this GitHub and cite the following papers: 
 ```bibtex
+
+@misc{wang2025KGPAR,
+      title={Pedestrian Attribute Recognition via Hierarchical Cross-Modality HyperGraph Learning}, 
+      author={Xiao Wang and Shujuan Wu and Xiaoxia Cheng and Changwei Bi and Jin Tang and Bin Luo},
+      year={2025},
+      eprint={2509.22331},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.22331}, 
+}
 
 @misc{kong2025AdvPAR,
       title={Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition}, 
