@@ -1,9 +1,7 @@
 <h2> SNN-PAR: Energy Efficient Pedestrian Attribute Recognition via Spiking Neural Networks </h2>
 
 **Energy Efficient Pedestrian Attribute Recognition via Spiking Neural Networks**, Haiyang Wang, Qian Zhu, Mowen She, Yabo Li, Haoyu Song, Minghe Xu, and Xiao Wang* 
-
 [[Paper](https://arxiv.org/abs/2410.07857)]
-
 [[Poster](https://github.com/Event-AHU/OpenPAR/blob/main/SNN-PAR/SNN_PAR_Poster_compressed.pdf)] 
 
 
