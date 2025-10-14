@@ -1,0 +1,57 @@
+A pedestrian whose gender is female
+A pedestrian who is a child
+A pedestrian who is an adult
+A pedestrian who is elderly
+A pedestrian whose body is fat
+A pedestrian whose body is normal
+A pedestrian whose body is thin
+A pedestrian whose head is bald
+A pedestrian whose head has long hair
+A pedestrian whose head has black hair
+A pedestrian with a hat
+A pedestrian with glasses
+A pedestrian with a mask
+A pedestrian with a helmet
+A pedestrian with a scarf
+A pedestrian with gloves
+A pedestrian facing the front
+A pedestrian facing the back
+A pedestrian from the side
+A pedestrian whose upper body is wearing short sleeves
+A pedestrian whose upper body is wearing long sleeves
+A pedestrian whose upper body is wearing a shirt
+A pedestrian whose upper body is wearing a jacket
+A pedestrian whose upper body is wearing a suit
+A pedestrian whose upper body is wearing a vest
+A pedestrian whose upper body is wearing a cotton-padded coat
+A pedestrian whose upper body is wearing a coat
+A pedestrian whose upper body is wearing a graduation gown
+A pedestrian whose upper body is wearing a chef uniform
+A pedestrian whose lower body is wearing trousers
+A pedestrian whose lower body is wearing shorts
+A pedestrian whose lower body is wearing jeans
+A pedestrian whose lower body is wearing a long skirt
+A pedestrian whose lower body is wearing a short skirt
+A pedestrian whose lower body is wearing a dress
+A pedestrian whose shoes are leather shoes
+A pedestrian whose shoes are casual shoes
+A pedestrian whose shoes are boots
+A pedestrian whose shoes are sandals
+A pedestrian whose shoes are other shoes
+A pedestrian carrying a backpack
+A pedestrian carrying a shoulder bag
+A pedestrian carrying a handbag
+A pedestrian carrying a plastic bag
+A pedestrian carrying a paper bag
+A pedestrian carrying a suitcase
+A pedestrian carrying others
+A pedestrian who is making a phone call
+A pedestrian who is smoking
+A pedestrian whose hands are behind their back
+A pedestrian whose arms are crossed
+A pedestrian who is walking
+A pedestrian who is running
+A pedestrian who is standing
+A pedestrian who is riding a bicycle
+A pedestrian who is riding a scooter
+A pedestrian who is riding a skateboard

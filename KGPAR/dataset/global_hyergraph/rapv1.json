@@ -1,0 +1,63 @@
+{
+  "body": [
+    "A pedestrian whose gender is female",
+    "A pedestrian whose age is less 16",
+    "A pedestrian whose age is between 17 and 30",
+    "A pedestrian whose age is between 31 and 45",
+    "A pedestrian whose body is fat",
+    "A pedestrian whose body is normal",
+    "A pedestrian whose body is thin",
+    "A pedestrian whose identity is customer",
+    "A pedestrian whose identity is clerk",
+    "A pedestrian carrying a backpack",
+    "A pedestrian carrying a shoulder bag",
+    "A pedestrian carrying a handbag",
+    "A pedestrian carrying a box",
+    "A pedestrian carrying a plastic bag",
+    "A pedestrian carrying a paper bag",
+    "A pedestrian carrying a hand trunk",
+    "A pedestrian not carrying a backpack shoulder bag handbag box plastic bag paper bag hand trunk or any of them",
+    "A pedestrian who is calling",
+    "A pedestrian who is talking",
+    "A pedestrian who is gathering",
+    "A pedestrian who is holding",
+    "A pedestrian who is pushing",
+    "A pedestrian who is pulling",
+    "A pedestrian who is carry arm",
+    "A pedestrian who is carry hand"
+  ],
+  "head": [
+    "A pedestrian whose head is bald head",
+    "A pedestrian whose head is long hair",
+    "A pedestrian whose head is black hair",
+    "A pedestrian with a hat",
+    "A pedestrian with a glasses",
+    "A pedestrian with a muffler"
+  ],
+  "upper": [
+    "A pedestrian whose upper body is wearing shirt",
+    "A pedestrian whose upper body is wearing sweater",
+    "A pedestrian whose upper body is wearing vest",
+    "A pedestrian whose upper body is wearing t-shirt",
+    "A pedestrian whose upper body is wearing cotton",
+    "A pedestrian whose upper body is wearing jacket",
+    "A pedestrian whose upper body is wearing suit up",
+    "A pedestrian whose upper body is wearing tight",
+    "A pedestrian whose upper body is wearing short sleeve"
+  ],
+  "lower": [
+    "A pedestrian whose lower body is wearing trousers",
+    "A pedestrian whose lower body is wearing skirt",
+    "A pedestrian whose lower body is wearing short skirt",
+    "A pedestrian whose lower body is wearing dress",
+    "A pedestrian whose lower body is wearing jeans",
+    "A pedestrian whose lower body is wearing tight trousers"
+  ],
+  "foot": [
+    "A pedestrian whose shoes is leather shoes",
+    "A pedestrian whose shoes is sport shoes",
+    "A pedestrian whose shoes is boots shoes",
+    "A pedestrian whose shoes is cloth shoes",
+    "A pedestrian whose shoes is casual shoes"
+  ]
+}

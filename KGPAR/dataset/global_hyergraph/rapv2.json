@@ -1,0 +1,66 @@
+{
+  "body": [
+    "A pedestrian who is carrying a backpack",
+    "A pedestrian who has a shoulder bag",
+    "A pedestrian who has a handbag",
+    "A pedestrian who is carrying a box",
+    "A pedestrian who is carrying a plastic bag",
+    "A pedestrian who is carrying a paper bag",
+    "A pedestrian who is carrying a hand trunk",
+    "A pedestrian who has other attachments",
+    "A pedestrian whose age is under 16",
+    "A pedestrian whose age is between 17 and 30",
+    "A pedestrian whose age is between 31 and 45",
+    "A pedestrian whose age is between 46 and 60",
+    "A pedestrian whose gender is female",
+    "A pedestrian whose body build is large",
+    "A pedestrian whose body build is normal",
+    "A pedestrian whose body build is slender",
+    "A pedestrian who is a customer",
+    "A pedestrian who is an employee",
+    "A pedestrian who is making a call",
+    "A pedestrian who is engaged in conversation",
+    "A pedestrian who is gathered with others",
+    "A pedestrian who is holding something",
+    "A pedestrian who is pushing something",
+    "A pedestrian who is pulling something",
+    "A pedestrian who is carrying something in their arm",
+    "A pedestrian who is carrying something in their hand",
+    "A pedestrian who is engaged in other actions"
+  ],
+  "head": [
+    "A pedestrian whose head is bald",
+    "A pedestrian whose hair is long",
+    "A pedestrian whose hair is black",
+    "A pedestrian who is wearing a hat",
+    "A pedestrian who is wearing glasses"
+  ],
+  "upper": [
+    "A pedestrian whose upper garment is a shirt",
+    "A pedestrian whose upper garment is a sweater",
+    "A pedestrian whose upper garment is a vest",
+    "A pedestrian whose upper garment is a t-shirt",
+    "A pedestrian whose upper garment is made of cotton",
+    "A pedestrian whose upper garment is a jacket",
+    "A pedestrian whose upper garment is a suit",
+    "A pedestrian whose upper garment is tight-fitting",
+    "A pedestrian whose upper garment has short sleeves",
+    "A pedestrian whose upper garment is of another type"
+  ],
+  "lower": [
+    "A pedestrian whose lower garment is long trousers",
+    "A pedestrian whose lower garment is a skirt",
+    "A pedestrian whose lower garment is a short skirt",
+    "A pedestrian whose lower garment is a dress",
+    "A pedestrian whose lower garment is jeans",
+    "A pedestrian whose lower garment is tight trousers"
+  ],
+  "foot": [
+    "A pedestrian whose shoes are leather",
+    "A pedestrian whose shoes are sports shoes",
+    "A pedestrian who is wearing boots",
+    "A pedestrian whose shoes are cloth shoes",
+    "A pedestrian whose shoes are casual shoes",
+    "A pedestrian whose shoes are of another type"
+  ]
+}

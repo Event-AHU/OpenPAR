@@ -1,0 +1,47 @@
+{
+  "body": [
+    "A pedestrian whose attachment is a backpack",
+    "A pedestrian whose attachment is a messenger bag",
+    "A pedestrian whose attachment is plastic bags",
+    "A pedestrian whose attachment is other items",
+    "A pedestrian whose attachment is none",
+    "A pedestrian whose age is under 30 years old",
+    "A pedestrian whose age is between 30 and 45 years old",
+    "A pedestrian whose age is between 45 and 60 years old",
+    "A pedestrian whose age is over 60 years old",
+    "A pedestrian whose gender is male"
+  ],
+  "head": [
+    "A pedestrian whose headwear is a hat",
+    "A pedestrian whose headwear is a muffler",
+    "A pedestrian whose headwear is absent",
+    "A pedestrian whose eyewear is sunglasses",
+    "A pedestrian whose hair is long"
+  ],
+  "upper": [
+    "A pedestrian whose upper garment is casual",
+    "A pedestrian whose upper garment is formal",
+    "A pedestrian whose upper garment is a jacket",
+    "A pedestrian whose upper garment has a logo",
+    "A pedestrian whose upper garment has a plaid pattern",
+    "A pedestrian whose upper garment has short sleeves",
+    "A pedestrian whose upper garment has thin stripes",
+    "A pedestrian whose upper garment is a T-shirt",
+    "A pedestrian whose upper garment is of another type",
+    "A pedestrian whose upper garment has a V-neck"
+  ],
+  "lower": [
+    "A pedestrian whose lower garment is casual",
+    "A pedestrian whose lower garment is formal",
+    "A pedestrian whose lower garment is jeans",
+    "A pedestrian whose lower garment is shorts",
+    "A pedestrian whose lower garment is a short skirt",
+    "A pedestrian whose lower garment is trousers"
+  ],
+  "foot": [
+    "A pedestrian whose shoes are leather",
+    "A pedestrian whose shoes are sandals",
+    "A pedestrian whose shoes are sneakers",
+    "A pedestrian whose shoes are of another type"
+  ]
+}
