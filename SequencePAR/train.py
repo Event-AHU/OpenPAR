@@ -91,7 +91,7 @@ def main(args):
         optimizer = optim.AdamW(model.parameters(),lr=lr, weight_decay=args.weight_decay)
         print('The optimizer used AdamW')
     else :
-        optimizer = optim.Adam([{'params': model.decoder.parameters(), 'lr': args.lr},{'params': model.ViT_model.parameters(), 'lr': args.lr}])
+        optimizer = optim.Adam(model.parameters())
         print('The optimizer used Adam')
     if args.use_class_weight :
         print('The loss function used NLL_loss with class weight')
