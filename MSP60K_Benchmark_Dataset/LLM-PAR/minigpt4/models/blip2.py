@@ -25,7 +25,7 @@ from local import blip2_path, google_bert_path
 class Blip2Base(BaseModel):
     @classmethod
     def init_tokenizer(cls):
-        tokenizer = AutoTokenizer.from_pretrained(blip2_path)
+        tokenizer = AutoTokenizer.from_pretrained(google_bert_path)
         tokenizer.add_special_tokens({"bos_token": "[DEC]"})
         return tokenizer
 
@@ -41,7 +41,7 @@ class Blip2Base(BaseModel):
 
     @classmethod
     def init_Qformer(cls, num_query_token, vision_width, cross_attention_freq=2):
-        encoder_config = BertConfig.from_pretrained(blip2_path)
+        encoder_config = BertConfig.from_pretrained(google_bert_path)
         encoder_config.encoder_width = vision_width
         
         encoder_config.add_cross_attention = True
