@@ -30,4 +30,5 @@ def argument_parser():
 
     parser.add_argument("--fusion_mode", type=str, default="concat", choices=['concat', 'add', 'conv'])
     parser.add_argument("--backbones", type=str, default="rwkv", choices=['rwkv', 'vit', 'resnet50'])
+    parser.add_argument("--dir", type=str)
     return parser
