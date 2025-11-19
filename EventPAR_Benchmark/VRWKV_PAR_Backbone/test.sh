@@ -1,0 +1,1 @@
+python test.py EventPAR  --multi --backbones rwkv --dir path to ckpts
