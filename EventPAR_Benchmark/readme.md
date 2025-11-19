@@ -71,6 +71,10 @@ We use the [RWKV](https://github.com/OpenGVLab/Vision-RWKV) as our visual encode
 ```
 bash train.sh
 ```
+#### Test  
+```
+bash test.sh
+```
 #### Anknowledgement 
 Our code is extended from the following repositories. We sincerely appreciate for their contributions.
 * [VTB](https://github.com/cxh0519/VTB/tree/main)
