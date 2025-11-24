@@ -12,6 +12,9 @@
 
 ## :dart: Update Log：
 
+
+:fire: [Nov-25-2025] VTFPAR++ <Spatio-Temporal Side Tuning Pre-trained Foundation Models for Video-based Pedestrian Attribute Recognition> is accepted by Computer Vision and Image Understanding (CVIU) 2025
+
 :fire: [Aug-25-2025] SequencePAR is accepted by the journal Pattern Recognition
 
 :fire: [July-15-2025] SNN-PAR is accepted by the 13th International Conference on Image and Graphics (ICIG 2025)
@@ -223,7 +226,7 @@ Current strong pedestrian attribute recognition models are developed based on Tr
 
 
 ## :dart: [VTFPAR++](https://github.com/Event-AHU/OpenPAR/blob/main/VTFPAR%2B%2B/README.md) 
-**[arXiv:2404.17929] Spatio-Temporal Side Tuning Pre-trained Foundation Models for Video-based Pedestrian Attribute Recognition**,  
+**[CVIU 2025, arXiv:2404.17929] Spatio-Temporal Side Tuning Pre-trained Foundation Models for Video-based Pedestrian Attribute Recognition**,  
 Xiao Wang, Qian Zhu, Jiandong Jin, Jun Zhu, Futian Wang, Bo Jiang, Yaowei Wang, Yonghong Tian 
 [[Paper](https://arxiv.org/abs/2404.17929)] 
 [[Code](https://github.com/Event-AHU/OpenPAR/tree/main/VTFPAR%2B%2B)] 
