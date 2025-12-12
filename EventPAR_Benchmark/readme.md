@@ -17,7 +17,7 @@ Existing pedestrian attribute recognition methods are generally developed based 
 
 * You can also download the EventPAR dataset from [[**DropBox (EventPAR)**](https://www.dropbox.com/scl/fo/rl0w4xvr5cpovxznsyh6z/AL243O1R5CjyBUD-uLtkTac?rlkey=mc3lf6epp8f3spyhz2mm7lkmx&st=wrbdfbo5&dl=0)], if you can't obtain it from Baidu Drive.
 
-* A tiny version [FE_PAR_CROP (272MB)](https://www.dropbox.com/scl/fi/pz5l3cut55wobxpe7hquu/FE_PAR_CROP.zip?rlkey=a2myvy2zhpqojq5vvk1nct7ch&st=xqs7yqst&dl=0) is released to help understand the format of this dataset.
+* A tiny version [FE_PAR_CROP (272MB)](https://www.dropbox.com/scl/fi/pz5l3cut55wobxpe7hquu/FE_PAR_CROP.zip?rlkey=a2myvy2zhpqojq5vvk1nct7ch&st=xqs7yqst&dl=0) is released to help understand the format of this dataset. The annotation file [[reordered_all.json](https://www.dropbox.com/scl/fi/d4o3iibt9evjboz0g927h/reordered_all.json?rlkey=l4akwj7y9tw7d6uvcblab903v&st=9rsyo2s1&dl=0)]
 
 * In addition, based on the RGB modality data from the MARS and Duke datasets, we generated the corresponding event modality data through simulation. The datasets can be accessed [**here**](https://pan.quark.cn/s/976d3b0c95f6).
 
