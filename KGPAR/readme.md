@@ -21,7 +21,7 @@ python rap.py
 
 ## Training Script 
 ```python
-python train.py RAPV1 --use_div --use_vismask --use_GL --use_mm_former
+python train.py RAPV1 --use_div --use_textprompt --use_vismask --use_GL --use_mm_former
 ```
 
 
