@@ -1,0 +1,9 @@
+CUDA_VISIBLE_DEVICES=3 python train.py --PE_load 
+CUDA_VISIBLE_DEVICES=2 python train.py --PE_load --accumulate
+CUDA_VISIBLE_DEVICES=2 python test.py
+
+CUDA_VISIBLE_DEVICES=1 python mix_train.py --PE_load 
+CUDA_VISIBLE_DEVICES=2 python mix_train.py --PE_load --union_token --islossrate
+CUDA_VISIBLE_DEVICES=3 python mix_train.py --PE_load --islossrate
+CUDA_VISIBLE_DEVICES=1 python balance_train.py --PE_load 
+CUDA_VISIBLE_DEVICES=3 python balance_train.py --PE_load --islossrate
