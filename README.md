@@ -13,11 +13,13 @@
 ## :dart: Update Log：
 
 
-:fire: [Nov-25-2025] VTFPAR++ <Spatio-Temporal Side Tuning Pre-trained Foundation Models for Video-based Pedestrian Attribute Recognition> is accepted by Computer Vision and Image Understanding (CVIU) 2025
+:fire: [March-05-2026] **AttackPAR** (Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition) is accepted by IEEE TIFS 2026 
 
-:fire: [Aug-25-2025] SequencePAR is accepted by the journal Pattern Recognition
+:fire: [Nov-25-2025] **VTFPAR++** <Spatio-Temporal Side Tuning Pre-trained Foundation Models for Video-based Pedestrian Attribute Recognition> is accepted by Computer Vision and Image Understanding (CVIU) 2025
 
-:fire: [July-15-2025] SNN-PAR is accepted by the 13th International Conference on Image and Graphics (ICIG 2025)
+:fire: [Aug-25-2025] **SequencePAR** is accepted by the journal Pattern Recognition
+
+:fire: [July-15-2025] **SNN-PAR** is accepted by the 13th International Conference on Image and Graphics (ICIG 2025)
 
 :fire: [May-30-2025] Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition is released on 
       [[arXiv](https://arxiv.org/abs/2505.23313)] 
