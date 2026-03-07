@@ -12,7 +12,7 @@
 
 ## :dart: Update Log：
 
-:fire: [March-07-2026] **UniPAR** is released on [[arXiv](https://arxiv.org/abs/2603.05114)] 
+:fire: [March-07-2026] **UniPAR** is released on [[arXiv](https://arxiv.org/abs/2603.05114)] [[Code](https://github.com/Event-AHU/OpenPAR/tree/main/UniPAR)] 
 
 :fire: [March-05-2026] **AttackPAR** (Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition) is accepted by IEEE TIFS 2026 
 
