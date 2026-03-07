@@ -12,6 +12,7 @@
 
 ## :dart: Update Log：
 
+:fire: [March-07-2026] **UniPAR** is released on [[arXiv](https://arxiv.org/abs/2603.05114)] 
 
 :fire: [March-05-2026] **AttackPAR** (Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition) is accepted by IEEE TIFS 2026 
 
@@ -279,6 +280,17 @@ This project is under the MIT license. See [[license](https://github.com/Event-A
 ## :newspaper: Citation 
 If you find this work helps your research, please star this GitHub and cite the following papers: 
 ```bibtex
+
+
+@misc{xu2026UniPAR,
+      title={UniPAR: A Unified Framework for Pedestrian Attribute Recognition}, 
+      author={Minghe Xu and Rouying Wu and Jiarui Xu and Minhao Sun and Zikang Yan and Xiao Wang and ChiaWei Chu and Yu Li},
+      year={2026},
+      eprint={2603.05114},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.05114}, 
+}
 
 @misc{wang2025KGPAR,
       title={Pedestrian Attribute Recognition via Hierarchical Cross-Modality HyperGraph Learning}, 
