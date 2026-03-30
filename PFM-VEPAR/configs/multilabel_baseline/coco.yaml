@@ -1,0 +1,52 @@
+NAME: 'resnet101.sgd.bt32'
+
+DATASET:
+  TYPE: 'multi_label'
+  NAME: 'coco14'
+  TRAIN_SPLIT: 'train'
+  VAL_SPLIT: 'val'
+  HEIGHT: 448
+  WIDTH: 448
+
+METRIC:
+  TYPE: 'multi_label'
+
+RELOAD:
+  TYPE: False
+  NAME: 'backbone'
+
+BACKBONE:
+  TYPE: 'resnet101'
+  MULTISCALE: False
+
+CLASSIFIER:
+  NAME: 'linear'
+  POOLING: 'max'
+  SCALE: 1
+  BN: False
+
+LOSS:
+  TYPE: 'bceloss'
+  LOSS_WEIGHT: [1]
+  SIZESUM: True
+
+TRAIN:
+  BN_WD: True
+  BATCH_SIZE: 16
+  CLIP_GRAD: True
+  MAX_EPOCH: 30
+  OPTIMIZER:
+    TYPE: 'SGD'
+    MOMENTUM: 0.9
+    WEIGHT_DECAY: 1e-4
+  LR_SCHEDULER:
+    TYPE: 'multistep'
+    LR_STEP: [ 14, ]
+    LR_FT: 0.0005
+    LR_NEW: 0.005
+  EMA:
+    ENABLE: False
+
+VIS:
+  CAM: 'train'
+

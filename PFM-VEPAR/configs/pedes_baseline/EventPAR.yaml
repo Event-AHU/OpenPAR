@@ -1,0 +1,94 @@
+NAME: 'default'
+
+DATASET:
+  TYPE: 'pedes'
+  NAME: 'EventPAR'
+  TRAIN_SPLIT: 'train'
+  VAL_SPLIT: 'test'
+  ZERO_SHOT: False
+  LABEL: 'eval'
+  HEIGHT: 256
+  WIDTH: 192
+
+RELOAD:
+  TYPE: False
+  NAME: 'backbone'
+
+BACKBONE:
+  TYPE: 'vit_b' 
+
+CLASSIFIER:
+  NAME: 'linear'
+  POOLING: 'avg'
+  SCALE: 1
+  BN: False
+
+LOSS:
+  TYPE: 'bceloss'
+  LOSS_WEIGHT: [1]
+  SAMPLE_WEIGHT: 'weight'
+
+TRAIN:
+  CLIP_GRAD: True
+  BATCH_SIZE: 12
+  OPTIMIZER:
+    TYPE: 'adamw'
+    WEIGHT_DECAY: 5e-4
+  LR_SCHEDULER:
+    TYPE: 'warmup_cosine'
+    LR_FT: 1.5e-4
+    LR_NEW: 1.5e-4
+  EMA:
+    ENABLE: True
+  MAX_EPOCH: 30
+
+METRIC:
+  TYPE: 'pedestrian'
+
+VIS:
+  CAM: 'valid'
+
+DCT:
+  ENABLE: True
+  APPLY_TO_RGB: False
+  APPLY_TO_EVENT: True
+
+STEM:
+  ENABLE: True
+  OUT_CHANS: 96
+
+
+CROSS_ATTENTION:
+  ENABLE: True
+  NUM_LAYERS: 2
+  NUM_HEADS: 8
+  FUSION_TYPE: 'adaptive'  
+
+HOPFIELD:
+  ENABLE: True
+  APPLY_TO_RGB: True
+  APPLY_TO_EVENT: True
+  N_PROTOTYPE: 1000
+  DROPOUT: 0.1
+
+MEMORY_HOPFIELD:
+  ENABLE: True
+  APPLY_TO_RGB: True
+  APPLY_TO_EVENT: True
+  RGB_BANK_PATH: 'assets/memory/rgb_attr_memory.pt'
+  EVENT_BANK_PATH: 'assets/memory/event_attr_memory.pt'
+  FREEZE: True
+  FUSION: 'add'         
+  TEMPERATURE: null
+  DROPOUT: 0.1
+  CROSS_MODAL_INTERACTION: True  
+
+ATTR_MEMORY:
+  ENABLE: True
+  NUM_ATTR: 50
+  PER_ATTR_SAMPLE: 1000
+  PER_ATTR_PROTOTYPE: 100 
+  FEAT_REDUCE: 'avg'   
+
+
+
