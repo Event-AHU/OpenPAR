@@ -102,10 +102,13 @@ Special thanks to the authors for their contributions to the field of pedestrian
 If you use UniPAR in your research, please consider citing:
 
 ```
-@article{xu2026unipar,
+@article{Xu2026UniPAR,
   title={UniPAR: A Unified Framework for Pedestrian Attribute Recognition},
   author={Xu, Minghe and Wu, Rouying and Xu, Jiarui and Sun, Minhao and Yan, Zikang and Wang, Xiao and Chu, ChiaWei and Li, Yu},
   journal={arXiv preprint arXiv:2603.05114},
   year={2026}
 }
 ```
+
+
+
