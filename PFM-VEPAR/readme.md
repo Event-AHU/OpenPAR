@@ -41,10 +41,10 @@ bash train_gpu.sh
 You can evaluate the performance of the model using the infer.py script.
 
 ### Experimental Results 
-![image](https://github.com/Event-AHU/OpenPAR/tree/main/PFM-VEPAR/Figures/Experiments.png)
+![image](./Figures/Experiments.png)
 
 ### Visualization
-![image](https://github.com/Event-AHU/OpenPAR/tree/main/PFM-VEPAR/Figures/visualization.jpg)
+![image](./Figures/visualization.jpg)
 
 ###  Acknowledgement
 Our code is extended from the following repositories. We sincerely appreciate for their contributions.
