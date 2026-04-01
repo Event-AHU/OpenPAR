@@ -13,7 +13,7 @@ Event-based pedestrian attribute recognition (PAR) leverages motion cues to enha
 ### :rocket: News:
 
 
-#### Usage
+### Usage
 we use single RTX 4090D 24G GPU for training and evaluation.
 
 ### Environment Requirements 
