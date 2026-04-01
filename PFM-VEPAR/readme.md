@@ -1,7 +1,7 @@
 ## PFM-VEPAR: Prompting Foundation Models for RGB-Event Camera based Pedestrian Attribute Recognition
 
 <p align="center">
-  <img width="85%" src="https://github.com/Event-AHU/OpenPAR/tree/main/PFM-VEPAR/Figures/framework.png" alt="Framework"/>
+  <img width="85%" src="./Figures/framework.png" alt="Framework"/>
 </p>
 
 > **[PFM-VEPAR: Prompting Foundation Models for RGB-Event Camera based Pedestrian Attribute Recognition]()**, Minghe Xu, Rouying Wu, ChiaWei Chu, Xiao Wang, Yu Li*
