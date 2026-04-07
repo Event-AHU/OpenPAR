@@ -32,7 +32,7 @@
 <img src="https://github.com/Event-AHU/OpenPAR/blob/main/valse25_MSP_poster_reward.jpg" width="400">
 
 
-:fire: [Aug-27-2024] Slides for the talk [[Pedestrian Attribute Recognition in the Big Model Era](https://github.com/wangxiao5791509/Pedestrian-Attribute-Recognition-Paper-List/blob/master/PAR-CSIG-2024.08.27.pdf)] 
+:fire: [Aug-27-2024] Slides for the talk [[Pedestrian Attribute Recognition in the Big Model Era](https://github.com/wangxiao5791509/Pedestrian-Attribute-Recognition-Paper-List/blob/master/PAR-CSIG-2024.08.27.pdf)] [[PPT version](https://www.dropbox.com/scl/fi/djhtpe5d68vt0zwwv6u8l/PAR-CSIG-2024.08.27.pptx?rlkey=d6hdx1r513qg91xzne1w2l69o&st=hm5hg9p9&dl=0)] 
 <img src="https://github.com/wangxiao5791509/Pedestrian-Attribute-Recognition-Paper-List/blob/master/PARtalk.png" width="400">
 
 :fire: [Aug-23-2024] PromptPAR is accepted by IEEE TCSVT 2024.  
