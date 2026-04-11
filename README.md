@@ -12,6 +12,8 @@
 
 ## :dart: Update Log：
 
+:fire: [April-11-2026] **PFM-VEPAR** is accepted by Pattern Recognition 2026, arXiv:2603.19565
+
 :fire: [March-07-2026] **UniPAR** is released on [[arXiv](https://arxiv.org/abs/2603.05114)] [[Code](https://github.com/Event-AHU/OpenPAR/tree/main/UniPAR)] 
 
 :fire: [March-05-2026] **AttackPAR** (Adversarial Semantic and Label Perturbation Attack for Pedestrian Attribute Recognition) is accepted by IEEE TIFS 2026 
@@ -282,6 +284,16 @@ This project is under the MIT license. See [[license](https://github.com/Event-A
 ## :newspaper: Citation 
 If you find this work helps your research, please star this GitHub and cite the following papers: 
 ```bibtex
+
+@misc{xu2026PFMVEPAR,
+      title={PFM-VEPAR: Prompting Foundation Models for RGB-Event Camera based Pedestrian Attribute Recognition}, 
+      author={Minghe Xu and Rouying Wu and ChiaWei Chu and Xiao Wang and Yu Li},
+      year={2026},
+      eprint={2603.19565},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.19565}, 
+}
 
 
 @misc{xu2026UniPAR,
