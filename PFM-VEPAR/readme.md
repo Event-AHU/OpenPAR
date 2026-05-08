@@ -4,13 +4,14 @@
   <img width="85%" src="./Figures/framework.png" alt="Framework"/>
 </p>
 
-> **[PFM-VEPAR: Prompting Foundation Models for RGB-Event Camera based Pedestrian Attribute Recognition]()**, Minghe Xu, Rouying Wu, ChiaWei Chu, Xiao Wang, Yu Li*
+> **[PFM-VEPAR: Prompting Foundation Models for RGB-Event Camera based Pedestrian Attribute Recognition]()**, Minghe Xu, Rouying Wu, ChiaWei Chu, Xiao Wang*, Yu Li
 
 
 #### Abstract
 Event-based pedestrian attribute recognition (PAR) leverages motion cues to enhance RGB cameras in low-light and motion-blur scenarios, enabling more accurate inference of attributes like age and emotion. However, existing two-stream multimodal fusion methods introduce significant computational overhead and neglect the valuable guidance from contextual samples. To address these limitations, this paper proposes an Event Prompter. Discarding the computationally expensive auxiliary backbone, this module directly applies extremely lightweight and efficient Discrete Cosine Transform (DCT) and Inverse DCT (IDCT) operations to the event data. This design extracts frequency-domain event features at a minimal computational cost, thereby effectively augmenting the RGB branch. Furthermore, an external memory bank designed to provide rich prior knowledge, combined with modern Hopfield networks, enables associative memory-augmented representation learning. This mechanism effectively mines and leverages global relational knowledge across different samples. Finally, a cross-attention mechanism fuses the RGB and event modalities, followed by feed-forward networks for attribute prediction. Extensive experiments on multiple benchmark datasets fully validate the effectiveness of the proposed RGB-Event PAR framework.
 
 ### :rocket: News:
+Accepted by Pattern Recognition 2026.
 
 
 ### Usage
