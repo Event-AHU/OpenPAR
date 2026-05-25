@@ -15,13 +15,13 @@ Current Pedestrian Attribute Recognition (PAR) algorithms typically focus on map
 cd dataset/preprocess
 python rap1_pad.py RAPV1
 cd dataset/global_hyergraph
-python rap.py RAPV1 --use_div --use_textprompt --use_vismask --use_GL --use_mm_former
+python rap.py RAPV1 --use_div  --use_vismask --use_GL --use_mm_former
 ```
 
 
 ## Training Script 
 ```python
-python train.py RAPV1 --use_div --use_textprompt --use_vismask --use_GL --use_mm_former
+python train.py RAPV1 --use_div  --use_vismask --use_GL --use_mm_former
 ```
 
 
