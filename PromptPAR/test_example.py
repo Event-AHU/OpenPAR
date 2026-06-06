@@ -51,7 +51,14 @@ def main(args):
     model = TransformerClassifier(clip_model,train_set.attr_num,train_set.attributes)
     # 
     #CUDA_VISIBLE_DEVICES=4 python eval.py RAPV1 --checkpoint --dir /data1/Code/jinjiandong/OpenPAR-main/PromptPAR/logs/PETA/2024-05-23_14_59_25/epoch21.pth
-    model.load_state_dict(checkpoint['model_state_dict'], strict=False)
+    # released checkpoints (e.g. PA100k) name the visual projection layer 'vis_embed',
+    # while the current model registers it as 'visual_embed'; remap so the trained
+    # weights are actually loaded instead of being silently dropped by strict=False
+    state_dict = {k.replace('vis_embed.', 'visual_embed.'): v
+                  for k, v in checkpoint['model_state_dict'].items()}
+    load_result = model.load_state_dict(state_dict, strict=False)
+    if load_result.missing_keys:
+        print(f"Warning: missing keys when loading checkpoint: {load_result.missing_keys}")
     if torch.cuda.is_available():
         model = model.cuda()
         clip_model=clip_model.cuda()
