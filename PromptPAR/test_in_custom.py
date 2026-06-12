@@ -71,7 +71,14 @@ def main(args, image_root):
         checkpoint = torch.load(args.dir, map_location=device)
         clip_model = build_model(checkpoint['ViT_model'])
         model = TransformerClassifier(clip_model, attr_num, attributes)
-        model.load_state_dict(checkpoint['model_state_dict'], strict=False)
+        # released checkpoints (e.g. PA100k) name the visual projection layer 'vis_embed',
+        # while the current model registers it as 'visual_embed'; remap so the trained
+        # weights are actually loaded instead of being silently dropped by strict=False
+        state_dict = {k.replace('vis_embed.', 'visual_embed.'): v
+                      for k, v in checkpoint['model_state_dict'].items()}
+        load_result = model.load_state_dict(state_dict, strict=False)
+        if load_result.missing_keys:
+            print(f"Warning: missing keys when loading checkpoint: {load_result.missing_keys}")
         model = model.to(device)
         clip_model = clip_model.to(device)
     else:
