@@ -13,7 +13,7 @@
 ## :dart: Update Log：
 
 
-:fire: [July-23-2026] **UniPAR** is accepted by IET Computer Vision 2026 2026 
+:fire: [July-23-2026] **UniPAR** is accepted by IET Computer Vision 2026 
 
 :fire: [April-11-2026] **PFM-VEPAR** is accepted by Pattern Recognition 2026, arXiv:2603.19565
 
