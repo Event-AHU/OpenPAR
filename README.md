@@ -12,6 +12,9 @@
 
 ## :dart: Update Log：
 
+
+:fire: [July-23-2026] **UniPAR** is accepted by IET Computer Vision 2026 2026 
+
 :fire: [April-11-2026] **PFM-VEPAR** is accepted by Pattern Recognition 2026, arXiv:2603.19565
 
 :fire: [March-07-2026] **UniPAR** is released on [[arXiv](https://arxiv.org/abs/2603.05114)] [[Code](https://github.com/Event-AHU/OpenPAR/tree/main/UniPAR)] 
