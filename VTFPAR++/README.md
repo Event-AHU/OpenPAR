@@ -41,7 +41,17 @@ pip install -r requirements.txt
 https://www.dropbox.com/scl/fo/twpt7gu3gw7ssxfhqy4cl/AN_Jv68Iq3XsnLZk9Gdxf28?rlkey=bizjoyww3jdidf3geergd2l9b&st=p2h4b963&dl=0
 ```
 
+* **DUKE Dataset**:
 
+The dataset we provide is a version that has undergone imputation; the download link is:
+```
+https://pan.baidu.com/s/1HCu8NUZOj-3pELaN_gyNug?pwd=tkvm 提取码: tkvm。
+```
+
+The annotation file is located at:
+```
+https://pan.baidu.com/s/1FjITh5mL81HZEQYj6YWqdg?pwd=ew52 提取码: ew52 
+```
 
 ## Training and Testing 
 Use the following code to learn a model for MARS Dataset:
