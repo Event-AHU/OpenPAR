@@ -12,6 +12,7 @@
 
 ## :dart: Update Log：
 
+:fire: [Oct-28-2026] **Open-Vocabulary PAR** is accepted by IEEE TIP 2026 
 
 :fire: [July-23-2026] **UniPAR** is accepted by IET Computer Vision 2026 
 
@@ -175,7 +176,18 @@ Organize them in `your dataset root dir` folder as follows:
 python dataset/preprocess/peta_pad.py
 ```
 We fill the images in the original dataset as a square with a simple black border fill and store it in Pad_datasets, you can read the original dataset directly and use the fill code we provided in AttrDataset.py.
-We provide processing code for the currently available publicly available pedestrian attribute identification dataset
+We provide processing code for the currently available publicly available pedestrian attribute identification dataset 
+
+
+
+## :dart: [Open-Vocabulary PAR]()
+**Structural Relation Enhancement for Open-Vocabulary Pedestrian Attribute Recognition**, 
+      Jiandong Jin, Chenglong Li, Xiao Wang, Jin Tang, 
+      IEEE Transactions on Image Processing (T-IP) 2026 
+
+Open-Vocabulary Pedestrian Attribute Recognition (OV-PAR) aims to recognize and understand novel attributes that do not appear in the training set. Although much progress has been made in existing open-vocabulary recognition methods for natural scenes, there are two major challenges in fine-grained attribute recognition of pedestrian images. (1) Intra-group pedestrian attributes often lie in local regions with minimal semantic differences (e.g., sports and casual shoes) and are thus difficult to distinguish. (2) Inter-group attributes exhibit significantly different semantic hierarchies (e.g., action vs. shoes), requiring the model to balance global understanding and fine-grained discernment. To address the above challenges, we propose a Structural Relation Enhancement Network (SRENet) that jointly models spatial, semantic, and attribute structural relations to capture local discriminative details, global contextual information, and common knowledge among intra-group attributes, thereby enhancing generalization ability for OV-PAR. Specifically, we perform attribute-fair spatial-semantic alignment and multi-level semantic fusion to distinguish subtle attribute differences while maintaining global context understanding, thereby preventing overfitting to particular attribute types. Moreover, we propose an intra-group knowledge sharing sentence retrieval paradigm that allows novel attributes to inherit base attribute representations, thereby improving generalization to novel attributes. This work presents a systematic study of OV-PAR and introduces two benchmarks, evaluating twenty representative methods. Extensive experiments demonstrate that our SRENet significantly outperforms state-of-the-art methods. 
+
+
 
 
 ## :dart: [Knowledge Graph for PAR]()
