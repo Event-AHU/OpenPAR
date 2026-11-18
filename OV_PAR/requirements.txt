@@ -1,0 +1,11 @@
+torch
+torchvision
+numpy<2
+Pillow
+tqdm
+ftfy
+regex
+easydict
+opencv-python
+packaging
+setuptools<81

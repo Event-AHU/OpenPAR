@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+logs/
+results/
+data/
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.mat
+*.zip

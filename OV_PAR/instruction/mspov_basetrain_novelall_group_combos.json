@@ -1,0 +1,3028 @@
+{
+  "Gender": {
+    "[1.0]": [
+      "The person is female."
+    ],
+    "[0.0]": [
+      "The person is male."
+    ]
+  },
+  "Age": {
+    "[1.0, 0.0, 0.0]": [
+      "The person's child."
+    ],
+    "[0.0, 1.0, 0.0]": [
+      "The person's adult."
+    ],
+    "[0.0, 0.0, 1.0]": [
+      "The person's elderly."
+    ]
+  },
+  "Body": {
+    "[1.0, 1.0, 0.0]": [
+      "The person is fat and normal body."
+    ],
+    "[0.0, 0.0, 1.0]": [
+      "The person is thin body."
+    ],
+    "[0.0, 1.0, 0.0]": [
+      "The person is normal body."
+    ],
+    "[1.0, 0.0, 0.0]": [
+      "The person is fat body."
+    ],
+    "[0.0, 0.0, 0.0]": [
+      "The stature of this person is unknown."
+    ]
+  },
+  "Head": {
+    "[0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person styled with long hair and black hair and hat and scarf."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with bald and mask."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person styled with long hair and glasses and gloves."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with black hair and glasses and mask."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person styled with hat and helmet."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person styled with hat and scarf and gloves."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with bald and hat and mask."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with black hair and glasses."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person styled with long hair and gloves."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person styled with helmet."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person styled with hat and gloves."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person styled with black hair and scarf and gloves."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with hat and glasses and mask."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "No distinctive hairstyle visible."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person styled with hat and mask and helmet."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person styled with gloves."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with long hair and black hair and hat and glasses."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person styled with glasses and mask and helmet."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person styled with long hair and black hair and gloves."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with long hair and glasses and mask."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with long hair and hat."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person styled with long hair and black hair and hat and scarf and gloves."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person styled with hat and glasses and scarf."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person styled with long hair and hat and scarf and gloves."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person styled with black hair and hat and helmet."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with long hair."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person styled with hat and mask and gloves."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with long hair and black hair and glasses and mask."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person styled with black hair and mask and helmet."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person styled with glasses and mask and gloves."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person styled with long hair and hat and gloves."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with long hair and mask."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person styled with black hair and glasses and mask and helmet."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person styled with black hair and hat and gloves."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with hat."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with hat and mask."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person styled with hat and glasses and scarf and gloves."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person styled with black hair and mask and gloves."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with long hair and black hair and hat."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person styled with long hair and scarf."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person styled with black hair and helmet."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with mask."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person styled with hat and scarf."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person styled with long hair and black hair and scarf and gloves."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person styled with glasses and helmet."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with long hair and black hair and mask."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person styled with black hair and gloves."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person styled with scarf."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person styled with mask and helmet."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person styled with glasses and gloves."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with black hair and hat and glasses and mask."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person styled with long hair and black hair and hat and glasses and gloves."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person styled with long hair and black hair and scarf."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with long hair and black hair."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with bald and glasses."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person styled with long hair and hat and glasses and gloves."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with black hair and hat and mask."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with bald."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person styled with long hair and black hair and mask and helmet."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person styled with long hair and black hair and hat and gloves."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with long hair and glasses."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with black hair and hat."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person styled with hat and glasses and gloves."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person styled with black hair and glasses and helmet."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with bald and glasses and mask."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with black hair."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with hat and glasses."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person styled with bald and gloves."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with black hair and mask."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with glasses."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with glasses and mask."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with long hair and black hair and hat and glasses and mask."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with long hair and black hair and glasses."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person styled with black hair and scarf."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person styled with black hair and hat and mask and helmet."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person styled with mask and gloves."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person styled with long hair and black hair and helmet."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person styled with long hair and black hair and hat and mask."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with bald and hat."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person styled with long hair and hat and scarf."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person styled with black hair and hat and glasses."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person styled with scarf and gloves."
+    ]
+  },
+  "Facing": {
+    "[1.0, 1.0, 0.0]": [
+      "The person is facing to front and back."
+    ],
+    "[0.0, 0.0, 1.0]": [
+      "The person is facing to side."
+    ],
+    "[0.0, 1.0, 0.0]": [
+      "The person is facing to back."
+    ],
+    "[1.0, 0.0, 1.0]": [
+      "The person is facing to front and side."
+    ],
+    "[1.0, 0.0, 0.0]": [
+      "The person is facing to front."
+    ],
+    "[0.0, 0.0, 0.0]": [
+      "The person faces to where is unknown."
+    ]
+  },
+  "UpperBody": {
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears long sleeves and shirt on upper body."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears long sleeves and shirt and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears long sleeves and shirt and Vest on upper body."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears long sleeves and shirt and Vest and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and shirt on upper body."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and shirt and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and shirt and Vest on upper body."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and shirt and Vest and graduation gown on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person wears chef uniform on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person wears graduation gown and chef uniform on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person wears Vest and chef uniform on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person wears Vest and graduation gown and chef uniform on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person wears short sleeves and chef uniform on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person wears short sleeves and graduation gown and chef uniform on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person wears short sleeves and Vest and chef uniform on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person wears short sleeves and Vest and graduation gown and chef uniform on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears shirt and jacket on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears shirt and jacket and graduation gown on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears shirt and jacket and Vest on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears shirt and jacket and Vest and graduation gown on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and shirt and jacket on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and shirt and jacket and graduation gown on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and shirt and jacket and Vest on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and shirt and jacket and Vest and graduation gown on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears jacket on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears jacket and graduation gown on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears jacket and Vest on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears jacket and Vest and graduation gown on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and jacket on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and jacket and graduation gown on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and jacket and Vest on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and jacket and Vest and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person wears long sleeves and cotton-padded coat on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person wears long sleeves and cotton-padded coat and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person wears long sleeves and Vest and cotton-padded coat on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person wears long sleeves and Vest and cotton-padded coat and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and cotton-padded coat on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and cotton-padded coat and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and Vest and cotton-padded coat on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and Vest and cotton-padded coat and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears long sleeves and shirt and jacket on upper body."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears long sleeves and shirt and jacket and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears long sleeves and shirt and jacket and Vest on upper body."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears long sleeves and shirt and jacket and Vest and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and shirt and jacket on upper body."
+    ],
+    "[1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and shirt and jacket and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and shirt and jacket and Vest on upper body."
+    ],
+    "[1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and shirt and jacket and Vest and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears long sleeves and shirt and Suit on upper body."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears long sleeves and shirt and Suit and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears long sleeves and shirt and Suit and Vest on upper body."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears long sleeves and shirt and Suit and Vest and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and shirt and Suit on upper body."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and shirt and Suit and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and shirt and Suit and Vest on upper body."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and shirt and Suit and Vest and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears long sleeves and Suit on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears long sleeves and Suit and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears long sleeves and Suit and Vest on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears long sleeves and Suit and Vest and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and Suit on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and Suit and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and Suit and Vest on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and Suit and Vest and graduation gown on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person wears cotton-padded coat on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person wears cotton-padded coat and graduation gown on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person wears Vest and cotton-padded coat on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person wears Vest and cotton-padded coat and graduation gown on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and cotton-padded coat on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and cotton-padded coat and graduation gown on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and Vest and cotton-padded coat on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and Vest and cotton-padded coat and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person wears long sleeves and chef uniform on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person wears long sleeves and graduation gown and chef uniform on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person wears long sleeves and Vest and chef uniform on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person wears long sleeves and Vest and graduation gown and chef uniform on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person wears short sleeves and long sleeves and chef uniform on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person wears short sleeves and long sleeves and graduation gown and chef uniform on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person wears short sleeves and long sleeves and Vest and chef uniform on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person wears short sleeves and long sleeves and Vest and graduation gown and chef uniform on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears shirt on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears shirt and graduation gown on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears shirt and Vest on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears shirt and Vest and graduation gown on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and shirt on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and shirt and graduation gown on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and shirt and Vest on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and shirt and Vest and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears long sleeves and jacket on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears long sleeves and jacket and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears long sleeves and jacket and Vest on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears long sleeves and jacket and Vest and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and jacket on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and jacket and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and jacket and Vest on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and jacket and Vest and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person wears long sleeves and coat on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person wears long sleeves and coat and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person wears long sleeves and Vest and coat on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person wears long sleeves and Vest and coat and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and coat on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and coat and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and Vest and coat on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and Vest and coat and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears long sleeves on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears long sleeves and graduation gown on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears long sleeves and Vest on upper body."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears long sleeves and Vest and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and graduation gown on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and Vest on upper body."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and long sleeves and Vest and graduation gown on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person wears shirt and chef uniform on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person wears shirt and graduation gown and chef uniform on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person wears shirt and Vest and chef uniform on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person wears shirt and Vest and graduation gown and chef uniform on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person wears short sleeves and shirt and chef uniform on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person wears short sleeves and shirt and graduation gown and chef uniform on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person wears short sleeves and shirt and Vest and chef uniform on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person wears short sleeves and shirt and Vest and graduation gown and chef uniform on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The top wear of the person is unknown."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears graduation gown on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears Vest on upper body."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears Vest and graduation gown on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and graduation gown on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and Vest on upper body."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and Vest and graduation gown on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears shirt and Suit on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears shirt and Suit and graduation gown on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears shirt and Suit and Vest on upper body."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears shirt and Suit and Vest and graduation gown on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and shirt and Suit on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and shirt and Suit and graduation gown on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person wears short sleeves and shirt and Suit and Vest on upper body."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person wears short sleeves and shirt and Suit and Vest and graduation gown on upper body."
+    ]
+  },
+  "LowerBody": {
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person's lower with trousers."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person's lower with trousers and dress."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person's lower with trousers and short skirt."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person's lower with trousers and short skirt and dress."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person's lower with trousers and jeans."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person's lower with trousers and jeans and dress."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person's lower with trousers and jeans and short skirt."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person's lower with trousers and jeans and short skirt and dress."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person's lower with trousers and shorts."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person's lower with trousers and shorts and dress."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person's lower with trousers and shorts and short skirt."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person's lower with trousers and shorts and short skirt and dress."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person's lower with trousers and shorts and jeans."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person's lower with trousers and shorts and jeans and dress."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person's lower with trousers and shorts and jeans and short skirt."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person's lower with trousers and shorts and jeans and short skirt and dress."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person's lower with long skirt."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person's lower with long skirt and dress."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person's lower with long skirt and short skirt."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person's lower with long skirt and short skirt and dress."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person's lower with jeans and long skirt."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person's lower with jeans and long skirt and dress."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person's lower with jeans and long skirt and short skirt."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person's lower with jeans and long skirt and short skirt and dress."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person's lower with shorts and long skirt."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person's lower with shorts and long skirt and dress."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person's lower with shorts and long skirt and short skirt."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person's lower with shorts and long skirt and short skirt and dress."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person's lower with shorts and jeans and long skirt."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person's lower with shorts and jeans and long skirt and dress."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person's lower with shorts and jeans and long skirt and short skirt."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person's lower with shorts and jeans and long skirt and short skirt and dress."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The lower wear of the person is unknown."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person's lower with dress."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person's lower with short skirt."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person's lower with short skirt and dress."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person's lower with jeans."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person's lower with jeans and dress."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person's lower with jeans and short skirt."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person's lower with jeans and short skirt and dress."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person's lower with shorts."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person's lower with shorts and dress."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person's lower with shorts and short skirt."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person's lower with shorts and short skirt and dress."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person's lower with shorts and jeans."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person's lower with shorts and jeans and dress."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person's lower with shorts and jeans and short skirt."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person's lower with shorts and jeans and short skirt and dress."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person's lower with trousers and long skirt."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person's lower with trousers and long skirt and dress."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person's lower with trousers and long skirt and short skirt."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person's lower with trousers and long skirt and short skirt and dress."
+    ],
+    "[1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person's lower with trousers and jeans and long skirt."
+    ],
+    "[1.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person's lower with trousers and jeans and long skirt and dress."
+    ],
+    "[1.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person's lower with trousers and jeans and long skirt and short skirt."
+    ],
+    "[1.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person's lower with trousers and jeans and long skirt and short skirt and dress."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person's lower with trousers and shorts and long skirt."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person's lower with trousers and shorts and long skirt and dress."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person's lower with trousers and shorts and long skirt and short skirt."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person's lower with trousers and shorts and long skirt and short skirt and dress."
+    ],
+    "[1.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person's lower with trousers and shorts and jeans and long skirt."
+    ],
+    "[1.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person's lower with trousers and shorts and jeans and long skirt and dress."
+    ],
+    "[1.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person's lower with trousers and shorts and jeans and long skirt and short skirt."
+    ],
+    "[1.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person's lower with trousers and shorts and jeans and long skirt and short skirt and dress."
+    ]
+  },
+  "Shoes": {
+    "[1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person with leather shoes."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person with leather shoes and sandals."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person with leather shoes and casual shoes."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person with leather shoes and casual shoes and sandals."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person with boots."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person with boots and sandals."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person with casual shoes and boots."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person with casual shoes and boots and sandals."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "Footwear not clearly visible."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person with sandals."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person with casual shoes."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person with casual shoes and sandals."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person with other shoes."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person with sandals and other shoes."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person with casual shoes and other shoes."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person with casual shoes and sandals and other shoes."
+    ]
+  },
+  "Attach": {
+    "[0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person carrying handbag and plastic bag."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person carrying shoulder bag and handbag and plastic bag."
+    ],
+    "[1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person carrying backpack and handbag and plastic bag."
+    ],
+    "[1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person carrying backpack and shoulder bag and handbag and plastic bag."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person carrying plastic bag and paper bag."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person carrying shoulder bag and plastic bag and paper bag."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person carrying backpack and plastic bag and paper bag."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person carrying backpack and shoulder bag and plastic bag and paper bag."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person carrying paper bag."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person carrying shoulder bag and paper bag."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person carrying backpack and paper bag."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person carrying backpack and shoulder bag and paper bag."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person carrying handbag and others."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person carrying shoulder bag and handbag and others."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person carrying backpack and handbag and others."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person carrying backpack and shoulder bag and handbag and others."
+    ],
+    "[0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person carrying handbag and plastic bag and paper bag."
+    ],
+    "[0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person carrying shoulder bag and handbag and plastic bag and paper bag."
+    ],
+    "[1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person carrying backpack and handbag and plastic bag and paper bag."
+    ],
+    "[1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person carrying backpack and shoulder bag and handbag and plastic bag and paper bag."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person carrying others."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person carrying shoulder bag and others."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person carrying backpack and others."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person carrying backpack and shoulder bag and others."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person carrying plastic bag and others."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person carrying shoulder bag and plastic bag and others."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person carrying backpack and plastic bag and others."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person carrying backpack and shoulder bag and plastic bag and others."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person carrying plastic bag."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person carrying shoulder bag and plastic bag."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person carrying backpack and plastic bag."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person carrying backpack and shoulder bag and plastic bag."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person carrying handbag and paper bag."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person carrying shoulder bag and handbag and paper bag."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person carrying backpack and handbag and paper bag."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person carrying backpack and shoulder bag and handbag and paper bag."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person carrying handbag."
+    ],
+    "[0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person carrying shoulder bag and handbag."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person carrying backpack and handbag."
+    ],
+    "[1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person carrying backpack and shoulder bag and handbag."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "This person is not carrying anything."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person carrying shoulder bag."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person carrying backpack."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person carrying backpack and shoulder bag."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person carrying suitcase."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person carrying shoulder bag and suitcase."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person carrying backpack and suitcase."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person carrying backpack and shoulder bag and suitcase."
+    ]
+  },
+  "Action": {
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and standing."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and standing and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and standing and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and standing and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and running."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and running and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and running and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and running and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and running and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and running and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and running and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and running and standing."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and running and standing and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and running and standing and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and running and standing and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and standing."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and standing and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and standing and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and standing and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and running."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and running and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and running and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and running and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and running and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and running and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and running and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and running and standing."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and running and standing and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and running and standing and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and running and standing and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and walking and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and walking and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and standing."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and standing and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and standing and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and standing and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and running."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and running and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and running and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and running and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and running and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and running and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and running and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and running and standing."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and running and standing and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and running and standing and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and running and standing and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and standing."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and standing and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and standing and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and standing and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and running."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and running and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and running and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and running and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and running and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and running and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and running and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and running and standing."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and running and standing and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and running and standing and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and running and standing and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and arms crossed and walking and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and arms crossed and walking and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently hands behind back."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and riding a bicycle."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and standing."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and standing and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and standing and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and standing and riding a bicycle."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and running."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and running and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and running and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and running and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and running and riding a bicycle."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and running and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and running and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and running and standing."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and running and standing and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and running and standing and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and running and standing and riding a bicycle."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and walking."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and walking and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and walking and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and walking and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and walking and riding a bicycle."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and walking and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and walking and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and walking and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and walking and standing."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and walking and standing and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and walking and standing and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and walking and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and walking and standing and riding a bicycle."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and walking and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and walking and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and walking and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and walking and running."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and walking and running and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and walking and running and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and walking and running and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and walking and running and riding a bicycle."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and walking and running and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and walking and running and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and walking and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and walking and running and standing."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and walking and running and standing and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and walking and running and standing and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and walking and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently hands behind back and walking and running and standing and riding a bicycle."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently hands behind back and walking and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently hands behind back and walking and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently hands behind back and walking and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and standing."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and standing and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and standing and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and standing and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and standing."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and standing and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and standing and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and standing and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and standing."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and standing and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and standing and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and standing and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and standing."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and standing and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and standing and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and standing and riding a bicycle."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and smoking and arms crossed and walking and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and standing."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and standing and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and standing and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and standing and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and running."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and running and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and running and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and running and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and running and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and running and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and running and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and running and standing."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and running and standing and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and running and standing and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and running and standing and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and standing."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and standing and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and standing and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and standing and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and standing."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and standing and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and standing and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and standing and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and arms crossed and walking and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and standing."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and standing and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and standing and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and standing and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and running."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and running and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and running and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and running and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and running and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and running and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and running and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and running and standing."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and running and standing and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and running and standing and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and running and standing and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and walking."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and walking and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and walking and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and walking and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and walking and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and walking and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and walking and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and walking and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and walking and standing."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and walking and standing and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and walking and standing and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and walking and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and walking and standing and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and walking and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and walking and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and walking and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and walking and running."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and walking and running and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and walking and running and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and walking and running and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and walking and running and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and walking and running and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and walking and running and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and walking and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently smoking and walking and running and standing."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently smoking and walking and running and standing and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently smoking and walking and running and standing and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently smoking and walking and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently smoking and walking and running and standing and riding a bicycle."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently smoking and walking and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently smoking and walking and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently smoking and walking and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and riding a bicycle."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and standing."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and standing and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and standing and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and standing and riding a bicycle."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and running."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and running and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and running and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and running and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and running and riding a bicycle."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and running and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and running and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and running and standing."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and running and standing and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and running and standing and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and running and standing and riding a bicycle."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and riding a bicycle."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and standing."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and standing and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and standing and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and standing and riding a bicycle."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and riding a bicycle."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and standing."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and standing and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and standing and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and standing and riding a bicycle."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and hands behind back and walking and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and standing."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and standing and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and standing and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and standing and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and running."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and running and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and running and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and running and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and running and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and running and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and running and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and running and standing."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and running and standing and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and running and standing and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and running and standing and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and walking."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and walking and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and walking and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and walking and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and walking and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and walking and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and walking and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and walking and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and walking and standing."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and walking and standing and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and walking and standing and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and walking and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and walking and standing and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and walking and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and walking and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and walking and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and walking and running."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and walking and running and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and walking and running and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and walking and running and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and walking and running and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and walking and running and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and walking and running and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and walking and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and walking and running and standing."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and walking and running and standing and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and walking and running and standing and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and walking and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently making a phone call and walking and running and standing and riding a bicycle."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently making a phone call and walking and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently making a phone call and walking and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently making a phone call and walking and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is not doing anything."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently standing."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently standing and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently standing and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently standing and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently running."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently running and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently running and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently running and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently running and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently running and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently running and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently running and standing."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently running and standing and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently running and standing and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently running and standing and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently walking."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently walking and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently walking and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently walking and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently walking and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently walking and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently walking and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently walking and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently walking and standing."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently walking and standing and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently walking and standing and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently walking and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently walking and standing and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently walking and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently walking and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently walking and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently walking and running."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently walking and running and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently walking and running and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently walking and running and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently walking and running and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently walking and running and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently walking and running and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently walking and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently walking and running and standing."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently walking and running and standing and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently walking and running and standing and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently walking and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently walking and running and standing and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently walking and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently walking and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently walking and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently arms crossed."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and standing."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and standing and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and standing and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and standing and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and running."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and running and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and running and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and running and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and running and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and running and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and running and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and running and standing."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and running and standing and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and running and standing and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and running and standing and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and walking."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and walking and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and walking and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and walking and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and walking and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and walking and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and walking and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and walking and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and walking and standing."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and walking and standing and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and walking and standing and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and walking and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and walking and standing and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and walking and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and walking and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and walking and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and walking and running."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and walking and running and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and walking and running and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and walking and running and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and walking and running and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and walking and running and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and walking and running and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and walking and running and riding a bicycle and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and walking and running and standing."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and walking and running and standing and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and walking and running and standing and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and walking and running and standing and riding an scooter and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0]": [
+      "The person is currently arms crossed and walking and running and standing and riding a bicycle."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0]": [
+      "The person is currently arms crossed and walking and running and standing and riding a bicycle and riding a skateboard."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0]": [
+      "The person is currently arms crossed and walking and running and standing and riding a bicycle and riding an scooter."
+    ],
+    "[0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]": [
+      "The person is currently arms crossed and walking and running and standing and riding a bicycle and riding an scooter and riding a skateboard."
+    ]
+  }
+}
