@@ -44,42 +44,6 @@ IMAGE_ROOT=/path/to/RAPv2/RAP_dataset \
 GPU=0 bash scripts/train_rapov2.sh
 ```
 
-Default launcher settings:
-
-| Dataset | Visual prompts | Stage-1 epochs | Stage-1 checkpoint | Stage-2 epochs | Stage-1 / Stage-2 batch size |
-| --- | ---: | ---: | --- | ---: | --- |
-| MSPOV | 10 | 11 | `epoch11.pth` | 2 | 64 / 32 |
-| RAPOV2 | 15 | 12 | `epoch12.pth` | 25 | 64 / 32 |
-
-The default learning rate is `1e-5`, weight decay is `1e-4`, seed is `605`, and text context length is `32`. Validation uses four times the configured batch size.
-
-## Select training epochs and checkpoints
-
-Use `STAGE1_EPOCHS` and `STAGE2_EPOCHS` to set the stage lengths. `STAGE1_LOAD_EPOCH` selects the Stage-1 checkpoint used to initialize Stage 2.
-
-```bash
-DATASET_PKL=/path/to/msp_ov.pkl \
-IMAGE_ROOT=/path/to/MSP60K/images \
-STAGE1_EPOCHS=20 STAGE1_LOAD_EPOCH=11 STAGE2_EPOCHS=2 \
-EXP_PREFIX=mspov_run1 GPU=0 bash scripts/train_mspov.sh
-```
-
-To run the stages separately:
-
-```bash
-export DATASET_PKL=/path/to/msp_ov.pkl
-export IMAGE_ROOT=/path/to/MSP60K/images
-export EXP_PREFIX=mspov_run1
-export GPU=0
-
-bash scripts/run.sh MSPOV stage1
-
-STAGE1_CHECKPOINT=logs/MSPOV/mspov_run1_stage1/epoch11.pth \
-bash scripts/run.sh MSPOV stage2
-```
-
-Replace `MSPOV` with `RAPOV2` and set the corresponding paths for RAPOV2. Set `LR` separately for each invocation to use different learning rates in the two stages.
-
 ## Evaluation
 
 ```bash
@@ -96,31 +60,6 @@ GPU=0 bash scripts/test_rapov2.sh
 
 Evaluation reports ZSL/GZSL mAP, OF3, and OF5. Console values are percentages; JSON and CSV values are fractions in `[0, 1]`.
 
-## Outputs and options
-
-Checkpoints are saved after every epoch:
-
-```text
-logs/<dataset>/<EXP_PREFIX>_stage1/epochN.pth
-logs/<dataset>/<EXP_PREFIX>_stage2/epochN.pth
-results/<EXP_PREFIX>_test.json
-results/<EXP_PREFIX>_test.csv
-```
-
-| Variable | Purpose | Default |
-| --- | --- | --- |
-| `GPU` | CUDA device for the single-GPU launcher. Use `0` for the commands above. | `0` |
-| `SEED` | Random seed | `605` |
-| `PYTHON_BIN` | Python executable | `python` |
-| `LR` | Learning rate | `1e-5` |
-| `STAGE1_BATCHSIZE` | Stage-1 batch size | `64` |
-| `STAGE2_BATCHSIZE` | Stage-2 batch size | `32` |
-| `EVAL_BATCHSIZE` | Evaluation input batch size | `32` |
-| `EXP_PREFIX` | Run-name prefix | `srenet_seed605` |
-| `RESULTS_DIR` | Evaluation output directory | `results/` |
-| `SEMANTIC_BANK` | Group-wise sentence-bank path | Dataset-specific path in `instruction/` |
-
-Set `DRY_RUN=1` to print the command sequence. Additional Python options are listed by `python train.py --help` and `python evaluate.py --help`.
 
 ## Citation
 
